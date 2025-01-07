@@ -120,39 +120,39 @@
       <li>
         Furnace
         <ul class="submenu">
-          <li>Overview</li>
+          <li onclick="menuClick('/donghwa/');">Overview</li>
           <li onclick="popupClick('/donghwa/furnace/manualOperationPop');">Manual Operation</li>
-          <li>Operation Press</li>
-          <li>Automatic program</li>
+          <li onclick="popupClick('/donghwa/furnace/operationPressPop');">Operation Press</li>
+          <li onclick="popupClick('/donghwa/furnace/automaticProgramPop3');">Automatic program</li>
           <li onclick="menuClick('/donghwa/furnace/recipe');">Recipe</li>
         </ul>
       </li>
       <li>
         Process values
         <ul class="submenu">
-          <li>Temperature</li>
-          <li>Pressure</li>
-          <li>Pressure switches</li>
-          <li>Heater</li>
-          <li>Press</li>
-          <li>Power Consumption</li>
+          <li onclick="popupClick('/donghwa/process/temperaturePop');">Temperature</li>
+          <li onclick="popupClick('/donghwa/process/pressurePop');">Pressure</li>
+          <li onclick="popupClick('/donghwa/process/pressureSwitchesPop');">Pressure switches</li>
+          <li onclick="popupClick('/donghwa/process/heaterPop');">Heater</li>
+          <li onclick="popupClick('/donghwa/process/pressPop');">Press</li>
+          <li onclick="popupClick('/donghwa/process/powerConsumptionPop');">Power Consumption</li>
         </ul>
       </li>
       <li>
         Analysis
         <ul class="submenu">
           <li onclick="menuClick('/donghwa/analysis/historyTrend');">Historytrends</li>
-          <li>Batchreport</li>
+          <li >Batchreport</li>
           <li>Alarmhistory</li>
         </ul>
       </li>
       <li>
         Parameter
         <ul class="submenu">
-          <li>Limit switches</li>
-          <li>Fastcooling</li>
-          <li>Timer</li>
-          <li>Calibrate TC measuring syst</li>
+          <li onclick="popupClick('/donghwa/parameter/limitSwitchesPop');">Limit switches</li>
+          <li onclick="popupClick('/donghwa/parameter/fastcoolingPop');">Fastcooling</li>
+          <li onclick="popupClick('/donghwa/parameter/timerPop');">Timer</li>
+          <li onclick="popupClick('/');">Calibrate TC measuring syst</li>
         </ul>
       </li>
       <li>
@@ -220,23 +220,28 @@
     }
 
     function popupClick(url) {
-      var fullscreen = "no";
-      var location = "yes";
-      var menubar = "yes";
-      var titlebar = "yes";
-      var toolbar = "yes";
-      var resizable = "yes";
-      var scrollbars = "yes";
-      var browserWidth = window.outerWidth;
-      var browserHeight = window.outerHeight;
-      var popupName = "test";
-      var popupWidth = "340";
-      var popupHeight = "720";
-      var popupTop = (browserHeight - popupHeight) / 2;
-      var popupLeft = (browserWidth - popupWidth) / 2;
+    	  var popupWidth = 700; // 팝업 가로 크기
+    	  var popupHeight = 700; // 팝업 세로 크기
+    	  var browserWidth = window.outerWidth; // 브라우저 가로 크기
+    	  var browserHeight = window.outerHeight; // 브라우저 세로 크기
+    	  var popupTop = (browserHeight - popupHeight) / 2; // 팝업 세로 위치 계산
+    	  var popupLeft = (browserWidth - popupWidth) / 2; // 팝업 가로 위치 계산
 
-      window.open(url, "test", "scrollbars=no,width=" + popupWidth + ",height=" + popupHeight + ",top=" + popupTop + ",left=" + popupLeft + ",menubar=false");
-    }
+    	  window.open(
+    	    url,
+    	    "popupWindow",
+    	    "scrollbars=no,width=" +
+    	      popupWidth +
+    	      ",height=" +
+    	      popupHeight +
+    	      ",top=" +
+    	      popupTop +
+    	      ",left=" +
+    	      popupLeft +
+    	      ",menubar=no,toolbar=no,resizable=yes"
+    	  );
+    	}
+
   </script>
 </body>
 </html>
