@@ -1,0 +1,428 @@
+.group-1,
+.group-1 * {
+  box-sizing: border-box;
+}
+.group-1 {
+  height: 878px;
+  position: relative;
+}
+.wrapper {
+  width: 1918px;
+  height: 878px;
+  position: static;
+}
+.header {
+  background: #123478;
+  width: 1918px;
+  height: 46.68px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.footer {
+  background: #123478;
+  width: 1918px;
+  height: 72.43px;
+  position: absolute;
+  left: 0px;
+  top: 805.57px;
+}
+.main {
+  background: #ffffff;
+  width: 1918px;
+  height: 758.89px;
+  position: absolute;
+  left: 0px;
+  top: 46.68px;
+}
+.hamburger-icon-svg-1 {
+  width: 33px;
+  height: 26.56px;
+  position: absolute;
+  left: 13px;
+  top: 36.21px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  object-fit: cover;
+}
+.timer-box {
+  background: #d9d9d9;
+  width: 613px;
+  height: 233px;
+  position: absolute;
+  left: 653px;
+  top: 322px;
+}
+.timer-header {
+  background: #282828;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 613px;
+  height: 28px;
+  position: absolute;
+  left: 653px;
+  top: 322px;
+}
+.timer-main {
+  background: #e6e6e6;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 613px;
+  height: 206px;
+  position: absolute;
+  left: 653px;
+  top: 349px;
+}
+.close {
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  left: 1243px;
+  top: 328px;
+  object-fit: cover;
+}
+.timer-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 658px;
+  top: 325px;
+  -webkit-text-stroke: 1px #000000;
+}
+.no {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 662px;
+  top: 358px;
+}
+.description {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 699px;
+  top: 358px;
+}
+.set-point {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1014px;
+  top: 358px;
+}
+.actual-value {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1138px;
+  top: 358px;
+}
+._1 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 662px;
+  top: 390px;
+}
+.box-1 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 699px;
+  top: 390px;
+}
+.box-1-point {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1014px;
+  top: 390px;
+}
+.box-1-val {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1138px;
+  top: 390px;
+}
+._2 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 662px;
+  top: 422px;
+}
+.box-2 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 699px;
+  top: 422px;
+}
+.box-2-point {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1014px;
+  top: 422px;
+}
+.box-2-val {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1138px;
+  top: 422px;
+}
+._3 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 662px;
+  top: 454px;
+}
+.box-3 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 699px;
+  top: 454px;
+}
+.box-3-point {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1014px;
+  top: 454px;
+}
+.box-3-val {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1138px;
+  top: 454px;
+}
+._6 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 662px;
+  top: 486px;
+}
+.box-6 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 699px;
+  top: 486px;
+}
+.box-6-point {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1014px;
+  top: 486px;
+}
+.box-6-val {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1138px;
+  top: 486px;
+}
+._8 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 662px;
+  top: 518px;
+}
+.box-8 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 699px;
+  top: 518px;
+}
+.box-8-point {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1014px;
+  top: 518px;
+}
+.box-8-val {
+  background: #ffffff;
+  width: 119px;
+  height: 28px;
+  position: absolute;
+  left: 1138px;
+  top: 518px;
+}
+._82 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 673px;
+  top: 523px;
+}
+.no2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 665px;
+  top: 363px;
+}
+.overpressure-leaktest-furnace {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 705px;
+  top: 395px;
+}
+.pumptime-prolongation-leaktest-furnace {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 705px;
+  top: 427px;
+}
+.vacuum-leaktest-furnace {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 705px;
+  top: 459px;
+}
+.monitoring-pumping-time-furnace {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 705px;
+  top: 491px;
+}
+._12 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 674px;
+  top: 395px;
+}
+._22 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 673px;
+  top: 427px;
+}
+._32 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 673px;
+  top: 459px;
+}
+._62 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 673px;
+  top: 491px;
+}
+.monitoring-filling-time-process-gas {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 705px;
+  top: 523px;
+}
+.description2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 705px;
+  top: 363px;
+}
+.setpoint {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 1040px;
+  top: 363px;
+}
+.actual-value2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 1149px;
+  top: 363px;
+}

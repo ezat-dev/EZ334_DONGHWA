@@ -1,0 +1,498 @@
+.group-1,
+.group-1 * {
+  box-sizing: border-box;
+}
+.group-1 {
+  height: 878px;
+  position: relative;
+}
+.wrapper {
+  width: 1918px;
+  height: 878px;
+  position: static;
+}
+.header {
+  background: #123478;
+  width: 1918px;
+  height: 46.68px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.footer {
+  background: #123478;
+  width: 1918px;
+  height: 72.43px;
+  position: absolute;
+  left: 0px;
+  top: 805.57px;
+}
+.main {
+  background: #ffffff;
+  width: 1918px;
+  height: 758.89px;
+  position: absolute;
+  left: 0px;
+  top: 46.68px;
+}
+.hamburger-icon-svg-1 {
+  width: 33px;
+  height: 26.56px;
+  position: absolute;
+  left: 13px;
+  top: 36.21px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  object-fit: cover;
+}
+.limit-switches-box {
+  background: #d9d9d9;
+  width: 692px;
+  height: 202px;
+  position: absolute;
+  left: 613px;
+  top: 339px;
+}
+.limit-switches-header {
+  background: #282828;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 692px;
+  height: 28px;
+  position: absolute;
+  left: 613px;
+  top: 339px;
+}
+.limit-switches-main {
+  background: #e6e6e6;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 692px;
+  height: 175px;
+  position: absolute;
+  left: 613px;
+  top: 366px;
+}
+.close {
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  left: 1282px;
+  top: 346px;
+  object-fit: cover;
+}
+.no {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 622px;
+  top: 375px;
+}
+.des {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 659px;
+  top: 375px;
+}
+.limit-val {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 974px;
+  top: 375px;
+}
+.hys {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 1085px;
+  top: 375px;
+}
+.unit {
+  background: #ffffff;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1196px;
+  top: 375px;
+}
+._1 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 622px;
+  top: 407px;
+}
+.des-box-1 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 659px;
+  top: 407px;
+}
+._12 {
+  background: #e3e3e3;
+  width: 7px;
+  height: 26px;
+  position: absolute;
+  left: 961px;
+  top: 408px;
+}
+.limit-val-1 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 974px;
+  top: 407px;
+}
+.hys-val-1 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 1085px;
+  top: 407px;
+}
+.unit-val-1 {
+  background: #ffffff;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1196px;
+  top: 407px;
+}
+._2 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 622px;
+  top: 439px;
+}
+.des-box-2 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 659px;
+  top: 439px;
+}
+._22 {
+  background: #e3e3e3;
+  width: 7px;
+  height: 26px;
+  position: absolute;
+  left: 961px;
+  top: 440px;
+}
+.limit-val-2 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 974px;
+  top: 439px;
+}
+.hys-val-2 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 1085px;
+  top: 439px;
+}
+.unit-val-2 {
+  background: #ffffff;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1196px;
+  top: 439px;
+}
+._3 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 622px;
+  top: 471px;
+}
+.des-box-3 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 659px;
+  top: 471px;
+}
+._32 {
+  background: #e3e3e3;
+  width: 7px;
+  height: 26px;
+  position: absolute;
+  left: 961px;
+  top: 472px;
+}
+.limit-val-3 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 974px;
+  top: 471px;
+}
+.hys-val-3 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 1085px;
+  top: 471px;
+}
+.unit-val-3 {
+  background: #ffffff;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1196px;
+  top: 471px;
+}
+._4 {
+  background: #ffffff;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 622px;
+  top: 503px;
+}
+.des-box-4 {
+  background: #ffffff;
+  width: 310px;
+  height: 28px;
+  position: absolute;
+  left: 659px;
+  top: 503px;
+}
+._42 {
+  background: #e3e3e3;
+  width: 7px;
+  height: 26px;
+  position: absolute;
+  left: 961px;
+  top: 504px;
+}
+.limit-val-4 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 974px;
+  top: 503px;
+}
+.hys-val-4 {
+  background: #ffffff;
+  width: 106px;
+  height: 28px;
+  position: absolute;
+  left: 1085px;
+  top: 503px;
+}
+.unit-val-4 {
+  background: #ffffff;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1196px;
+  top: 503px;
+}
+.limit-switches {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 618px;
+  top: 342px;
+  -webkit-text-stroke: 1px #000000;
+}
+.no2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 625px;
+  top: 380px;
+}
+.vacuum-leaktest-furnace {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 665px;
+  top: 412px;
+}
+.release-heating {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 665px;
+  top: 444px;
+}
+.furnace-temperature-for-bias-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 665px;
+  top: 476px;
+}
+.release-heating2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 665px;
+  top: 508px;
+}
+._13 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 634px;
+  top: 412px;
+}
+._23 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 633px;
+  top: 444px;
+}
+._33 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 633px;
+  top: 476px;
+}
+._43 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 633px;
+  top: 508px;
+}
+.description {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 665px;
+  top: 380px;
+}
+.limit-value {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 984px;
+  top: 380px;
+}
+.hysteresis {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 1095px;
+  top: 380px;
+}
+.unit2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 1230px;
+  top: 380px;
+}
+.mbar {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1227px;
+  top: 411px;
+}
+.mbar2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1227px;
+  top: 507px;
+}
+.mbar3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1228px;
+  top: 443px;
+}
+.div {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1237px;
+  top: 476px;
+}

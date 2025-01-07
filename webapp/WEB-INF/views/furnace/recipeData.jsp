@@ -7,8 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%@ include file="../include/mainHeader.jsp" %>
+  <jsp:include page="../include/pluginpage.jsp"/>
   <title>Recipe</title>
-<jsp:include page="../include/pluginpage.jsp"/>
+
 
 <!-- furnace/recipeData -->
 <link rel="stylesheet" href="/donghwa/css/furnace/recipeData/style.css">

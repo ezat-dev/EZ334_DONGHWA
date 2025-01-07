@@ -1,9 +1,9 @@
-.group-1,
-.group-1 * {
+.group-2,
+.group-2 * {
   box-sizing: border-box;
 }
-.group-1 {
-  height: 808px;
+.group-2 {
+  height: 878px;
   position: relative;
 }
 .wrapper {
@@ -45,13 +45,18 @@
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
 }
+.group-1 {
+  width: 385px;
+  height: 766px;
+  position: static;
+}
 .manual-operation-box {
   background: #d9d9d9;
   width: 385px;
   height: 766px;
   position: absolute;
-  left: 18px;
-  top: 22px;
+  left: 772px;
+  top: 49px;
 }
 .manual-operation-header {
   background: #282828;
@@ -61,8 +66,8 @@
   width: 385px;
   height: 28px;
   position: absolute;
-  left: 18px;
-  top: 22px;
+  left: 772px;
+  top: 49px;
 }
 .manual-operation-main {
   background: #e6e6e6;
@@ -72,15 +77,15 @@
   width: 385px;
   height: 739px;
   position: absolute;
-  left: 18px;
-  top: 49px;
+  left: 772px;
+  top: 76px;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 377px;
-  top: 28px;
+  left: 1131px;
+  top: 55px;
   object-fit: cover;
 }
 .manual-operation {
@@ -90,8 +95,8 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 23px;
-  top: 25px;
+  left: 777px;
+  top: 52px;
   -webkit-text-stroke: 1px #000000;
 }
 .auto {
@@ -99,16 +104,16 @@
   width: 160px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 74px;
+  left: 799px;
+  top: 101px;
 }
-._1 {
+.plc-auto {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 197px;
-  top: 76px;
+  left: 951px;
+  top: 103px;
 }
 .auto2 {
   color: #000000;
@@ -117,24 +122,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 78px;
+  left: 805px;
+  top: 105px;
 }
 .manual {
   background: #c5c5c5;
   width: 160px;
   height: 32px;
   position: absolute;
-  left: 218px;
-  top: 74px;
+  left: 972px;
+  top: 101px;
 }
-._2 {
+.plc-manual {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 76px;
+  left: 1124px;
+  top: 103px;
 }
 .manual2 {
   color: #000000;
@@ -143,24 +148,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 224px;
-  top: 78px;
+  left: 978px;
+  top: 105px;
 }
 .pumping {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 116px;
+  left: 799px;
+  top: 143px;
 }
-._3 {
+.plc-pumping {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 118px;
+  left: 1124px;
+  top: 145px;
 }
 .pumping-station {
   color: #000000;
@@ -169,24 +174,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 121px;
+  left: 805px;
+  top: 148px;
 }
 .high-vacuum-pump {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 160px;
+  left: 799px;
+  top: 187px;
 }
-._4 {
+.plc-high-vacuum {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 162px;
+  left: 1124px;
+  top: 189px;
 }
 .high-vacuum-pump2 {
   color: #000000;
@@ -195,24 +200,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 165px;
+  left: 805px;
+  top: 192px;
 }
 .evacuate-fine {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 203px;
+  left: 799px;
+  top: 230px;
 }
-._5 {
+.plc-evacuate-fine {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 205px;
+  left: 1124px;
+  top: 232px;
 }
 .evacuate-fine-vaccum {
   color: #000000;
@@ -221,24 +226,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 208px;
+  left: 805px;
+  top: 235px;
 }
 .evacuate-high {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 246px;
+  left: 799px;
+  top: 273px;
 }
-._6 {
+.plc-evacuate-high {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 248px;
+  left: 1124px;
+  top: 275px;
 }
 .evacuate-high-vaccum {
   color: #000000;
@@ -247,24 +252,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 251px;
+  left: 805px;
+  top: 278px;
 }
 .fur-pre-control {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 289px;
+  left: 799px;
+  top: 316px;
 }
-._7 {
+.plc-fur-control {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 291px;
+  left: 1124px;
+  top: 318px;
 }
 .furnace-pressure-control {
   color: #000000;
@@ -273,24 +278,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 294px;
+  left: 805px;
+  top: 321px;
 }
 .fur-hit {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 333px;
+  left: 799px;
+  top: 360px;
 }
-._8 {
+.plc-fur-hit {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 335px;
+  left: 1124px;
+  top: 362px;
 }
 .furnace-heating {
   color: #000000;
@@ -299,24 +304,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 338px;
+  left: 805px;
+  top: 365px;
 }
 .n-2 {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 376px;
+  left: 799px;
+  top: 403px;
 }
-._9 {
+.plc-n-2 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 378px;
+  left: 1124px;
+  top: 405px;
 }
 .n-2-inlet {
   color: #000000;
@@ -325,24 +330,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 381px;
+  left: 805px;
+  top: 408px;
 }
 .ar {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 419px;
+  left: 799px;
+  top: 446px;
 }
-._10 {
+.plc-ar {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 421px;
+  left: 1124px;
+  top: 448px;
 }
 .ar-inlet {
   color: #000000;
@@ -351,24 +356,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 424px;
+  left: 805px;
+  top: 451px;
 }
 .venting {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 462px;
+  left: 799px;
+  top: 489px;
 }
-._11 {
+.plc-venting {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 464px;
+  left: 1124px;
+  top: 491px;
 }
 .venting2 {
   color: #000000;
@@ -377,24 +382,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 467px;
+  left: 805px;
+  top: 494px;
 }
 .venting-n-2 {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 505px;
+  left: 799px;
+  top: 532px;
 }
-._12 {
+.plc-venting-n-2 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 507px;
+  left: 1124px;
+  top: 534px;
 }
 .venting-n-22 {
   color: #000000;
@@ -403,24 +408,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 510px;
+  left: 805px;
+  top: 537px;
 }
 .venting-ar {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 549px;
+  left: 799px;
+  top: 576px;
 }
-._13 {
+.plc-venting-ar {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 551px;
+  left: 1124px;
+  top: 578px;
 }
 .venting-ar2 {
   color: #000000;
@@ -429,24 +434,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 554px;
+  left: 805px;
+  top: 581px;
 }
 .fastcooling {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 592px;
+  left: 799px;
+  top: 619px;
 }
-._14 {
+.plc-fastcooling {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 594px;
+  left: 1124px;
+  top: 621px;
 }
 .fastcooling2 {
   color: #000000;
@@ -455,24 +460,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 597px;
+  left: 805px;
+  top: 624px;
 }
 .manual-leaktest {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 635px;
+  left: 799px;
+  top: 662px;
 }
-._15 {
+.plc-leak {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 637px;
+  left: 1124px;
+  top: 664px;
 }
 .manual-leaktest2 {
   color: #000000;
@@ -481,24 +486,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 640px;
+  left: 805px;
+  top: 667px;
 }
 .open-lid {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 691px;
+  left: 799px;
+  top: 718px;
 }
-._16 {
+.plc-open-lid {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 693px;
+  left: 1124px;
+  top: 720px;
 }
 .open-lid-clamps {
   color: #000000;
@@ -507,24 +512,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 696px;
+  left: 805px;
+  top: 723px;
 }
 .close-lid {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 45px;
-  top: 734px;
+  left: 799px;
+  top: 761px;
 }
-._17 {
+.plc-close-lid {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 370px;
-  top: 736px;
+  left: 1124px;
+  top: 763px;
 }
 .close-lid-clamps {
   color: #000000;
@@ -533,6 +538,6 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 51px;
-  top: 739px;
+  left: 805px;
+  top: 766px;
 }

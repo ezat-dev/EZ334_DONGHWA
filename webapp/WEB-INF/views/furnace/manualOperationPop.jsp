@@ -10,7 +10,7 @@
 <jsp:include page="../include/pluginpage.jsp"/>
 
 <!-- furnace/recipeData -->
-<link rel="stylesheet" href="/donghwa/css/furnace/manualOperation/style.css">
+<link rel="stylesheet" href="/donghwa/css/furnace/manualOperationPop.css">
 </head>  
   <style>
    a,

@@ -1,0 +1,184 @@
+.group-1,
+.group-1 * {
+  box-sizing: border-box;
+}
+.group-1 {
+  height: 878px;
+  position: relative;
+}
+.wrapper {
+  width: 1918px;
+  height: 878px;
+  position: static;
+}
+.header {
+  background: #123478;
+  width: 1918px;
+  height: 46.68px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.footer {
+  background: #123478;
+  width: 1918px;
+  height: 72.43px;
+  position: absolute;
+  left: 0px;
+  top: 805.57px;
+}
+.main {
+  background: #ffffff;
+  width: 1918px;
+  height: 758.89px;
+  position: absolute;
+  left: 0px;
+  top: 46.68px;
+}
+.hamburger-icon-svg-1 {
+  width: 33px;
+  height: 26.56px;
+  position: absolute;
+  left: 13px;
+  top: 36.21px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  object-fit: cover;
+}
+.heater-box {
+  background: #d9d9d9;
+  width: 206px;
+  height: 153px;
+  position: absolute;
+  left: 856px;
+  top: 366px;
+}
+.heater-header {
+  background: #282828;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 206px;
+  height: 28px;
+  position: absolute;
+  left: 856px;
+  top: 361px;
+}
+.heater-main {
+  background: #e6e6e6;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 206px;
+  height: 131px;
+  position: absolute;
+  left: 856px;
+  top: 388px;
+}
+.close {
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  left: 1039px;
+  top: 368px;
+  object-fit: cover;
+}
+.heater {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 861px;
+  top: 364px;
+  -webkit-text-stroke: 1px #000000;
+}
+.insul-res-1 {
+  background: #fa8f8f;
+  width: 190px;
+  height: 19px;
+  position: absolute;
+  left: 864px;
+  top: 409px;
+}
+.insulation-resistance {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 867px;
+  top: 412px;
+}
+.insul-res-box-1 {
+  background: #ffffff;
+  width: 78px;
+  height: 19px;
+  position: absolute;
+  left: 864px;
+  top: 429px;
+}
+.r {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 867px;
+  top: 432px;
+}
+.insul-res-val-1 {
+  background: #ffffff;
+  width: 111px;
+  height: 19px;
+  position: absolute;
+  left: 943px;
+  top: 429px;
+}
+.insul-res-2 {
+  background: #fa8f8f;
+  width: 190px;
+  height: 19px;
+  position: absolute;
+  left: 864px;
+  top: 463px;
+}
+.insulation-resistance2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 867px;
+  top: 466px;
+}
+.insul-res-box-2 {
+  background: #ffffff;
+  width: 78px;
+  height: 19px;
+  position: absolute;
+  left: 864px;
+  top: 483px;
+}
+.r2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 867px;
+  top: 486px;
+}
+.insul-res-val-2 {
+  background: #ffffff;
+  width: 111px;
+  height: 19px;
+  position: absolute;
+  left: 943px;
+  top: 483px;
+}

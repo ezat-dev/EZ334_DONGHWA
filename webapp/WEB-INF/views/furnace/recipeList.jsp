@@ -10,7 +10,7 @@
   <%@ include file="../include/mainHeader.jsp" %>
   <title>Recipe</title>
 <jsp:include page="../include/pluginpage.jsp"/>
-<!-- furnace/recipeList -->
+
 <link rel="stylesheet" href="/donghwa/css/furnace/recipeList/style.css">
 </head>
 <style>

@@ -754,5 +754,35 @@ public class FurnaceController {
 		return rtnMap;
 	}
 	
-	 
+	@RequestMapping(value = "/furnace/automaticProgramPop1", method = RequestMethod.GET)
+	public String automaticProgramPop1(Model model) {
+	    return "/furnace/automaticProgramPop1.jsp";
+	}
+
+	@RequestMapping(value = "/furnace/automaticProgramPop2", method = RequestMethod.GET)
+	public String automaticProgramPop2(Model model) {
+	    return "/furnace/automaticProgramPop2.jsp";
+	}
+
+	@RequestMapping(value = "/furnace/automaticProgramPop3", method = RequestMethod.GET)
+	public String automaticProgramPop3(Model model) {
+	    return "/furnace/automaticProgramPop3.jsp";
+	}
+
+	@RequestMapping(value = "/furnace/automaticProgramPop4", method = RequestMethod.GET)
+	public String automaticProgramPop4(Model model) {
+	    return "/furnace/automaticProgramPop4.jsp";
+	}
+
+
+	@RequestMapping(value = "/furnace/manualOperationPop", method = RequestMethod.GET)
+	public String manualOperationPop(Model model) {
+	    return "/furnace/manualOperationPop.jsp";
+	}
+
+	@RequestMapping(value = "/furnace/operationPressPop", method = RequestMethod.GET)
+	public String operationPressPop(Model model) {
+	    return "/furnace/operationPressPop.jsp";
+	}
+
 }
