@@ -122,9 +122,9 @@
       Furnace
       <ul class="submenu">
         <li onclick="menuClick('/donghwa/');">Overview</li>
-        <li onclick="popupClick('/donghwa/furnace/manualOperationPop', 391, 770);">Manual Operation</li>
-        <li onclick="popupClick('/donghwa/furnace/operationPressPop', 430, 427);">Operation Press</li>
-        <li onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 636, 486);">Automatic program</li>
+        <li onclick="popupClick('/donghwa/furnace/manualOperationPop', 391, 677, -300, 100);">Manual Operation</li>
+        <li onclick="popupClick('/donghwa/furnace/operationPressPop', 200, 200, 200, 200);">Operation Press</li>
+        <li onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 300, 300, 300, 300);">Automatic program</li>
         <li onclick="menuClick('/donghwa/furnace/recipe');">Recipe</li>
       </ul>
     </li>
@@ -175,6 +175,8 @@
 
 
   <script>
+  var popup;
+  
   function modalClick(location){
       const modal = document.querySelector('.'+location);
       modal.style.display="";
@@ -224,34 +226,36 @@
     }
 
     function menuClick(url) {
+    	popup.close();
       location.href = url;
     }
 
-    function popupClick(url, popupWidth = 600, popupHeight = 600) {
+    function popupClick(url, popupWidth, popupHeight, customLeft, customTop) {
         // 브라우저 창 크기 가져오기
         var browserWidth = window.innerWidth; // 브라우저 가로 크기
         var browserHeight = window.innerHeight; // 브라우저 세로 크기
 
         // 팝업창 위치 계산
-        var popupLeft = (browserWidth - popupWidth) / 2 + window.screenX;
-        var popupTop = (browserHeight - popupHeight) / 2 + window.screenY;
+//        var popupLeft = customLeft !== null ? customLeft : (browserWidth - popupWidth) / 2 + window.screenX;
+//       var popupTop = customTop !== null ? customTop : (browserHeight - popupHeight) / 2 + window.screenY;
 
         // 팝업창 열기
-        var popup = window.open(
+        popup = window.open(
             url,
             "popupWindow",
             "width=" + popupWidth + 
             ",height=" + popupHeight + 
-            ",top=" + popupTop + 
-            ",left=" + popupLeft + 
+            ",left=" + customLeft + 
+            ",top=" + customTop + 
             ",menubar=no,toolbar=no,scrollbars=no,status=no,location=no,directories=no,resizable=no"
         );
 
-        // 팝업창이 정상적으로 열리지 않았을 경우 경고 메시지
+      
         if (!popup || popup.closed || typeof popup.closed == "undefined") {
             alert("팝업이 차단되었습니다. 팝업 차단 설정을 확인해주세요.");
         }
     }
+
 
 
 
