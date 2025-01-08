@@ -1,12 +1,12 @@
-.group-2,
-.group-2 * {
+.group-4,
+.group-4 * {
   box-sizing: border-box;
 }
-.group-2 {
+.group-4 {
   height: 878px;
   position: relative;
 }
-.wrapper {
+.group-3 {
   width: 1918px;
   height: 878px;
   position: static;
@@ -27,37 +27,41 @@
   left: 0px;
   top: 805.57px;
 }
+.group-2 {
+  width: 1918px;
+  height: 758.89px;
+  position: static;
+}
 .main {
   background: #ffffff;
   width: 1918px;
   height: 758.89px;
   position: absolute;
   left: 0px;
-  top: 46.68px;
+  top: 43.68px;
 }
 .hamburger-icon-svg-1 {
   width: 33px;
   height: 26.56px;
   position: absolute;
   left: 13px;
-  top: 36.21px;
+  top: 33.21px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
 }
-.manualOperationPop {
+.group-1 {
   width: 385px;
   height: 766px;
-  position: absolute;
-  z-index:20005;
+  position: static;
 }
 .manual-operation-box {
   background: #d9d9d9;
   width: 385px;
   height: 766px;
   position: absolute;
-  left: 772px;
-  top: 49px;
+  left: 0px;
+  top: 0px;
 }
 .manual-operation-header {
   background: #282828;
@@ -67,8 +71,8 @@
   width: 385px;
   height: 28px;
   position: absolute;
-  left: 772px;
-  top: 49px;
+  left: 0px;
+  top: 0px;
 }
 .manual-operation-main {
   background: #e6e6e6;
@@ -78,15 +82,15 @@
   width: 385px;
   height: 739px;
   position: absolute;
-  left: 772px;
-  top: 76px;
+  left: 0px;
+  top: 27px;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1131px;
-  top: 55px;
+  left: 359px;
+  top: 6px;
   object-fit: cover;
 }
 .manual-operation {
@@ -96,8 +100,8 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 777px;
-  top: 52px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .auto {
@@ -105,16 +109,16 @@
   width: 160px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 101px;
+  left: 27px;
+  top: 52px;
 }
 .plc-auto {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 951px;
-  top: 103px;
+  left: 179px;
+  top: 54px;
 }
 .auto2 {
   color: #000000;
@@ -123,24 +127,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 105px;
+  left: 33px;
+  top: 56px;
 }
 .manual {
   background: #c5c5c5;
   width: 160px;
   height: 32px;
   position: absolute;
-  left: 972px;
-  top: 101px;
+  left: 200px;
+  top: 52px;
 }
 .plc-manual {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 103px;
+  left: 352px;
+  top: 54px;
 }
 .manual2 {
   color: #000000;
@@ -149,24 +153,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 978px;
-  top: 105px;
+  left: 206px;
+  top: 56px;
 }
 .pumping {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 143px;
+  left: 27px;
+  top: 94px;
 }
 .plc-pumping {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 145px;
+  left: 352px;
+  top: 96px;
 }
 .pumping-station {
   color: #000000;
@@ -175,24 +179,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 148px;
+  left: 33px;
+  top: 99px;
 }
 .high-vacuum-pump {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 187px;
+  left: 27px;
+  top: 138px;
 }
 .plc-high-vacuum {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 189px;
+  left: 352px;
+  top: 140px;
 }
 .high-vacuum-pump2 {
   color: #000000;
@@ -201,24 +205,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 192px;
+  left: 33px;
+  top: 143px;
 }
 .evacuate-fine {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 230px;
+  left: 27px;
+  top: 181px;
 }
 .plc-evacuate-fine {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 232px;
+  left: 352px;
+  top: 183px;
 }
 .evacuate-fine-vaccum {
   color: #000000;
@@ -227,24 +231,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 235px;
+  left: 33px;
+  top: 186px;
 }
 .evacuate-high {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 273px;
+  left: 27px;
+  top: 224px;
 }
 .plc-evacuate-high {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 275px;
+  left: 352px;
+  top: 226px;
 }
 .evacuate-high-vaccum {
   color: #000000;
@@ -253,24 +257,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 278px;
+  left: 33px;
+  top: 229px;
 }
 .fur-pre-control {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 316px;
+  left: 27px;
+  top: 267px;
 }
 .plc-fur-control {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 318px;
+  left: 352px;
+  top: 269px;
 }
 .furnace-pressure-control {
   color: #000000;
@@ -279,24 +283,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 321px;
+  left: 33px;
+  top: 272px;
 }
 .fur-hit {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 360px;
+  left: 27px;
+  top: 311px;
 }
 .plc-fur-hit {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 362px;
+  left: 352px;
+  top: 313px;
 }
 .furnace-heating {
   color: #000000;
@@ -305,24 +309,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 365px;
+  left: 33px;
+  top: 316px;
 }
 .n-2 {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 403px;
+  left: 27px;
+  top: 354px;
 }
 .plc-n-2 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 405px;
+  left: 352px;
+  top: 356px;
 }
 .n-2-inlet {
   color: #000000;
@@ -331,24 +335,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 408px;
+  left: 33px;
+  top: 359px;
 }
 .ar {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 446px;
+  left: 27px;
+  top: 397px;
 }
 .plc-ar {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 448px;
+  left: 352px;
+  top: 399px;
 }
 .ar-inlet {
   color: #000000;
@@ -357,24 +361,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 451px;
+  left: 33px;
+  top: 402px;
 }
 .venting {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 489px;
+  left: 27px;
+  top: 440px;
 }
 .plc-venting {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 491px;
+  left: 352px;
+  top: 442px;
 }
 .venting2 {
   color: #000000;
@@ -383,24 +387,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 494px;
+  left: 33px;
+  top: 445px;
 }
 .venting-n-2 {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 532px;
+  left: 27px;
+  top: 483px;
 }
 .plc-venting-n-2 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 534px;
+  left: 352px;
+  top: 485px;
 }
 .venting-n-22 {
   color: #000000;
@@ -409,24 +413,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 537px;
+  left: 33px;
+  top: 488px;
 }
 .venting-ar {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 576px;
+  left: 27px;
+  top: 527px;
 }
 .plc-venting-ar {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 578px;
+  left: 352px;
+  top: 529px;
 }
 .venting-ar2 {
   color: #000000;
@@ -435,24 +439,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 581px;
+  left: 33px;
+  top: 532px;
 }
 .fastcooling {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 619px;
+  left: 27px;
+  top: 570px;
 }
 .plc-fastcooling {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 621px;
+  left: 352px;
+  top: 572px;
 }
 .fastcooling2 {
   color: #000000;
@@ -461,24 +465,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 624px;
+  left: 33px;
+  top: 575px;
 }
 .manual-leaktest {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 662px;
+  left: 27px;
+  top: 613px;
 }
 .plc-leak {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 664px;
+  left: 352px;
+  top: 615px;
 }
 .manual-leaktest2 {
   color: #000000;
@@ -487,24 +491,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 667px;
+  left: 33px;
+  top: 618px;
 }
 .open-lid {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 718px;
+  left: 27px;
+  top: 669px;
 }
 .plc-open-lid {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 720px;
+  left: 352px;
+  top: 671px;
 }
 .open-lid-clamps {
   color: #000000;
@@ -513,24 +517,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 723px;
+  left: 33px;
+  top: 674px;
 }
 .close-lid {
   background: #c5c5c5;
   width: 333px;
   height: 32px;
   position: absolute;
-  left: 799px;
-  top: 761px;
+  left: 27px;
+  top: 712px;
 }
 .plc-close-lid {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1124px;
-  top: 763px;
+  left: 352px;
+  top: 714px;
 }
 .close-lid-clamps {
   color: #000000;
@@ -539,6 +543,6 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 805px;
-  top: 766px;
+  left: 33px;
+  top: 717px;
 }

@@ -37,12 +37,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-
-      <div class="main"></div>
-
-    </div>
+ 
     <div class="pre-switches-box"></div>
     <div class="pre-switches-header"></div>
     <div class="pre-switches-main"></div>
@@ -60,7 +55,7 @@
     <div class="box-4"></div>
     <div class="_4"></div>
     <div class="ps-13-202-ar">PS 13.202 Ar</div>
-  </div>
+ 
   
 </body>
 </html>

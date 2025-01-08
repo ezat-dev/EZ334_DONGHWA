@@ -38,12 +38,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
 
-      <div class="main"></div>
-     
-    </div>
     <div class="auto-pro-box"></div>
     <div class="auto-pro-header"></div>
     <div class="auto-pro-main"></div>
@@ -80,7 +75,7 @@
     <div class="_12"></div>
     <div class="_22"></div>
     <div class="_3"></div>
-  </div>
+
   
 </body>
 </html>

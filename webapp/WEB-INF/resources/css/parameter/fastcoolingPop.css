@@ -1,12 +1,12 @@
-.group-1,
-.group-1 * {
+.group-2,
+.group-2 * {
   box-sizing: border-box;
 }
-.group-1 {
+.group-2 {
   height: 878px;
   position: relative;
 }
-.wrapper {
+.group-1 {
   width: 1918px;
   height: 878px;
   position: static;
@@ -50,8 +50,8 @@
   width: 427px;
   height: 325px;
   position: absolute;
-  left: 746px;
-  top: 277px;
+  left: 0px;
+  top: 0px;
 }
 .fastcooling-header {
   background: #282828;
@@ -61,8 +61,8 @@
   width: 427px;
   height: 28px;
   position: absolute;
-  left: 746px;
-  top: 277px;
+  left: 0px;
+  top: 0px;
 }
 .fastcooling-main {
   background: #e6e6e6;
@@ -72,15 +72,15 @@
   width: 427px;
   height: 298px;
   position: absolute;
-  left: 746px;
-  top: 304px;
+  left: 0px;
+  top: 27px;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1150px;
-  top: 283px;
+  left: 404px;
+  top: 6px;
   object-fit: cover;
 }
 .fastcooling {
@@ -90,8 +90,8 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 751px;
-  top: 280px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .act-val-box-1 {
@@ -99,8 +99,8 @@
   width: 241px;
   height: 32px;
   position: absolute;
-  left: 771px;
-  top: 334px;
+  left: 25px;
+  top: 57px;
 }
 .actual-value {
   color: #000000;
@@ -109,24 +109,24 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 777px;
-  top: 341px;
+  left: 31px;
+  top: 64px;
 }
 .act-val-val-1 {
   background: #ffffff;
   width: 128px;
   height: 32px;
   position: absolute;
-  left: 1019px;
-  top: 334px;
+  left: 273px;
+  top: 57px;
 }
 .con-box-1 {
   background: #ffffff;
   width: 241px;
   height: 32px;
   position: absolute;
-  left: 771px;
-  top: 372px;
+  left: 25px;
+  top: 95px;
 }
 .controller-output-limit {
   color: #000000;
@@ -135,24 +135,24 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 777px;
-  top: 379px;
+  left: 31px;
+  top: 102px;
 }
 .con-val-1 {
   background: #ffffff;
   width: 128px;
   height: 32px;
   position: absolute;
-  left: 1019px;
-  top: 372px;
+  left: 273px;
+  top: 95px;
 }
 .button-1 {
   background: #c5c5c5;
   width: 273px;
   height: 32px;
   position: absolute;
-  left: 823px;
-  top: 463px;
+  left: 77px;
+  top: 186px;
 }
 .setpoints-and-actual-values {
   color: #000000;
@@ -161,16 +161,16 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 868px;
-  top: 470px;
+  left: 122px;
+  top: 193px;
 }
 .button-2 {
   background: #c5c5c5;
   width: 273px;
   height: 32px;
   position: absolute;
-  left: 823px;
-  top: 506px;
+  left: 77px;
+  top: 229px;
 }
 .parameter {
   color: #000000;
@@ -179,16 +179,16 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 928px;
-  top: 513px;
+  left: 182px;
+  top: 236px;
 }
 .button-3 {
   background: #c5c5c5;
   width: 273px;
   height: 32px;
   position: absolute;
-  left: 823px;
-  top: 549px;
+  left: 77px;
+  top: 272px;
 }
 .prozess-values {
   color: #000000;
@@ -197,6 +197,6 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 910px;
-  top: 556px;
+  left: 164px;
+  top: 279px;
 }

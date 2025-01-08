@@ -38,11 +38,8 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-     
-      <div class="main"></div>
-    </div>
+
+
     <div class="timer-box"></div>
     <div class="timer-header"></div>
     <div class="timer-main"></div>
@@ -92,7 +89,7 @@
     <div class="description2">Description</div>
     <div class="setpoint">Setpoint</div>
     <div class="actual-value2">Actual value</div>
-  </div>
+
   
 </body>
 </html>

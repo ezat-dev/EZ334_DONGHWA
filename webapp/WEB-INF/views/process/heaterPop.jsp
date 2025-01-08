@@ -38,12 +38,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-     
-      <div class="main"></div>
-
-    </div>
+  
     <div class="heater-box"></div>
     <div class="heater-header"></div>
     <div class="heater-main"></div>
@@ -59,7 +54,7 @@
     <div class="insul-res-box-2"></div>
     <div class="r2">R</div>
     <div class="insul-res-val-2"></div>
-  </div>
+ 
   
 </body>
 </html>

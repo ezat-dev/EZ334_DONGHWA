@@ -38,13 +38,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-     
-    
-      <div class="main"></div>
-   
-    </div>
+  
     <div class="fastcooling-box"></div>
     <div class="fastcooling-header"></div>
     <div class="fastcooling-main"></div>
@@ -62,7 +56,7 @@
     <div class="parameter">Parameter</div>
     <div class="button-3"></div>
     <div class="prozess-values">Prozess values</div>
-  </div>
+ 
   
 </body>
 </html>

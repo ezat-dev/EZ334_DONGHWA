@@ -38,12 +38,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-
-      <div class="main"></div>
-    
-    </div>
+  
     <div class="auto-pro-box"></div>
     <div class="auto-pro-header"></div>
     <div class="auto-pro-main"></div>
@@ -90,7 +85,7 @@
     <div class="id-82">ID 8</div>
     <div class="id-92">ID 9</div>
     <div class="id-102">ID 10</div>
-  </div>
+  
   
 </body>
 </html>

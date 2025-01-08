@@ -50,8 +50,8 @@
   width: 427px;
   height: 420px;
   position: absolute;
-  left: 746px;
-  top: 232px;
+  left: 0px;
+  top: 5px;
 }
 .operation-press-header {
   background: #282828;
@@ -61,8 +61,8 @@
   width: 427px;
   height: 28px;
   position: absolute;
-  left: 746px;
-  top: 227px;
+  left: 0px;
+  top: 0px;
 }
 .operation-press-main {
   background: #e6e6e6;
@@ -72,15 +72,15 @@
   width: 427px;
   height: 398px;
   position: absolute;
-  left: 746px;
-  top: 254px;
+  left: 0px;
+  top: 27px;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1150px;
-  top: 234px;
+  left: 404px;
+  top: 7px;
   object-fit: cover;
 }
 .operation-press {
@@ -90,8 +90,8 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 751px;
-  top: 230px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .hydraulic {
@@ -99,16 +99,16 @@
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 284px;
+  left: 27px;
+  top: 57px;
 }
 ._1 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 286px;
+  left: 392px;
+  top: 59px;
 }
 .hydraulic2 {
   color: #000000;
@@ -117,24 +117,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 289px;
+  left: 33px;
+  top: 62px;
 }
 .press-move-up {
   background: #c5c5c5;
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 328px;
+  left: 27px;
+  top: 101px;
 }
 ._2 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 330px;
+  left: 392px;
+  top: 103px;
 }
 .press-move-up2 {
   color: #000000;
@@ -143,24 +143,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 333px;
+  left: 33px;
+  top: 106px;
 }
 .force-f-1 {
   background: #c5c5c5;
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 371px;
+  left: 27px;
+  top: 144px;
 }
 ._3 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 373px;
+  left: 392px;
+  top: 146px;
 }
 .pressing-with-force-f-1 {
   color: #000000;
@@ -169,24 +169,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 376px;
+  left: 33px;
+  top: 149px;
 }
 .force-f-2 {
   background: #c5c5c5;
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 414px;
+  left: 27px;
+  top: 187px;
 }
 ._4 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 416px;
+  left: 392px;
+  top: 189px;
 }
 .pressing-with-force-f-2 {
   color: #000000;
@@ -195,24 +195,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 419px;
+  left: 33px;
+  top: 192px;
 }
 .position-dc {
   background: #c5c5c5;
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 457px;
+  left: 27px;
+  top: 230px;
 }
 ._5 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 459px;
+  left: 392px;
+  top: 232px;
 }
 .position-distance-control {
   color: #000000;
@@ -221,24 +221,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 462px;
+  left: 33px;
+  top: 235px;
 }
 .zero-scale {
   background: #c5c5c5;
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 501px;
+  left: 27px;
+  top: 274px;
 }
 ._6 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 503px;
+  left: 392px;
+  top: 276px;
 }
 .press-zero-scale {
   color: #000000;
@@ -247,24 +247,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 506px;
+  left: 33px;
+  top: 279px;
 }
 .set-abs-point {
   background: #c5c5c5;
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 544px;
+  left: 27px;
+  top: 317px;
 }
 ._7 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 546px;
+  left: 392px;
+  top: 319px;
 }
 .set-absolutzero-point {
   color: #000000;
@@ -273,24 +273,24 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 549px;
+  left: 33px;
+  top: 322px;
 }
 .cylinder {
   background: #c5c5c5;
   width: 373px;
   height: 32px;
   position: absolute;
-  left: 773px;
-  top: 587px;
+  left: 27px;
+  top: 360px;
 }
 ._8 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 589px;
+  left: 392px;
+  top: 362px;
 }
 .hydraulic-cylinder-synch {
   color: #000000;
@@ -299,6 +299,6 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 779px;
-  top: 592px;
+  left: 33px;
+  top: 365px;
 }

@@ -50,8 +50,8 @@
   width: 633px;
   height: 478px;
   position: absolute;
-  left: 643px;
-  top: 203px;
+  left: 0px;
+  top: 4px;
 }
 .auto-pro-header {
   background: #282828;
@@ -61,8 +61,8 @@
   width: 633px;
   height: 28px;
   position: absolute;
-  left: 643px;
-  top: 199px;
+  left: 0px;
+  top: 0px;
 }
 .auto-pro-main {
   background: #e6e6e6;
@@ -72,8 +72,8 @@
   width: 633px;
   height: 455px;
   position: absolute;
-  left: 643px;
-  top: 226px;
+  left: 0px;
+  top: 27px;
 }
 .automatic-program {
   color: #ffffff;
@@ -82,16 +82,16 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 648px;
-  top: 202px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1253px;
-  top: 206px;
+  left: 610px;
+  top: 7px;
   object-fit: cover;
 }
 .automatic {
@@ -99,8 +99,8 @@
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 644px;
-  top: 227px;
+  left: 1px;
+  top: 28px;
 }
 .automatic-text {
   color: #000000;
@@ -109,16 +109,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 680px;
-  top: 231px;
+  left: 37px;
+  top: 32px;
 }
 .programmer {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 802px;
-  top: 227px;
+  left: 159px;
+  top: 28px;
 }
 .programmer-text {
   color: #000000;
@@ -127,16 +127,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 828px;
-  top: 231px;
+  left: 185px;
+  top: 32px;
 }
 .start-conditions {
   background: #c5c5c5;
   width: 157px;
   height: 30px;
   position: absolute;
-  left: 960px;
-  top: 227px;
+  left: 317px;
+  top: 28px;
 }
 .startconditions-text {
   color: #000000;
@@ -145,16 +145,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 973px;
-  top: 231px;
+  left: 330px;
+  top: 32px;
 }
 .batch-data {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 1117px;
-  top: 227px;
+  left: 474px;
+  top: 28px;
 }
 .batch-data-text {
   color: #000000;
@@ -163,16 +163,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 1149px;
-  top: 231px;
+  left: 506px;
+  top: 32px;
 }
 .jump {
   background: #c5c5c5;
   width: 345px;
   height: 31px;
   position: absolute;
-  left: 664px;
-  top: 349px;
+  left: 21px;
+  top: 150px;
 }
 .jump2 {
   color: #000000;
@@ -181,24 +181,24 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 355px;
+  left: 26px;
+  top: 156px;
 }
 .jump-val {
   background: #ffffff;
   width: 239px;
   height: 31px;
   position: absolute;
-  left: 1016px;
-  top: 349px;
+  left: 373px;
+  top: 150px;
 }
 .setpoint {
   background: #c5c5c5;
   width: 345px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 462px;
+  left: 21px;
+  top: 263px;
 }
 .use-actual-value-as-setpoint {
   color: #000000;
@@ -207,16 +207,16 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 670px;
-  top: 468px;
+  left: 27px;
+  top: 269px;
 }
 .ram-sav {
   background: #ffffff;
   width: 345px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 500px;
+  left: 21px;
+  top: 301px;
 }
 .ramprate-sav {
   color: #000000;
@@ -225,24 +225,24 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 506px;
+  left: 26px;
+  top: 307px;
 }
 .ram-sav-val {
   background: #ffffff;
   width: 239px;
   height: 30px;
   position: absolute;
-  left: 1017px;
-  top: 500px;
+  left: 374px;
+  top: 301px;
 }
 .end-sav {
   background: #ffffff;
   width: 345px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 561px;
+  left: 21px;
+  top: 362px;
 }
 .end-setpoint-sav {
   color: #000000;
@@ -251,24 +251,24 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 567px;
+  left: 26px;
+  top: 368px;
 }
 .end-sav-val {
   background: #ffffff;
   width: 239px;
   height: 30px;
   position: absolute;
-  left: 1017px;
-  top: 561px;
+  left: 374px;
+  top: 362px;
 }
 .pro-step {
   background: #ffffff;
   width: 345px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 622px;
+  left: 21px;
+  top: 423px;
 }
 .programmed-procedure-step {
   color: #000000;
@@ -277,16 +277,16 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 628px;
+  left: 26px;
+  top: 429px;
 }
 .heating-vacuum {
   background: #c5c5c5;
   width: 239px;
   height: 30px;
   position: absolute;
-  left: 1017px;
-  top: 622px;
+  left: 374px;
+  top: 423px;
 }
 .heating-vacuum2 {
   color: #000000;
@@ -295,6 +295,6 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 1078px;
-  top: 628px;
+  left: 435px;
+  top: 429px;
 }

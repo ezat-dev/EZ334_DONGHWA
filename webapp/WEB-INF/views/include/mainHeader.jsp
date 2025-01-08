@@ -116,60 +116,60 @@
     </div>
   </div>
 
-  <div class="menu" id="hamburgerMenu">
-    <ul>
-      <li>
-        Furnace
-        <ul class="submenu">
-          <li onclick="menuClick('/donghwa/');">Overview</li>
-<!--           <li onclick="popupClick('/donghwa/furnace/manualOperationPop');">Manual Operation</li> -->
-          <li onclick="modalClick('manualOperationPop');">Manual Operation</li>
-          <li onclick="popupClick('/donghwa/furnace/operationPressPop');">Operation Press</li>
-          <li onclick="popupClick('/donghwa/furnace/automaticProgramPop3');">Automatic program</li>
-          <li onclick="menuClick('/donghwa/furnace/recipe');">Recipe</li>
-        </ul>
-      </li>
-      <li>
-        Process values
-        <ul class="submenu">
-          <li onclick="popupClick('/donghwa/process/temperaturePop');">Temperature</li>
-          <li onclick="popupClick('/donghwa/process/pressurePop');">Pressure</li>
-          <li onclick="popupClick('/donghwa/process/pressureSwitchesPop');">Pressure switches</li>
-          <li onclick="popupClick('/donghwa/process/heaterPop');">Heater</li>
-          <li onclick="popupClick('/donghwa/process/pressPop');">Press</li>
-          <li onclick="popupClick('/donghwa/process/powerConsumptionPop');">Power Consumption</li>
-        </ul>
-      </li>
-      <li>
-        Analysis
-        <ul class="submenu">
-          <li onclick="menuClick('/donghwa/analysis/historyTrend');">Historytrends</li>
-          <li >Batchreport</li>
-          <li>Alarmhistory</li>
-        </ul>
-      </li>
-      <li>
-        Parameter
-        <ul class="submenu">
-          <li onclick="popupClick('/donghwa/parameter/limitSwitchesPop');">Limit switches</li>
-          <li onclick="popupClick('/donghwa/parameter/fastcoolingPop');">Fastcooling</li>
-          <li onclick="popupClick('/donghwa/parameter/timerPop');">Timer</li>
-          <li onclick="popupClick('/');">Calibrate TC measuring syst</li>
-        </ul>
-      </li>
-      <li>
-        Documentation
-        <ul class="submenu">
-          <li>Functions</li>
-          <li>Commissioning</li>
-          <li>General operation</li>
-          <li>Faults</li>
-          <li>Circuit Diagram</li>
-          <li>Reference list history trends</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+ <div class="menu" id="hamburgerMenu">
+  <ul>
+    <li>
+      Furnace
+      <ul class="submenu">
+        <li onclick="menuClick('/donghwa/');">Overview</li>
+        <li onclick="popupClick('/donghwa/furnace/manualOperationPop', 391, 770);">Manual Operation</li>
+        <li onclick="popupClick('/donghwa/furnace/operationPressPop', 430, 427);">Operation Press</li>
+        <li onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 636, 486);">Automatic program</li>
+        <li onclick="menuClick('/donghwa/furnace/recipe');">Recipe</li>
+      </ul>
+    </li>
+    <li>
+      Process values
+      <ul class="submenu">
+        <li onclick="popupClick('/donghwa/process/temperaturePop', 530, 750);">Temperature</li>
+        <li onclick="popupClick('/donghwa/process/pressurePop', 395, 501);">Pressure</li>
+        <li onclick="popupClick('/donghwa/process/pressureSwitchesPop', 430, 251);">Pressure switches</li>
+        <li onclick="popupClick('/donghwa/process/heaterPop', 468, 262);">Heater</li>
+        <li onclick="popupClick('/donghwa/process/pressPop', 1080, 561);">Press</li>
+        <li onclick="popupClick('/donghwa/process/powerConsumptionPop', 1042, 495);">Power Consumption</li>
+      </ul>
+    </li>
+    <li>
+      Analysis
+      <ul class="submenu">
+        <li onclick="menuClick('/donghwa/analysis/historyTrend');">Historytrends</li>
+        <li>Batchreport</li>
+        <li>Alarmhistory</li>
+      </ul>
+    </li>
+    <li>
+      Parameter
+      <ul class="submenu">
+        <li onclick="popupClick('/donghwa/parameter/limitSwitchesPop', 400, 400);">Limit switches</li>
+        <li onclick="popupClick('/donghwa/parameter/fastcoolingPop', 400, 400);">Fastcooling</li>
+        <li onclick="popupClick('/donghwa/parameter/timerPop', 400, 400);">Timer</li>
+        <li onclick="popupClick('/', 400, 400);">Calibrate TC measuring syst</li>
+      </ul>
+    </li>
+    <li>
+      Documentation
+      <ul class="submenu">
+        <li>Functions</li>
+        <li>Commissioning</li>
+        <li>General operation</li>
+        <li>Faults</li>
+        <li>Circuit Diagram</li>
+        <li>Reference list history trends</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
 
 
 
@@ -227,28 +227,34 @@
       location.href = url;
     }
 
-    function popupClick(url) {
-    	  var popupWidth = 700; // 팝업 가로 크기
-    	  var popupHeight = 700; // 팝업 세로 크기
-    	  var browserWidth = window.outerWidth; // 브라우저 가로 크기
-    	  var browserHeight = window.outerHeight; // 브라우저 세로 크기
-    	  var popupTop = (browserHeight - popupHeight) / 2; // 팝업 세로 위치 계산
-    	  var popupLeft = (browserWidth - popupWidth) / 2; // 팝업 가로 위치 계산
+    function popupClick(url, popupWidth = 100, popupHeight = 100) {
+        // 브라우저 창 크기 가져오기
+        var browserWidth = window.innerWidth; // 브라우저 가로 크기
+        var browserHeight = window.innerHeight; // 브라우저 세로 크기
 
-    	  window.open(
-    	    url,
-    	    "popupWindow",
-    	    "scrollbars=no,width=" +
-    	      popupWidth +
-    	      ",height=" +
-    	      popupHeight +
-    	      ",top=" +
-    	      popupTop +
-    	      ",left=" +
-    	      popupLeft +
-    	      ",menubar=no,toolbar=no,resizable=yes"
-    	  );
-    	}
+        // 팝업창 위치 계산
+        var popupLeft = (browserWidth - popupWidth) / 2 + window.screenX;
+        var popupTop = (browserHeight - popupHeight) / 2 + window.screenY;
+
+        // 팝업창 열기
+        var popup = window.open(
+            url,
+            "popupWindow",
+            "width=" + popupWidth + 
+            ",height=" + popupHeight + 
+            ",top=" + popupTop + 
+            ",left=" + popupLeft + 
+            ",menubar=no,toolbar=no,scrollbars=no,status=no,location=no,directories=no,resizable=no"
+        );
+
+        // 팝업창이 정상적으로 열리지 않았을 경우 경고 메시지
+        if (!popup || popup.closed || typeof popup.closed == "undefined") {
+            alert("팝업이 차단되었습니다. 팝업 차단 설정을 확인해주세요.");
+        }
+    }
+
+
+
 
   </script>
 </body>

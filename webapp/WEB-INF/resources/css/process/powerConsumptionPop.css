@@ -1,15 +1,10 @@
-.group-2,
-.group-2 * {
+.group-1,
+.group-1 * {
   box-sizing: border-box;
 }
-.group-2 {
+.group-1 {
   height: 878px;
   position: relative;
-}
-.group-1 {
-  width: 1918px;
-  height: 878px;
-  position: static;
 }
 .wrapper {
   width: 1918px;
@@ -52,40 +47,40 @@
 }
 .power-con-box {
   background: #d9d9d9;
-  width: 612px;
-  height: 255px;
+  width: 1043px;
+  height: 492px;
   position: absolute;
-  left: 653px;
-  top: 311px;
+  left: 0px;
+  top: 0px;
 }
 .power-con-header {
   background: #282828;
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 612px;
-  height: 28px;
+  width: 1043px;
+  height: 54px;
   position: absolute;
-  left: 653px;
-  top: 311px;
+  left: 0px;
+  top: 0px;
 }
 .power-con-main {
   background: #e6e6e6;
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 612px;
-  height: 228px;
+  width: 1043px;
+  height: 440px;
   position: absolute;
-  left: 653px;
-  top: 338px;
+  left: 0px;
+  top: 52px;
 }
 .close {
-  width: 17px;
-  height: 15px;
+  width: 29px;
+  height: 29px;
   position: absolute;
-  left: 1242px;
-  top: 318px;
+  left: 1004px;
+  top: 14px;
   object-fit: cover;
 }
 .power-consumption {
@@ -95,17 +90,19 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 658px;
-  top: 314px;
+  left: 9px;
+  top: 5px;
+  width: 304px;
+  height: 43px;
   -webkit-text-stroke: 1px #000000;
 }
 .voltage {
   background: #fa8f8f;
-  width: 190px;
-  height: 19px;
+  width: 325px;
+  height: 37px;
   position: absolute;
-  left: 664px;
-  top: 351px;
+  left: 18px;
+  top: 77px;
 }
 .voltage2 {
   color: #000000;
@@ -114,16 +111,18 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 354px;
+  left: 23px;
+  top: 83px;
+  width: 69px;
+  height: 25px;
 }
 .vol-box-1 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 36px;
   position: absolute;
-  left: 664px;
-  top: 371px;
+  left: 18px;
+  top: 116px;
 }
 .u-l-1-l-2 {
   color: #000000;
@@ -132,24 +131,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 374px;
+  left: 23px;
+  top: 121px;
+  width: 81px;
+  height: 26px;
 }
 .vol-val-1 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 36px;
   position: absolute;
-  left: 751px;
-  top: 371px;
+  left: 166px;
+  top: 116px;
 }
 .vol-box-2 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 664px;
-  top: 391px;
+  left: 18px;
+  top: 154px;
 }
 .u-l-2-l-3 {
   color: #000000;
@@ -158,24 +159,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 394px;
+  left: 23px;
+  top: 160px;
+  width: 84px;
+  height: 25px;
 }
 .vol-val-2 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 37px;
   position: absolute;
-  left: 751px;
-  top: 391px;
+  left: 166px;
+  top: 154px;
 }
 .vol-box-3 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 664px;
-  top: 411px;
+  left: 18px;
+  top: 193px;
 }
 .u-l-3-l-1 {
   color: #000000;
@@ -184,24 +187,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 414px;
+  left: 23px;
+  top: 199px;
+  width: 81px;
+  height: 25px;
 }
 .vol-val-3 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 37px;
   position: absolute;
-  left: 751px;
-  top: 411px;
+  left: 166px;
+  top: 193px;
 }
 .act-power {
   background: #fa8f8f;
-  width: 190px;
-  height: 19px;
+  width: 325px;
+  height: 37px;
   position: absolute;
-  left: 664px;
-  top: 447px;
+  left: 18px;
+  top: 262px;
 }
 .active-power {
   color: #000000;
@@ -210,16 +215,18 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 450px;
+  left: 23px;
+  top: 268px;
+  width: 119px;
+  height: 25px;
 }
 .act-power-box-1 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 664px;
-  top: 467px;
+  left: 18px;
+  top: 301px;
 }
 .p-l-1 {
   color: #000000;
@@ -228,24 +235,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 470px;
+  left: 23px;
+  top: 307px;
+  width: 36px;
+  height: 25px;
 }
 .act-power-val-1 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 37px;
   position: absolute;
-  left: 751px;
-  top: 467px;
+  left: 166px;
+  top: 301px;
 }
 .act-power-box-2 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 36px;
   position: absolute;
-  left: 664px;
-  top: 487px;
+  left: 18px;
+  top: 340px;
 }
 .p-l-2 {
   color: #000000;
@@ -254,24 +263,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 490px;
+  left: 23px;
+  top: 345px;
+  width: 40px;
+  height: 26px;
 }
 .act-power-val-2 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 36px;
   position: absolute;
-  left: 751px;
-  top: 487px;
+  left: 166px;
+  top: 340px;
 }
 .act-power-box-3 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 664px;
-  top: 507px;
+  left: 18px;
+  top: 378px;
 }
 .p-l-3 {
   color: #000000;
@@ -280,24 +291,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 510px;
+  left: 23px;
+  top: 384px;
+  width: 42px;
+  height: 25px;
 }
 .act-power-val-3 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 37px;
   position: absolute;
-  left: 751px;
-  top: 507px;
+  left: 166px;
+  top: 378px;
 }
 .act-power-box-4 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 38px;
   position: absolute;
-  left: 664px;
-  top: 527px;
+  left: 18px;
+  top: 416px;
 }
 .p-total {
   color: #000000;
@@ -306,24 +319,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 667px;
-  top: 530px;
+  left: 23px;
+  top: 423px;
+  width: 58px;
+  height: 24px;
 }
 .act-power-val-4 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 38px;
   position: absolute;
-  left: 751px;
-  top: 527px;
+  left: 166px;
+  top: 416px;
 }
 .cur {
   background: #fa8f8f;
-  width: 190px;
-  height: 19px;
+  width: 323px;
+  height: 37px;
   position: absolute;
-  left: 864px;
-  top: 351px;
+  left: 360px;
+  top: 77px;
 }
 .current {
   color: #000000;
@@ -332,16 +347,18 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 354px;
+  left: 365px;
+  top: 83px;
+  width: 68px;
+  height: 25px;
 }
 .cur-box-1 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 36px;
   position: absolute;
-  left: 864px;
-  top: 371px;
+  left: 360px;
+  top: 116px;
 }
 .i-l-1 {
   color: #000000;
@@ -350,24 +367,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 374px;
+  left: 365px;
+  top: 121px;
+  width: 28px;
+  height: 26px;
 }
 .cur-val-1 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 175px;
+  height: 36px;
   position: absolute;
-  left: 951px;
-  top: 371px;
+  left: 508px;
+  top: 116px;
 }
 .cur-box-2 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 864px;
-  top: 391px;
+  left: 360px;
+  top: 154px;
 }
 .i-l-2 {
   color: #000000;
@@ -376,24 +395,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 394px;
+  left: 365px;
+  top: 160px;
+  width: 32px;
+  height: 25px;
 }
 .cur-val-2 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 175px;
+  height: 37px;
   position: absolute;
-  left: 951px;
-  top: 391px;
+  left: 508px;
+  top: 154px;
 }
 .cur-box-3 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 864px;
-  top: 411px;
+  left: 360px;
+  top: 193px;
 }
 .i-l-3 {
   color: #000000;
@@ -402,24 +423,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 414px;
+  left: 365px;
+  top: 199px;
+  width: 33px;
+  height: 25px;
 }
 .cur-val-3 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 175px;
+  height: 37px;
   position: absolute;
-  left: 951px;
-  top: 411px;
+  left: 508px;
+  top: 193px;
 }
 .rea-power {
   background: #fa8f8f;
-  width: 190px;
-  height: 19px;
+  width: 323px;
+  height: 37px;
   position: absolute;
-  left: 864px;
-  top: 447px;
+  left: 360px;
+  top: 262px;
 }
 .reactive-power {
   color: #000000;
@@ -428,16 +451,18 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 450px;
+  left: 365px;
+  top: 268px;
+  width: 138px;
+  height: 25px;
 }
 .rea-power-box-1 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 864px;
-  top: 467px;
+  left: 360px;
+  top: 301px;
 }
 .q-l-1 {
   color: #000000;
@@ -446,24 +471,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 470px;
+  left: 365px;
+  top: 307px;
+  width: 39px;
+  height: 25px;
 }
 .rea-power-val-1 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 175px;
+  height: 37px;
   position: absolute;
-  left: 951px;
-  top: 467px;
+  left: 508px;
+  top: 301px;
 }
 .rea-power-box-2 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 36px;
   position: absolute;
-  left: 864px;
-  top: 487px;
+  left: 360px;
+  top: 340px;
 }
 .q-l-2 {
   color: #000000;
@@ -472,24 +499,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 490px;
+  left: 365px;
+  top: 345px;
+  width: 42px;
+  height: 26px;
 }
 .rea-power-val-2 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 175px;
+  height: 36px;
   position: absolute;
-  left: 951px;
-  top: 487px;
+  left: 508px;
+  top: 340px;
 }
 .rea-power-box-3 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 864px;
-  top: 507px;
+  left: 360px;
+  top: 378px;
 }
 .q-l-3 {
   color: #000000;
@@ -498,24 +527,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 510px;
+  left: 365px;
+  top: 384px;
+  width: 42px;
+  height: 25px;
 }
 .rea-power-val-3 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 175px;
+  height: 37px;
   position: absolute;
-  left: 951px;
-  top: 507px;
+  left: 508px;
+  top: 378px;
 }
 .rea-power-box-4 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 38px;
   position: absolute;
-  left: 864px;
-  top: 527px;
+  left: 360px;
+  top: 416px;
 }
 .q-total {
   color: #000000;
@@ -524,24 +555,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 867px;
-  top: 530px;
+  left: 365px;
+  top: 423px;
+  width: 59px;
+  height: 24px;
 }
 .rea-power-val-4 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 175px;
+  height: 38px;
   position: absolute;
-  left: 951px;
-  top: 527px;
+  left: 508px;
+  top: 416px;
 }
 .batch {
   background: #fa8f8f;
-  width: 190px;
-  height: 19px;
+  width: 325px;
+  height: 37px;
   position: absolute;
-  left: 1064px;
-  top: 351px;
+  left: 700px;
+  top: 77px;
 }
 .power-consumption-batch {
   color: #000000;
@@ -550,16 +583,18 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 1067px;
-  top: 354px;
+  left: 705px;
+  top: 83px;
+  width: 236px;
+  height: 25px;
 }
 .batch-box-1 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 36px;
   position: absolute;
-  left: 1064px;
-  top: 371px;
+  left: 700px;
+  top: 116px;
 }
 .w {
   color: #000000;
@@ -568,24 +603,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 1067px;
-  top: 374px;
+  left: 705px;
+  top: 121px;
+  width: 19px;
+  height: 26px;
 }
 .batch-val-1 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 36px;
   position: absolute;
-  left: 1151px;
-  top: 371px;
+  left: 848px;
+  top: 116px;
 }
 .app-power {
   background: #fa8f8f;
-  width: 190px;
-  height: 19px;
+  width: 325px;
+  height: 37px;
   position: absolute;
-  left: 1064px;
-  top: 447px;
+  left: 700px;
+  top: 262px;
 }
 .apparent-power {
   color: #000000;
@@ -594,16 +631,18 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 1067px;
-  top: 450px;
+  left: 705px;
+  top: 268px;
+  width: 143px;
+  height: 25px;
 }
 .app-power-box-1 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 1064px;
-  top: 467px;
+  left: 700px;
+  top: 301px;
 }
 .s-l-1 {
   color: #000000;
@@ -612,24 +651,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 1067px;
-  top: 470px;
+  left: 705px;
+  top: 307px;
+  width: 36px;
+  height: 25px;
 }
 .app-power-val-1 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 37px;
   position: absolute;
-  left: 1151px;
-  top: 467px;
+  left: 848px;
+  top: 301px;
 }
 .app-power-box-2 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 36px;
   position: absolute;
-  left: 1064px;
-  top: 487px;
+  left: 700px;
+  top: 340px;
 }
 .s-l-2 {
   color: #000000;
@@ -638,24 +679,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 1067px;
-  top: 490px;
+  left: 705px;
+  top: 345px;
+  width: 40px;
+  height: 26px;
 }
 .app-power-val-2 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 36px;
   position: absolute;
-  left: 1151px;
-  top: 487px;
+  left: 848px;
+  top: 340px;
 }
 .app-power-box-3 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 37px;
   position: absolute;
-  left: 1064px;
-  top: 507px;
+  left: 700px;
+  top: 378px;
 }
 .s-l-3 {
   color: #000000;
@@ -664,24 +707,26 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 1067px;
-  top: 510px;
+  left: 705px;
+  top: 384px;
+  width: 41px;
+  height: 25px;
 }
 .app-power-val-3 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 37px;
   position: absolute;
-  left: 1151px;
-  top: 507px;
+  left: 848px;
+  top: 378px;
 }
 .app-power-box-4 {
   background: #ffffff;
-  width: 86px;
-  height: 19px;
+  width: 147px;
+  height: 38px;
   position: absolute;
-  left: 1064px;
-  top: 527px;
+  left: 700px;
+  top: 416px;
 }
 .s-total {
   color: #000000;
@@ -690,14 +735,16 @@
   font-size: 11px;
   font-weight: 400;
   position: absolute;
-  left: 1067px;
-  top: 530px;
+  left: 705px;
+  top: 423px;
+  width: 58px;
+  height: 24px;
 }
 .app-power-val-4 {
   background: #ffffff;
-  width: 103px;
-  height: 19px;
+  width: 177px;
+  height: 38px;
   position: absolute;
-  left: 1151px;
-  top: 527px;
+  left: 848px;
+  top: 416px;
 }

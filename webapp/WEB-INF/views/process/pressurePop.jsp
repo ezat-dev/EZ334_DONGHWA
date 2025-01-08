@@ -37,12 +37,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-     
-      <div class="main"></div>
-    
-    </div>
+ 
     <div class="tem-box"></div>
     <div class="tem-header"></div>
     <div class="tem-main"></div>
@@ -77,7 +72,7 @@
     <div class="fore-vacuum2">Fore vacuum</div>
     <div class="fore-vacuum-val-1"></div>
     <div class="pis-6-24">PIS 6.24</div>
-  </div>
+
   
 </body>
 </html>

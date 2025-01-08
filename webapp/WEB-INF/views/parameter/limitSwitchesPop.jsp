@@ -38,12 +38,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-     
-      <div class="main"></div>
-
-    </div>
+ 
     <div class="limit-switches-box"></div>
     <div class="limit-switches-header"></div>
     <div class="limit-switches-main"></div>
@@ -97,7 +92,7 @@
     <div class="mbar2">mbar</div>
     <div class="mbar3">mbar</div>
     <div class="div">℃</div>
-  </div>
+ 
   
 </body>
 </html>

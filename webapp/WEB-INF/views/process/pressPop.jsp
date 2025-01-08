@@ -37,12 +37,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-     
-      <div class="main"></div>
-
-    </div>
+ 
     <div class="press-box"></div>
     <div class="press-header"></div>
     <div class="press-main"></div>
@@ -169,7 +164,7 @@
     <div class="hydraulic-oil-fill-level">Hydraulic Oil Fill Level</div>
     <div class="level-val-1"></div>
     <div class="wis-22-1-5-1">WIS 22.1.5.1</div>
-  </div>
+
   
 </body>
 </html>

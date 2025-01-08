@@ -50,8 +50,8 @@
   width: 633px;
   height: 478px;
   position: absolute;
-  left: 643px;
-  top: 202px;
+  left: 0px;
+  top: 4px;
 }
 .auto-pro-header {
   background: #282828;
@@ -61,8 +61,8 @@
   width: 633px;
   height: 28px;
   position: absolute;
-  left: 643px;
-  top: 198px;
+  left: 0px;
+  top: 0px;
 }
 .auto-pro-main {
   background: #e6e6e6;
@@ -72,15 +72,15 @@
   width: 633px;
   height: 455px;
   position: absolute;
-  left: 643px;
-  top: 225px;
+  left: 0px;
+  top: 27px;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1253px;
-  top: 205px;
+  left: 610px;
+  top: 7px;
   object-fit: cover;
 }
 .automatic-program {
@@ -90,8 +90,8 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 648px;
-  top: 201px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .automatic {
@@ -99,32 +99,32 @@
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 644px;
-  top: 226px;
+  left: 1px;
+  top: 28px;
 }
 .programmer {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 802px;
-  top: 226px;
+  left: 159px;
+  top: 28px;
 }
 .startconditions {
   background: #c5c5c5;
   width: 157px;
   height: 30px;
   position: absolute;
-  left: 960px;
-  top: 226px;
+  left: 317px;
+  top: 28px;
 }
 .batchdata {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 1117px;
-  top: 226px;
+  left: 474px;
+  top: 28px;
 }
 .automatic2 {
   color: #000000;
@@ -133,8 +133,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 680px;
-  top: 230px;
+  left: 37px;
+  top: 32px;
 }
 .programmer2 {
   color: #000000;
@@ -143,8 +143,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 828px;
-  top: 230px;
+  left: 185px;
+  top: 32px;
 }
 .startconditions2 {
   color: #000000;
@@ -153,8 +153,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 973px;
-  top: 230px;
+  left: 330px;
+  top: 32px;
 }
 .batch-data {
   color: #000000;
@@ -163,184 +163,184 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 1149px;
-  top: 230px;
+  left: 506px;
+  top: 32px;
 }
 .id-0 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 271px;
+  left: 20px;
+  top: 73px;
 }
 .id-1 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 307px;
+  left: 20px;
+  top: 109px;
 }
 .id-2 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 343px;
+  left: 20px;
+  top: 145px;
 }
 .id-3 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 379px;
+  left: 20px;
+  top: 181px;
 }
 .id-4 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 415px;
+  left: 20px;
+  top: 217px;
 }
 .id-5 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 451px;
+  left: 20px;
+  top: 253px;
 }
 .id-6 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 487px;
+  left: 20px;
+  top: 289px;
 }
 .id-7 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 523px;
+  left: 20px;
+  top: 325px;
 }
 .id-8 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 559px;
+  left: 20px;
+  top: 361px;
 }
 .id-9 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 595px;
+  left: 20px;
+  top: 397px;
 }
 .id-10 {
   background: #ffffff;
   width: 165px;
   height: 30px;
   position: absolute;
-  left: 663px;
-  top: 631px;
+  left: 20px;
+  top: 433px;
 }
 .id-02 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 271px;
+  left: 191px;
+  top: 73px;
 }
 .id-12 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 307px;
+  left: 191px;
+  top: 109px;
 }
 .id-22 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 343px;
+  left: 191px;
+  top: 145px;
 }
 .id {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 379px;
+  left: 191px;
+  top: 181px;
 }
 .id2 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 415px;
+  left: 191px;
+  top: 217px;
 }
 .id3 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 451px;
+  left: 191px;
+  top: 253px;
 }
 .id4 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 487px;
+  left: 191px;
+  top: 289px;
 }
 .id5 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 523px;
+  left: 191px;
+  top: 325px;
 }
 .id6 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 559px;
+  left: 191px;
+  top: 361px;
 }
 .id7 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 595px;
+  left: 191px;
+  top: 397px;
 }
 .id8 {
   background: #ffffff;
   width: 423px;
   height: 30px;
   position: absolute;
-  left: 834px;
-  top: 631px;
+  left: 191px;
+  top: 433px;
 }
 .id-03 {
   color: #000000;
@@ -349,8 +349,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 275px;
+  left: 25px;
+  top: 77px;
 }
 .id-13 {
   color: #000000;
@@ -359,8 +359,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 311px;
+  left: 25px;
+  top: 113px;
 }
 .id-23 {
   color: #000000;
@@ -369,8 +369,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 347px;
+  left: 25px;
+  top: 149px;
 }
 .id-32 {
   color: #000000;
@@ -379,8 +379,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 383px;
+  left: 25px;
+  top: 185px;
 }
 .id-42 {
   color: #000000;
@@ -389,8 +389,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 419px;
+  left: 25px;
+  top: 221px;
 }
 .id-52 {
   color: #000000;
@@ -399,8 +399,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 455px;
+  left: 25px;
+  top: 257px;
 }
 .id-62 {
   color: #000000;
@@ -409,8 +409,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 491px;
+  left: 25px;
+  top: 293px;
 }
 .id-72 {
   color: #000000;
@@ -419,8 +419,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 527px;
+  left: 25px;
+  top: 329px;
 }
 .id-82 {
   color: #000000;
@@ -429,8 +429,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 563px;
+  left: 25px;
+  top: 365px;
 }
 .id-92 {
   color: #000000;
@@ -439,8 +439,8 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 599px;
+  left: 25px;
+  top: 401px;
 }
 .id-102 {
   color: #000000;
@@ -449,6 +449,6 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 668px;
-  top: 635px;
+  left: 25px;
+  top: 437px;
 }

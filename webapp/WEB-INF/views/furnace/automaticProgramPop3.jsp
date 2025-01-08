@@ -38,12 +38,8 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
+  
 
-      <div class="main"></div>
-     
-    </div>
     <div class="auto-pro-box"></div>
     <div class="auto-pro-header"></div>
     <div class="auto-pro-main"></div>
@@ -83,7 +79,7 @@
     <div class="automatic-on2">Automatic on</div>
     <div class="no-fault2">No fault</div>
     <div class="hydraulic-in-position">Hydraulic in Position</div>
-  </div>
+
   
 </body>
 </html>

@@ -50,8 +50,8 @@
   width: 633px;
   height: 482px;
   position: absolute;
-  left: 643px;
-  top: 198px;
+  left: 0px;
+  top: 0px;
 }
 .auto-pro-header {
   background: #282828;
@@ -61,8 +61,8 @@
   width: 633px;
   height: 28px;
   position: absolute;
-  left: 643px;
-  top: 198px;
+  left: 0px;
+  top: 0px;
 }
 .auto-pro-main {
   background: #e6e6e6;
@@ -72,8 +72,8 @@
   width: 633px;
   height: 455px;
   position: absolute;
-  left: 643px;
-  top: 225px;
+  left: 0px;
+  top: 27px;
 }
 .automatic-program {
   color: #ffffff;
@@ -82,16 +82,16 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 648px;
-  top: 201px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1253px;
-  top: 205px;
+  left: 610px;
+  top: 7px;
   object-fit: cover;
 }
 .automatic {
@@ -99,8 +99,8 @@
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 644px;
-  top: 226px;
+  left: 1px;
+  top: 28px;
 }
 .automatic-text {
   color: #000000;
@@ -109,16 +109,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 680px;
-  top: 230px;
+  left: 37px;
+  top: 32px;
 }
 .programmer {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 802px;
-  top: 226px;
+  left: 159px;
+  top: 28px;
 }
 .programmer-text {
   color: #000000;
@@ -127,16 +127,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 828px;
-  top: 230px;
+  left: 185px;
+  top: 32px;
 }
 .start-conditions {
   background: #c5c5c5;
   width: 157px;
   height: 30px;
   position: absolute;
-  left: 960px;
-  top: 226px;
+  left: 317px;
+  top: 28px;
 }
 .startconditions-text {
   color: #000000;
@@ -145,16 +145,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 973px;
-  top: 230px;
+  left: 330px;
+  top: 32px;
 }
 .batch-data {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 1117px;
-  top: 226px;
+  left: 474px;
+  top: 28px;
 }
 .batch-data-text {
   color: #000000;
@@ -163,16 +163,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 1149px;
-  top: 230px;
+  left: 506px;
+  top: 32px;
 }
 .program-number-box {
   background: #ffffff;
   width: 195px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 277px;
+  left: 21px;
+  top: 79px;
 }
 .program-number-text {
   color: #000000;
@@ -181,16 +181,16 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 283px;
+  left: 26px;
+  top: 85px;
 }
 .program-name-box {
   background: #ffffff;
   width: 195px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 319px;
+  left: 21px;
+  top: 121px;
 }
 .program-name-text {
   color: #000000;
@@ -199,16 +199,16 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 325px;
+  left: 26px;
+  top: 127px;
 }
 .program-comment-box {
   background: #ffffff;
   width: 195px;
   height: 31px;
   position: absolute;
-  left: 664px;
-  top: 359px;
+  left: 21px;
+  top: 161px;
 }
 .program-comment-text {
   color: #000000;
@@ -217,16 +217,16 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 365px;
+  left: 26px;
+  top: 167px;
 }
 .id-box {
   background: #ffffff;
   width: 195px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 400px;
+  left: 21px;
+  top: 202px;
 }
 .id-text {
   color: #000000;
@@ -235,48 +235,48 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 669px;
-  top: 406px;
+  left: 26px;
+  top: 208px;
 }
 .program-number-value {
   background: #ffffff;
   width: 381px;
   height: 30px;
   position: absolute;
-  left: 874px;
-  top: 277px;
+  left: 231px;
+  top: 79px;
 }
 .program-name-value {
   background: #ffffff;
   width: 381px;
   height: 30px;
   position: absolute;
-  left: 874px;
-  top: 319px;
+  left: 231px;
+  top: 121px;
 }
 .program-comment-value {
   background: #ffffff;
   width: 381px;
   height: 31px;
   position: absolute;
-  left: 874px;
-  top: 359px;
+  left: 231px;
+  top: 161px;
 }
 .id-value {
   background: #ffffff;
   width: 381px;
   height: 30px;
   position: absolute;
-  left: 874px;
-  top: 400px;
+  left: 231px;
+  top: 202px;
 }
 .start {
   background: #c5c5c5;
   width: 195px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 482px;
+  left: 21px;
+  top: 284px;
 }
 .start-text {
   color: #000000;
@@ -285,16 +285,16 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 670px;
-  top: 488px;
+  left: 27px;
+  top: 290px;
 }
 .start-delay {
   background: #c5c5c5;
   width: 195px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 523px;
+  left: 21px;
+  top: 325px;
 }
 .start-delay-text {
   color: #000000;
@@ -303,16 +303,16 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 670px;
-  top: 529px;
+  left: 27px;
+  top: 331px;
 }
 .reset {
   background: #c5c5c5;
   width: 195px;
   height: 30px;
   position: absolute;
-  left: 664px;
-  top: 564px;
+  left: 21px;
+  top: 366px;
 }
 .reset-text {
   color: #000000;
@@ -321,46 +321,46 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 670px;
-  top: 570px;
+  left: 27px;
+  top: 372px;
 }
 ._1 {
   background: #c5c5c5;
   width: 186px;
   height: 30px;
   position: absolute;
-  left: 874px;
-  top: 523px;
+  left: 231px;
+  top: 325px;
 }
 ._2 {
   background: #c5c5c5;
   width: 186px;
   height: 30px;
   position: absolute;
-  left: 1069px;
-  top: 523px;
+  left: 426px;
+  top: 325px;
 }
 ._12 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 851px;
-  top: 483px;
+  left: 208px;
+  top: 285px;
 }
 ._22 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 851px;
-  top: 524px;
+  left: 208px;
+  top: 326px;
 }
 ._3 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 851px;
-  top: 565px;
+  left: 208px;
+  top: 367px;
 }

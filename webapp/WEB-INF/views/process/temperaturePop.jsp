@@ -36,12 +36,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-     
-      <div class="main"></div>
-
-    </div>
+  
     <div class="tem-box"></div>
     <div class="tem-header"></div>
     <div class="tem-main"></div>
@@ -98,7 +93,7 @@
     <div class="fastcooling-box-2"></div>
     <div class="ti-12-8">TI 12.8</div>
     <div class="fastcooling-val-2"></div>
-  </div>
+  
   
 </body>
 </html>

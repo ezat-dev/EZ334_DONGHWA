@@ -37,13 +37,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-2">
-    <div class="group-1">
-      <div class="wrapper">
-     
-        <div class="main"></div>
-       
-      </div>
+  
       <div class="power-con-box"></div>
       <div class="power-con-header"></div>
       <div class="power-con-main"></div>
@@ -118,8 +112,7 @@
       <div class="app-power-box-4"></div>
       <div class="s-total">S total</div>
       <div class="app-power-val-4"></div>
-    </div>
-  </div>
+
   
 </body>
 </html>

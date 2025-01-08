@@ -50,8 +50,8 @@
   width: 613px;
   height: 233px;
   position: absolute;
-  left: 653px;
-  top: 322px;
+  left: 0px;
+  top: 0px;
 }
 .timer-header {
   background: #282828;
@@ -61,8 +61,8 @@
   width: 613px;
   height: 28px;
   position: absolute;
-  left: 653px;
-  top: 322px;
+  left: 0px;
+  top: 0px;
 }
 .timer-main {
   background: #e6e6e6;
@@ -72,15 +72,15 @@
   width: 613px;
   height: 206px;
   position: absolute;
-  left: 653px;
-  top: 349px;
+  left: 0px;
+  top: 27px;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1243px;
-  top: 328px;
+  left: 590px;
+  top: 6px;
   object-fit: cover;
 }
 .timer-text {
@@ -90,8 +90,8 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 658px;
-  top: 325px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .no {
@@ -99,192 +99,192 @@
   width: 32px;
   height: 28px;
   position: absolute;
-  left: 662px;
-  top: 358px;
+  left: 9px;
+  top: 36px;
 }
 .description {
   background: #ffffff;
   width: 310px;
   height: 28px;
   position: absolute;
-  left: 699px;
-  top: 358px;
+  left: 46px;
+  top: 36px;
 }
 .set-point {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1014px;
-  top: 358px;
+  left: 361px;
+  top: 36px;
 }
 .actual-value {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 358px;
+  left: 485px;
+  top: 36px;
 }
 ._1 {
   background: #ffffff;
   width: 32px;
   height: 28px;
   position: absolute;
-  left: 662px;
-  top: 390px;
+  left: 9px;
+  top: 68px;
 }
 .box-1 {
   background: #ffffff;
   width: 310px;
   height: 28px;
   position: absolute;
-  left: 699px;
-  top: 390px;
+  left: 46px;
+  top: 68px;
 }
 .box-1-point {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1014px;
-  top: 390px;
+  left: 361px;
+  top: 68px;
 }
 .box-1-val {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 390px;
+  left: 485px;
+  top: 68px;
 }
 ._2 {
   background: #ffffff;
   width: 32px;
   height: 28px;
   position: absolute;
-  left: 662px;
-  top: 422px;
+  left: 9px;
+  top: 100px;
 }
 .box-2 {
   background: #ffffff;
   width: 310px;
   height: 28px;
   position: absolute;
-  left: 699px;
-  top: 422px;
+  left: 46px;
+  top: 100px;
 }
 .box-2-point {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1014px;
-  top: 422px;
+  left: 361px;
+  top: 100px;
 }
 .box-2-val {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 422px;
+  left: 485px;
+  top: 100px;
 }
 ._3 {
   background: #ffffff;
   width: 32px;
   height: 28px;
   position: absolute;
-  left: 662px;
-  top: 454px;
+  left: 9px;
+  top: 132px;
 }
 .box-3 {
   background: #ffffff;
   width: 310px;
   height: 28px;
   position: absolute;
-  left: 699px;
-  top: 454px;
+  left: 46px;
+  top: 132px;
 }
 .box-3-point {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1014px;
-  top: 454px;
+  left: 361px;
+  top: 132px;
 }
 .box-3-val {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 454px;
+  left: 485px;
+  top: 132px;
 }
 ._6 {
   background: #ffffff;
   width: 32px;
   height: 28px;
   position: absolute;
-  left: 662px;
-  top: 486px;
+  left: 9px;
+  top: 164px;
 }
 .box-6 {
   background: #ffffff;
   width: 310px;
   height: 28px;
   position: absolute;
-  left: 699px;
-  top: 486px;
+  left: 46px;
+  top: 164px;
 }
 .box-6-point {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1014px;
-  top: 486px;
+  left: 361px;
+  top: 164px;
 }
 .box-6-val {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 486px;
+  left: 485px;
+  top: 164px;
 }
 ._8 {
   background: #ffffff;
   width: 32px;
   height: 28px;
   position: absolute;
-  left: 662px;
-  top: 518px;
+  left: 9px;
+  top: 196px;
 }
 .box-8 {
   background: #ffffff;
   width: 310px;
   height: 28px;
   position: absolute;
-  left: 699px;
-  top: 518px;
+  left: 46px;
+  top: 196px;
 }
 .box-8-point {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1014px;
-  top: 518px;
+  left: 361px;
+  top: 196px;
 }
 .box-8-val {
   background: #ffffff;
   width: 119px;
   height: 28px;
   position: absolute;
-  left: 1138px;
-  top: 518px;
+  left: 485px;
+  top: 196px;
 }
 ._82 {
   color: #000000;
@@ -293,8 +293,8 @@
   font-size: 16px;
   font-weight: 400;
   position: absolute;
-  left: 673px;
-  top: 523px;
+  left: 20px;
+  top: 201px;
 }
 .no2 {
   color: #000000;
@@ -303,8 +303,8 @@
   font-size: 16px;
   font-weight: 700;
   position: absolute;
-  left: 665px;
-  top: 363px;
+  left: 12px;
+  top: 41px;
 }
 .overpressure-leaktest-furnace {
   color: #000000;
@@ -313,8 +313,8 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 705px;
-  top: 395px;
+  left: 52px;
+  top: 73px;
 }
 .pumptime-prolongation-leaktest-furnace {
   color: #000000;
@@ -323,8 +323,8 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 705px;
-  top: 427px;
+  left: 52px;
+  top: 105px;
 }
 .vacuum-leaktest-furnace {
   color: #000000;
@@ -333,8 +333,8 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 705px;
-  top: 459px;
+  left: 52px;
+  top: 137px;
 }
 .monitoring-pumping-time-furnace {
   color: #000000;
@@ -343,8 +343,8 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 705px;
-  top: 491px;
+  left: 52px;
+  top: 169px;
 }
 ._12 {
   color: #000000;
@@ -353,8 +353,8 @@
   font-size: 16px;
   font-weight: 400;
   position: absolute;
-  left: 674px;
-  top: 395px;
+  left: 21px;
+  top: 73px;
 }
 ._22 {
   color: #000000;
@@ -363,8 +363,8 @@
   font-size: 16px;
   font-weight: 400;
   position: absolute;
-  left: 673px;
-  top: 427px;
+  left: 20px;
+  top: 105px;
 }
 ._32 {
   color: #000000;
@@ -373,8 +373,8 @@
   font-size: 16px;
   font-weight: 400;
   position: absolute;
-  left: 673px;
-  top: 459px;
+  left: 20px;
+  top: 137px;
 }
 ._62 {
   color: #000000;
@@ -383,8 +383,8 @@
   font-size: 16px;
   font-weight: 400;
   position: absolute;
-  left: 673px;
-  top: 491px;
+  left: 20px;
+  top: 169px;
 }
 .monitoring-filling-time-process-gas {
   color: #000000;
@@ -393,8 +393,8 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 705px;
-  top: 523px;
+  left: 52px;
+  top: 201px;
 }
 .description2 {
   color: #000000;
@@ -403,8 +403,8 @@
   font-size: 16px;
   font-weight: 700;
   position: absolute;
-  left: 705px;
-  top: 363px;
+  left: 52px;
+  top: 41px;
 }
 .setpoint {
   color: #000000;
@@ -413,8 +413,8 @@
   font-size: 16px;
   font-weight: 700;
   position: absolute;
-  left: 1040px;
-  top: 363px;
+  left: 387px;
+  top: 41px;
 }
 .actual-value2 {
   color: #000000;
@@ -423,6 +423,6 @@
   font-size: 16px;
   font-weight: 700;
   position: absolute;
-  left: 1149px;
-  top: 363px;
+  left: 496px;
+  top: 41px;
 }

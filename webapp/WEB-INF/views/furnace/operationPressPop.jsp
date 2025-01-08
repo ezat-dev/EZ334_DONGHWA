@@ -38,12 +38,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="group-1">
-    <div class="wrapper">
-
-      <div class="main"></div>
-   
-    </div>
+ 
     <div class="operation-press-box"></div>
     <div class="operation-press-header"></div>
     <div class="operation-press-main"></div>
@@ -73,7 +68,7 @@
     <div class="cylinder"></div>
     <div class="_8"></div>
     <div class="hydraulic-cylinder-synch">Hydraulic cylinder synch</div>
-  </div>
+  
   
 </body>
 </html>

@@ -50,8 +50,8 @@
   width: 633px;
   height: 478px;
   position: absolute;
-  left: 643px;
-  top: 203px;
+  left: 0px;
+  top: 4px;
 }
 .auto-pro-header {
   background: #282828;
@@ -61,8 +61,8 @@
   width: 633px;
   height: 28px;
   position: absolute;
-  left: 643px;
-  top: 199px;
+  left: 0px;
+  top: 0px;
 }
 .auto-pro-main {
   background: #e6e6e6;
@@ -72,15 +72,15 @@
   width: 633px;
   height: 455px;
   position: absolute;
-  left: 643px;
-  top: 226px;
+  left: 0px;
+  top: 27px;
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1252px;
-  top: 206px;
+  left: 609px;
+  top: 7px;
   object-fit: cover;
 }
 .automatic-program {
@@ -90,16 +90,16 @@
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  left: 648px;
-  top: 202px;
+  left: 5px;
+  top: 3px;
   -webkit-text-stroke: 1px #000000;
 }
 .close2 {
   width: 17px;
   height: 15px;
   position: absolute;
-  left: 1253px;
-  top: 206px;
+  left: 610px;
+  top: 7px;
   object-fit: cover;
 }
 .automatic {
@@ -107,8 +107,8 @@
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 644px;
-  top: 227px;
+  left: 1px;
+  top: 28px;
 }
 .automatic-text {
   color: #000000;
@@ -117,16 +117,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 680px;
-  top: 231px;
+  left: 37px;
+  top: 32px;
 }
 .programmer {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 802px;
-  top: 227px;
+  left: 159px;
+  top: 28px;
 }
 .programmer-text {
   color: #000000;
@@ -135,16 +135,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 828px;
-  top: 231px;
+  left: 185px;
+  top: 32px;
 }
 .start-conditions {
   background: #c5c5c5;
   width: 157px;
   height: 30px;
   position: absolute;
-  left: 960px;
-  top: 227px;
+  left: 317px;
+  top: 28px;
 }
 .startconditions-text {
   color: #000000;
@@ -153,16 +153,16 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 973px;
-  top: 231px;
+  left: 330px;
+  top: 32px;
 }
 .batch-data {
   background: #c5c5c5;
   width: 158px;
   height: 30px;
   position: absolute;
-  left: 1117px;
-  top: 227px;
+  left: 474px;
+  top: 28px;
 }
 .batch-data-text {
   color: #000000;
@@ -171,120 +171,120 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 1149px;
-  top: 231px;
+  left: 506px;
+  top: 32px;
 }
 .fast-stop {
   background: #ffffff;
   width: 412px;
   height: 30px;
   position: absolute;
-  left: 753px;
-  top: 278px;
+  left: 110px;
+  top: 79px;
 }
 ._1 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1157px;
-  top: 279px;
+  left: 514px;
+  top: 80px;
 }
 .fur-closed {
   background: #ffffff;
   width: 412px;
   height: 30px;
   position: absolute;
-  left: 753px;
-  top: 314px;
+  left: 110px;
+  top: 115px;
 }
 ._2 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1157px;
-  top: 315px;
+  left: 514px;
+  top: 116px;
 }
 .all-controller {
   background: #ffffff;
   width: 412px;
   height: 30px;
   position: absolute;
-  left: 753px;
-  top: 350px;
+  left: 110px;
+  top: 151px;
 }
 ._3 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1157px;
-  top: 351px;
+  left: 514px;
+  top: 152px;
 }
 .all-setpoints {
   background: #ffffff;
   width: 412px;
   height: 30px;
   position: absolute;
-  left: 753px;
-  top: 386px;
+  left: 110px;
+  top: 187px;
 }
 ._4 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1157px;
-  top: 387px;
+  left: 514px;
+  top: 188px;
 }
 .automatic-on {
   background: #ffffff;
   width: 412px;
   height: 30px;
   position: absolute;
-  left: 753px;
-  top: 422px;
+  left: 110px;
+  top: 223px;
 }
 ._5 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1157px;
-  top: 423px;
+  left: 514px;
+  top: 224px;
 }
 .no-fault {
   background: #ffffff;
   width: 412px;
   height: 30px;
   position: absolute;
-  left: 753px;
-  top: 458px;
+  left: 110px;
+  top: 259px;
 }
 ._6 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1157px;
-  top: 459px;
+  left: 514px;
+  top: 260px;
 }
 .hyd-position {
   background: #ffffff;
   width: 412px;
   height: 30px;
   position: absolute;
-  left: 753px;
-  top: 494px;
+  left: 110px;
+  top: 295px;
 }
 ._7 {
   background: #e3e3e3;
   width: 7px;
   height: 28px;
   position: absolute;
-  left: 1157px;
-  top: 495px;
+  left: 514px;
+  top: 296px;
 }
 .fast-stop-not-actuated {
   color: #000000;
@@ -293,8 +293,8 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 759px;
-  top: 284px;
+  left: 116px;
+  top: 85px;
 }
 .furnace-closed {
   color: #000000;
@@ -303,8 +303,8 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 759px;
-  top: 320px;
+  left: 116px;
+  top: 121px;
 }
 .all-controllers-in-automatic-mode {
   color: #000000;
@@ -313,8 +313,8 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 759px;
-  top: 356px;
+  left: 116px;
+  top: 157px;
 }
 .all-setpoints-in-automatic-mode {
   color: #000000;
@@ -323,8 +323,8 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 759px;
-  top: 392px;
+  left: 116px;
+  top: 193px;
 }
 .automatic-on2 {
   color: #000000;
@@ -333,8 +333,8 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 759px;
-  top: 428px;
+  left: 116px;
+  top: 229px;
 }
 .no-fault2 {
   color: #000000;
@@ -343,8 +343,8 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 759px;
-  top: 464px;
+  left: 116px;
+  top: 265px;
 }
 .hydraulic-in-position {
   color: #000000;
@@ -353,6 +353,6 @@
   font-size: 15px;
   font-weight: 400;
   position: absolute;
-  left: 759px;
-  top: 500px;
+  left: 116px;
+  top: 301px;
 }
