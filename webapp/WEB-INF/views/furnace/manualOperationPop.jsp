@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipe</title>
-<jsp:include page="../include/pluginpage.jsp"/>
+
 
 <!-- furnace/recipeData -->
 <link rel="stylesheet" href="/donghwa/css/furnace/manualOperationPop.css">
@@ -41,7 +41,7 @@
    
    </style>
 <body>
-  <div class="group-1">
+  <div class="manualOperationPop" style="display:none;">
     <div class="manual-operation-box"></div>
     <div class="manual-operation-header"></div>
     <div class="manual-operation-main"></div>

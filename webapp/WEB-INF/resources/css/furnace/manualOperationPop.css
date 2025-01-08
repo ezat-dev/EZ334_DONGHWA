@@ -45,10 +45,11 @@
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
 }
-.group-1 {
+.manualOperationPop {
   width: 385px;
   height: 766px;
-  position: static;
+  position: absolute;
+  z-index:20005;
 }
 .manual-operation-box {
   background: #d9d9d9;

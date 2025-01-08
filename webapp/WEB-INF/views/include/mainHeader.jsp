@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>동화엔텍</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<jsp:include page="../furnace/manualOperationPop.jsp"/>
 <style>
     body, html {
       margin: 0;
@@ -121,7 +122,8 @@
         Furnace
         <ul class="submenu">
           <li onclick="menuClick('/donghwa/');">Overview</li>
-          <li onclick="popupClick('/donghwa/furnace/manualOperationPop');">Manual Operation</li>
+<!--           <li onclick="popupClick('/donghwa/furnace/manualOperationPop');">Manual Operation</li> -->
+          <li onclick="modalClick('manualOperationPop');">Manual Operation</li>
           <li onclick="popupClick('/donghwa/furnace/operationPressPop');">Operation Press</li>
           <li onclick="popupClick('/donghwa/furnace/automaticProgramPop3');">Automatic program</li>
           <li onclick="menuClick('/donghwa/furnace/recipe');">Recipe</li>
@@ -173,6 +175,12 @@
 
 
   <script>
+  function modalClick(location){
+      const modal = document.querySelector('.'+location);
+      modal.style.display="";
+  }
+  
+  
     const hamburgerIcon = document.querySelector('.hamburger-icon');
     const menu = document.getElementById('hamburgerMenu');
 
