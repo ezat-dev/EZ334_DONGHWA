@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>동화엔텍</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<jsp:include page="../furnace/manualOperationPop.jsp"/>
+
 <style>
     body, html {
       margin: 0;
@@ -227,7 +227,7 @@
       location.href = url;
     }
 
-    function popupClick(url, popupWidth = 100, popupHeight = 100) {
+    function popupClick(url, popupWidth = 600, popupHeight = 600) {
         // 브라우저 창 크기 가져오기
         var browserWidth = window.innerWidth; // 브라우저 가로 크기
         var browserHeight = window.innerHeight; // 브라우저 세로 크기

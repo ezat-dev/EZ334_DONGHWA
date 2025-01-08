@@ -10,7 +10,7 @@
   width: 1918px;
   height: 878px;
   position: static;
-}
+}s
 .header {
   background: #123478;
   width: 1918px;
@@ -86,15 +86,15 @@
 .heater {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 18px;
+  
+  font-size: 30px;
   font-weight: 700;
   position: absolute;
   left: 11px;
   top: 5px;
   width: 137px;
   height: 36px;
-  -webkit-text-stroke: 1px #000000;
+  
 }
 .insul-res-1 {
   background: #fa8f8f;
@@ -107,8 +107,8 @@
 .insulation-resistance {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 24px;
@@ -127,7 +127,7 @@
 .r {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 11px;
   font-weight: 400;
   position: absolute;
@@ -155,8 +155,8 @@
 .insulation-resistance2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 24px;
@@ -175,7 +175,7 @@
 .r2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 11px;
   font-weight: 400;
   position: absolute;

@@ -1,10 +1,15 @@
-.group-1,
-.group-1 * {
+.group-3,
+.group-3 * {
   box-sizing: border-box;
 }
-.group-1 {
+.group-3 {
   height: 759px;
   position: relative;
+}
+.group-1 {
+  width: 1918px;
+  height: 759px;
+  position: static;
 }
 .wrapper {
   width: 1918px;
@@ -45,10 +50,15 @@
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
 }
+.group-2 {
+  width: 1173px;
+  height: 611px;
+  position: static;
+}
 .press-box {
   background: #d9d9d9;
-  width: 1077px;
-  height: 563px;
+  width: 1173px;
+  height: 611px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -58,8 +68,8 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 1077px;
-  height: 42px;
+  width: 1173px;
+  height: 46px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -69,1086 +79,1086 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 1077px;
-  height: 522px;
+  width: 1173px;
+  height: 567px;
   position: absolute;
   left: 0px;
-  top: 41px;
+  top: 44px;
 }
 .close {
-  width: 30px;
-  height: 22px;
+  width: 33px;
+  height: 24px;
   position: absolute;
-  left: 1037px;
-  top: 9px;
+  left: 1129px;
+  top: 10px;
   object-fit: cover;
 }
 .press {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 700;
   position: absolute;
-  left: 9px;
+  left: 10px;
   top: 4px;
-  width: 86px;
-  height: 34px;
+  width: 93px;
+  height: 37px;
   -webkit-text-stroke: 1px #000000;
 }
 .press-cap {
   background: #23e471;
-  width: 328px;
-  height: 30px;
+  width: 358px;
+  height: 33px;
   position: absolute;
-  left: 19px;
-  top: 60px;
+  left: 20px;
+  top: 65px;
 }
 .press-capacity {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 65px;
-  width: 133px;
-  height: 19px;
+  left: 27px;
+  top: 71px;
+  width: 144px;
+  height: 20px;
 }
 .press-cap-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 29px;
+  width: 195px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 91px;
+  left: 20px;
+  top: 99px;
 }
 .auto {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 299px;
-  top: 65px;
-  width: 43px;
-  height: 19px;
+  left: 325px;
+  top: 71px;
+  width: 47px;
+  height: 20px;
 }
 .wic-22-4-2-x {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 95px;
-  width: 116px;
-  height: 19px;
+  left: 27px;
+  top: 103px;
+  width: 125px;
+  height: 21px;
 }
 .press-cap-val-1 {
   background: #ffffff;
-  width: 149px;
-  height: 29px;
+  width: 162px;
+  height: 31px;
   position: absolute;
-  left: 198px;
-  top: 91px;
+  left: 216px;
+  top: 99px;
 }
 .press-cap-box-2 {
   background: #ffffff;
-  width: 178px;
-  height: 29px;
+  width: 195px;
+  height: 32px;
   position: absolute;
-  left: 19px;
-  top: 121px;
+  left: 20px;
+  top: 131px;
 }
 .wsp-22-4-2-x {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 125px;
-  width: 121px;
-  height: 20px;
+  left: 27px;
+  top: 136px;
+  width: 130px;
+  height: 21px;
 }
 .press-cap-val-2 {
   background: #ffffff;
-  width: 149px;
-  height: 29px;
+  width: 162px;
+  height: 32px;
   position: absolute;
-  left: 198px;
-  top: 121px;
+  left: 216px;
+  top: 131px;
 }
 .force-sensor {
   background: #23e471;
-  width: 328px;
-  height: 29px;
+  width: 358px;
+  height: 32px;
   position: absolute;
-  left: 19px;
-  top: 167px;
+  left: 20px;
+  top: 181px;
 }
 .force-sensor2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 173px;
-  width: 118px;
-  height: 19px;
+  left: 27px;
+  top: 188px;
+  width: 127px;
+  height: 20px;
 }
 .force-sensor-box-1 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 197px;
+  left: 20px;
+  top: 214px;
 }
 .wic-22-4-2-1 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 203px;
-  width: 112px;
-  height: 19px;
+  left: 27px;
+  top: 220px;
+  width: 121px;
+  height: 21px;
 }
 .force-sensor-val-1 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 31px;
   position: absolute;
-  left: 176px;
-  top: 197px;
+  left: 191px;
+  top: 214px;
 }
 .force-sensor-box-2 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 32px;
   position: absolute;
-  left: 19px;
-  top: 228px;
+  left: 20px;
+  top: 247px;
 }
 .wic-22-4-2-2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 233px;
-  width: 116px;
-  height: 19px;
+  left: 27px;
+  top: 253px;
+  width: 125px;
+  height: 20px;
 }
 .force-sensor-val-2 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 32px;
   position: absolute;
-  left: 176px;
-  top: 228px;
+  left: 191px;
+  top: 247px;
 }
 .force-sensor-box-3 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 258px;
+  left: 20px;
+  top: 280px;
 }
 .wic-22-4-2-3 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 263px;
-  width: 116px;
-  height: 20px;
+  left: 27px;
+  top: 285px;
+  width: 125px;
+  height: 22px;
 }
 .force-sensor-val-3 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 31px;
   position: absolute;
-  left: 176px;
-  top: 258px;
+  left: 191px;
+  top: 280px;
 }
 .force-sensor-box-4 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 288px;
+  left: 20px;
+  top: 313px;
 }
 .wic-22-4-2-4 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 292px;
-  width: 118px;
-  height: 21px;
+  left: 27px;
+  top: 317px;
+  width: 127px;
+  height: 23px;
 }
 .force-sensor-val-4 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 31px;
   position: absolute;
-  left: 176px;
-  top: 288px;
+  left: 191px;
+  top: 313px;
 }
 .force-sensor-box-5 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 32px;
   position: absolute;
-  left: 19px;
-  top: 318px;
+  left: 20px;
+  top: 345px;
 }
 .wic-22-4-2-5 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 322px;
-  width: 116px;
-  height: 21px;
+  left: 27px;
+  top: 349px;
+  width: 125px;
+  height: 23px;
 }
 .force-sensor-val-5 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 32px;
   position: absolute;
-  left: 176px;
-  top: 318px;
+  left: 191px;
+  top: 345px;
 }
 .force-sensor-box-6 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 348px;
+  left: 20px;
+  top: 378px;
 }
 .wic-22-4-2-6 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 353px;
-  width: 116px;
-  height: 20px;
+  left: 27px;
+  top: 383px;
+  width: 125px;
+  height: 22px;
 }
 .force-sensor-val-6 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 31px;
   position: absolute;
-  left: 176px;
-  top: 348px;
+  left: 191px;
+  top: 378px;
 }
 .force-sensor-box-7 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 32px;
   position: absolute;
-  left: 19px;
-  top: 379px;
+  left: 20px;
+  top: 411px;
 }
 .wic-22-4-2-7 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 383px;
-  width: 116px;
-  height: 20px;
+  left: 27px;
+  top: 416px;
+  width: 125px;
+  height: 21px;
 }
 .force-sensor-val-7 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 32px;
   position: absolute;
-  left: 176px;
-  top: 379px;
+  left: 191px;
+  top: 411px;
 }
 .force-sensor-box-8 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 409px;
+  left: 20px;
+  top: 444px;
 }
 .wic-22-4-2-8 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 413px;
-  width: 116px;
-  height: 21px;
+  left: 27px;
+  top: 448px;
+  width: 125px;
+  height: 23px;
 }
 .force-sensor-val-8 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 31px;
   position: absolute;
-  left: 176px;
-  top: 409px;
+  left: 191px;
+  top: 444px;
 }
 .tara {
   background: #23e471;
-  width: 328px;
-  height: 29px;
+  width: 358px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 457px;
+  left: 20px;
+  top: 496px;
 }
 .tara-box-1 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 19px;
-  top: 488px;
+  left: 20px;
+  top: 530px;
 }
 .tara2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 462px;
-  width: 40px;
-  height: 19px;
+  left: 27px;
+  top: 501px;
+  width: 43px;
+  height: 21px;
 }
 .tara-val-1 {
   background: #ffffff;
-  width: 171px;
-  height: 29px;
+  width: 187px;
+  height: 31px;
   position: absolute;
-  left: 176px;
-  top: 488px;
+  left: 191px;
+  top: 530px;
 }
 .tara-ok {
   background: #ffffff;
-  width: 328px;
-  height: 29px;
+  width: 358px;
+  height: 32px;
   position: absolute;
-  left: 19px;
-  top: 518px;
+  left: 20px;
+  top: 562px;
 }
 ._5 {
   background: #e3e3e3;
-  width: 8px;
-  height: 26px;
+  width: 16px;
+  height: 28px;
   position: absolute;
-  left: 337px;
-  top: 519px;
+  left: 359px;
+  top: 563px;
 }
 .tara-ok2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 24px;
-  top: 522px;
-  width: 71px;
-  height: 19px;
+  left: 27px;
+  top: 567px;
+  width: 76px;
+  height: 20px;
 }
 .position-1 {
   background: #23e471;
-  width: 327px;
-  height: 30px;
+  width: 357px;
+  height: 33px;
   position: absolute;
-  left: 375px;
-  top: 60px;
+  left: 408px;
+  top: 65px;
 }
 .auto2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 654px;
-  top: 65px;
-  width: 43px;
-  height: 19px;
+  left: 713px;
+  top: 71px;
+  width: 46px;
+  height: 20px;
 }
 .position {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 65px;
-  width: 72px;
-  height: 19px;
+  left: 414px;
+  top: 71px;
+  width: 78px;
+  height: 20px;
 }
 .position-box-1 {
   background: #ffffff;
-  width: 177px;
-  height: 29px;
+  width: 193px;
+  height: 31px;
   position: absolute;
-  left: 375px;
-  top: 91px;
+  left: 408px;
+  top: 99px;
 }
 .gic-22-2-60-10 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 95px;
-  width: 131px;
-  height: 19px;
+  left: 414px;
+  top: 103px;
+  width: 142px;
+  height: 21px;
 }
 .position-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 29px;
+  width: 162px;
+  height: 31px;
   position: absolute;
-  left: 554px;
-  top: 91px;
+  left: 603px;
+  top: 99px;
 }
 .position-box-2 {
   background: #ffffff;
-  width: 177px;
-  height: 29px;
+  width: 193px;
+  height: 32px;
   position: absolute;
-  left: 375px;
-  top: 121px;
+  left: 408px;
+  top: 131px;
 }
 .gsp-22-2-60-10 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 125px;
-  width: 136px;
-  height: 20px;
+  left: 414px;
+  top: 136px;
+  width: 148px;
+  height: 21px;
 }
 .position-val-2 {
   background: #ffffff;
-  width: 148px;
-  height: 29px;
+  width: 162px;
+  height: 32px;
   position: absolute;
-  left: 554px;
-  top: 121px;
+  left: 603px;
+  top: 131px;
 }
 .position2 {
   background: #23e471;
-  width: 327px;
-  height: 29px;
+  width: 357px;
+  height: 32px;
   position: absolute;
-  left: 375px;
-  top: 167px;
+  left: 408px;
+  top: 181px;
 }
 .position3 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 173px;
-  width: 72px;
-  height: 19px;
+  left: 414px;
+  top: 188px;
+  width: 78px;
+  height: 20px;
 }
 .position-box-3 {
   background: #ffffff;
-  width: 155px;
-  height: 29px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 375px;
-  top: 197px;
+  left: 408px;
+  top: 214px;
 }
 .gic-22-1-60-20 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 203px;
-  width: 129px;
-  height: 19px;
+  left: 414px;
+  top: 220px;
+  width: 140px;
+  height: 21px;
 }
 .position-val-3 {
   background: #ffffff;
-  width: 170px;
-  height: 29px;
+  width: 185px;
+  height: 31px;
   position: absolute;
-  left: 532px;
-  top: 197px;
+  left: 580px;
+  top: 214px;
 }
 .ref-point {
   background: #23e471;
-  width: 327px;
-  height: 29px;
+  width: 357px;
+  height: 31px;
   position: absolute;
-  left: 375px;
-  top: 242px;
+  left: 408px;
+  top: 263px;
 }
 .ref-point2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 246px;
-  width: 143px;
-  height: 19px;
+  left: 414px;
+  top: 267px;
+  width: 156px;
+  height: 21px;
 }
 .ref-point-box-1 {
   background: #ffffff;
-  width: 155px;
-  height: 28px;
+  width: 169px;
+  height: 31px;
   position: absolute;
-  left: 375px;
-  top: 272px;
+  left: 408px;
+  top: 295px;
 }
 .start {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 276px;
-  width: 45px;
-  height: 20px;
+  left: 414px;
+  top: 300px;
+  width: 49px;
+  height: 21px;
 }
 .ref-point-val-1 {
   background: #ffffff;
-  width: 170px;
-  height: 28px;
+  width: 185px;
+  height: 31px;
   position: absolute;
-  left: 532px;
-  top: 272px;
+  left: 580px;
+  top: 295px;
 }
 .ref-point-box-2 {
   background: #ffffff;
-  width: 155px;
-  height: 28px;
+  width: 169px;
+  height: 30px;
   position: absolute;
-  left: 375px;
-  top: 302px;
+  left: 408px;
+  top: 328px;
 }
 .actual {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 306px;
-  width: 57px;
-  height: 20px;
+  left: 414px;
+  top: 332px;
+  width: 62px;
+  height: 22px;
 }
 .ref-point-val-2 {
   background: #ffffff;
-  width: 170px;
-  height: 28px;
+  width: 185px;
+  height: 30px;
   position: absolute;
-  left: 532px;
-  top: 302px;
+  left: 580px;
+  top: 328px;
 }
 .mid-box-1 {
   background: #ffffff;
-  width: 327px;
-  height: 29px;
+  width: 357px;
+  height: 32px;
   position: absolute;
-  left: 375px;
-  top: 413px;
+  left: 408px;
+  top: 448px;
 }
 ._1 {
   background: #e3e3e3;
-  width: 9px;
-  height: 26px;
+  width: 16px;
+  height: 29px;
   position: absolute;
-  left: 692px;
-  top: 415px;
+  left: 748px;
+  top: 450px;
 }
 .extrusion-die-in-upper-position {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 418px;
-  width: 272px;
-  height: 20px;
+  left: 414px;
+  top: 454px;
+  width: 296px;
+  height: 21px;
 }
 .mid-box-2 {
   background: #ffffff;
-  width: 327px;
-  height: 28px;
+  width: 357px;
+  height: 31px;
   position: absolute;
-  left: 375px;
-  top: 449px;
+  left: 408px;
+  top: 487px;
 }
 ._2 {
   background: #e3e3e3;
-  width: 9px;
-  height: 26px;
+  width: 16px;
+  height: 29px;
   position: absolute;
-  left: 692px;
-  top: 450px;
+  left: 748px;
+  top: 488px;
 }
 .reference-point-latched {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 453px;
-  width: 221px;
-  height: 19px;
+  left: 414px;
+  top: 492px;
+  width: 241px;
+  height: 20px;
 }
 .mid-box-3 {
   background: #ffffff;
-  width: 327px;
-  height: 28px;
+  width: 357px;
+  height: 31px;
   position: absolute;
-  left: 375px;
-  top: 483px;
+  left: 408px;
+  top: 524px;
 }
 ._3 {
   background: #e3e3e3;
-  width: 9px;
-  height: 26px;
+  width: 16px;
+  height: 28px;
   position: absolute;
-  left: 692px;
-  top: 484px;
+  left: 748px;
+  top: 525px;
 }
 .batch-reached {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 488px;
-  width: 136px;
-  height: 19px;
+  left: 414px;
+  top: 530px;
+  width: 148px;
+  height: 20px;
 }
 .mid-box-4 {
   background: #ffffff;
-  width: 327px;
-  height: 29px;
+  width: 357px;
+  height: 32px;
   position: absolute;
-  left: 375px;
-  top: 518px;
+  left: 408px;
+  top: 562px;
 }
 ._4 {
   background: #e3e3e3;
-  width: 9px;
-  height: 26px;
+  width: 16px;
+  height: 28px;
   position: absolute;
-  left: 692px;
-  top: 519px;
+  left: 748px;
+  top: 563px;
 }
 .alternating-force-active {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 380px;
-  top: 522px;
-  width: 215px;
-  height: 19px;
+  left: 414px;
+  top: 567px;
+  width: 234px;
+  height: 20px;
 }
 .pressure {
   background: #b0cafd;
-  width: 328px;
-  height: 30px;
+  width: 358px;
+  height: 33px;
   position: absolute;
-  left: 730px;
-  top: 60px;
+  left: 795px;
+  top: 65px;
 }
 .pressure-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 29px;
+  width: 194px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 91px;
+  left: 795px;
+  top: 99px;
 }
 .hydraulic-oil-system-pressure {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 65px;
-  width: 271px;
-  height: 19px;
+  left: 801px;
+  top: 71px;
+  width: 294px;
+  height: 20px;
 }
 .pressure-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 29px;
+  width: 162px;
+  height: 31px;
   position: absolute;
-  left: 910px;
-  top: 91px;
+  left: 991px;
+  top: 99px;
 }
 .pi-22-1-51-1 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 95px;
-  width: 95px;
-  height: 19px;
+  left: 801px;
+  top: 103px;
+  width: 103px;
+  height: 21px;
 }
 .a-1 {
   background: #b0cafd;
-  width: 328px;
-  height: 29px;
+  width: 358px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 136px;
+  left: 795px;
+  top: 148px;
 }
 .a-1-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 29px;
+  width: 194px;
+  height: 32px;
   position: absolute;
-  left: 730px;
-  top: 166px;
+  left: 795px;
+  top: 180px;
 }
 .hydraulic-pressure-cylinder-a-1 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 140px;
-  width: 271px;
-  height: 20px;
+  left: 801px;
+  top: 152px;
+  width: 294px;
+  height: 22px;
 }
 .a-1-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 29px;
+  width: 162px;
+  height: 32px;
   position: absolute;
-  left: 910px;
-  top: 166px;
+  left: 991px;
+  top: 180px;
 }
 .pi-22-1-51-2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 170px;
-  width: 99px;
-  height: 20px;
+  left: 801px;
+  top: 184px;
+  width: 107px;
+  height: 22px;
 }
 .a-2 {
   background: #b0cafd;
-  width: 328px;
-  height: 28px;
+  width: 358px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 203px;
+  left: 795px;
+  top: 220px;
 }
 .a-2-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 28px;
+  width: 194px;
+  height: 30px;
   position: absolute;
-  left: 730px;
-  top: 233px;
+  left: 795px;
+  top: 253px;
 }
 .hydraulic-pressure-cylinder-a-2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 207px;
-  width: 275px;
-  height: 19px;
+  left: 801px;
+  top: 225px;
+  width: 299px;
+  height: 20px;
 }
 .a-2-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 28px;
+  width: 162px;
+  height: 30px;
   position: absolute;
-  left: 910px;
-  top: 233px;
+  left: 991px;
+  top: 253px;
 }
 .pi-22-1-51-3 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 237px;
-  width: 99px;
-  height: 20px;
+  left: 801px;
+  top: 257px;
+  width: 107px;
+  height: 22px;
 }
 .b-1 {
   background: #b0cafd;
-  width: 328px;
-  height: 28px;
+  width: 358px;
+  height: 30px;
   position: absolute;
-  left: 730px;
-  top: 271px;
+  left: 795px;
+  top: 294px;
 }
 .b-1-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 29px;
+  width: 194px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 300px;
+  left: 795px;
+  top: 326px;
 }
 .hydraulic-pressure-cylinder-b-1 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 275px;
-  width: 271px;
-  height: 19px;
+  left: 801px;
+  top: 298px;
+  width: 294px;
+  height: 21px;
 }
 .b-1-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 29px;
+  width: 162px;
+  height: 31px;
   position: absolute;
-  left: 910px;
-  top: 300px;
+  left: 991px;
+  top: 326px;
 }
 .pi-22-1-51-4 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 305px;
-  width: 100px;
-  height: 20px;
+  left: 801px;
+  top: 331px;
+  width: 108px;
+  height: 22px;
 }
 .b-2 {
   background: #b0cafd;
-  width: 328px;
-  height: 29px;
+  width: 358px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 338px;
+  left: 795px;
+  top: 367px;
 }
 .b-2-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 29px;
+  width: 194px;
+  height: 32px;
   position: absolute;
-  left: 730px;
-  top: 368px;
+  left: 795px;
+  top: 399px;
 }
 .hydraulic-pressure-cylinder-b-2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 343px;
-  width: 275px;
-  height: 19px;
+  left: 801px;
+  top: 372px;
+  width: 299px;
+  height: 21px;
 }
 .b-2-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 29px;
+  width: 162px;
+  height: 32px;
   position: absolute;
-  left: 910px;
-  top: 368px;
+  left: 991px;
+  top: 399px;
 }
 .pi-22-1-51-5 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 373px;
-  width: 99px;
-  height: 20px;
+  left: 801px;
+  top: 405px;
+  width: 107px;
+  height: 22px;
 }
 .tem {
   background: #fa8f8f;
-  width: 328px;
-  height: 29px;
+  width: 358px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 418px;
+  left: 795px;
+  top: 454px;
 }
 .tem-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 28px;
+  width: 194px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 449px;
+  left: 795px;
+  top: 487px;
 }
 .hydraulic-oil-temperature {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 423px;
-  width: 233px;
-  height: 19px;
+  left: 801px;
+  top: 459px;
+  width: 253px;
+  height: 21px;
 }
 .tem-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 28px;
+  width: 162px;
+  height: 31px;
   position: absolute;
-  left: 910px;
-  top: 449px;
+  left: 991px;
+  top: 487px;
 }
 .tis-22-1-5-1 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 453px;
-  width: 99px;
-  height: 19px;
+  left: 801px;
+  top: 492px;
+  width: 107px;
+  height: 20px;
 }
 .level {
   background: #23e471;
-  width: 328px;
-  height: 29px;
+  width: 358px;
+  height: 31px;
   position: absolute;
-  left: 730px;
-  top: 488px;
+  left: 795px;
+  top: 530px;
 }
 .level-box-1 {
   background: #ffffff;
-  width: 178px;
-  height: 29px;
+  width: 194px;
+  height: 32px;
   position: absolute;
-  left: 730px;
-  top: 518px;
+  left: 795px;
+  top: 562px;
 }
 .hydraulic-oil-fill-level {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 492px;
-  width: 197px;
-  height: 19px;
+  left: 801px;
+  top: 534px;
+  width: 215px;
+  height: 21px;
 }
 .level-val-1 {
   background: #ffffff;
-  width: 148px;
-  height: 29px;
+  width: 162px;
+  height: 32px;
   position: absolute;
-  left: 910px;
-  top: 518px;
+  left: 991px;
+  top: 562px;
 }
 .wis-22-1-5-1 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 735px;
-  top: 522px;
-  width: 104px;
-  height: 19px;
+  left: 801px;
+  top: 567px;
+  width: 113px;
+  height: 20px;
 }

@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .group-1 {
-  height: 878px;
+  height: 883px;
   position: relative;
 }
 .wrapper {
@@ -17,7 +17,7 @@
   height: 46.68px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 5px;
 }
 .footer {
   background: #123478;
@@ -25,7 +25,7 @@
   height: 72.43px;
   position: absolute;
   left: 0px;
-  top: 805.57px;
+  top: 810.57px;
 }
 .main {
   background: #ffffff;
@@ -33,14 +33,14 @@
   height: 758.89px;
   position: absolute;
   left: 0px;
-  top: 46.68px;
+  top: 51.68px;
 }
 .hamburger-icon-svg-1 {
   width: 33px;
   height: 26.56px;
   position: absolute;
   left: 13px;
-  top: 36.21px;
+  top: 41.21px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
@@ -51,7 +51,7 @@
   height: 482px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 5px;
 }
 .auto-pro-header {
   background: #282828;
@@ -62,7 +62,7 @@
   height: 28px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 5px;
 }
 .auto-pro-main {
   background: #e6e6e6;
@@ -73,25 +73,25 @@
   height: 455px;
   position: absolute;
   left: 0px;
-  top: 27px;
+  top: 32px;
 }
 .automatic-program {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 18px;
+  
+  font-size: 27px;
   font-weight: 700;
   position: absolute;
   left: 5px;
-  top: 3px;
-  -webkit-text-stroke: 1px #000000;
+  top: 0px;
+  
 }
 .close {
   width: 17px;
   height: 15px;
   position: absolute;
   left: 610px;
-  top: 7px;
+  top: 12px;
   object-fit: cover;
 }
 .automatic {
@@ -100,17 +100,17 @@
   height: 30px;
   position: absolute;
   left: 1px;
-  top: 28px;
+  top: 33px;
 }
 .automatic-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 37px;
-  top: 32px;
+  top: 37px;
 }
 .programmer {
   background: #c5c5c5;
@@ -118,17 +118,17 @@
   height: 30px;
   position: absolute;
   left: 159px;
-  top: 28px;
+  top: 33px;
 }
 .programmer-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 185px;
-  top: 32px;
+  top: 37px;
 }
 .start-conditions {
   background: #c5c5c5;
@@ -136,17 +136,17 @@
   height: 30px;
   position: absolute;
   left: 317px;
-  top: 28px;
+  top: 33px;
 }
 .startconditions-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 330px;
-  top: 32px;
+  top: 37px;
 }
 .batch-data {
   background: #c5c5c5;
@@ -154,17 +154,17 @@
   height: 30px;
   position: absolute;
   left: 474px;
-  top: 28px;
+  top: 33px;
 }
 .batch-data-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 506px;
-  top: 32px;
+  top: 37px;
 }
 .program-number-box {
   background: #ffffff;
@@ -172,17 +172,17 @@
   height: 30px;
   position: absolute;
   left: 21px;
-  top: 79px;
+  top: 84px;
 }
 .program-number-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 26px;
-  top: 85px;
+  top: 90px;
 }
 .program-name-box {
   background: #ffffff;
@@ -190,17 +190,17 @@
   height: 30px;
   position: absolute;
   left: 21px;
-  top: 121px;
+  top: 126px;
 }
 .program-name-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 26px;
-  top: 127px;
+  top: 132px;
 }
 .program-comment-box {
   background: #ffffff;
@@ -208,17 +208,17 @@
   height: 31px;
   position: absolute;
   left: 21px;
-  top: 161px;
+  top: 166px;
 }
 .program-comment-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 26px;
-  top: 167px;
+  top: 172px;
 }
 .id-box {
   background: #ffffff;
@@ -226,17 +226,17 @@
   height: 30px;
   position: absolute;
   left: 21px;
-  top: 202px;
+  top: 207px;
 }
 .id-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 26px;
-  top: 208px;
+  top: 213px;
 }
 .program-number-value {
   background: #ffffff;
@@ -244,7 +244,7 @@
   height: 30px;
   position: absolute;
   left: 231px;
-  top: 79px;
+  top: 84px;
 }
 .program-name-value {
   background: #ffffff;
@@ -252,7 +252,7 @@
   height: 30px;
   position: absolute;
   left: 231px;
-  top: 121px;
+  top: 126px;
 }
 .program-comment-value {
   background: #ffffff;
@@ -260,7 +260,7 @@
   height: 31px;
   position: absolute;
   left: 231px;
-  top: 161px;
+  top: 166px;
 }
 .id-value {
   background: #ffffff;
@@ -268,7 +268,7 @@
   height: 30px;
   position: absolute;
   left: 231px;
-  top: 202px;
+  top: 207px;
 }
 .start {
   background: #c5c5c5;
@@ -276,17 +276,17 @@
   height: 30px;
   position: absolute;
   left: 21px;
-  top: 284px;
+  top: 289px;
 }
 .start-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 27px;
-  top: 290px;
+  top: 295px;
 }
 .start-delay {
   background: #c5c5c5;
@@ -294,17 +294,17 @@
   height: 30px;
   position: absolute;
   left: 21px;
-  top: 325px;
+  top: 330px;
 }
 .start-delay-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 27px;
-  top: 331px;
+  top: 336px;
 }
 .reset {
   background: #c5c5c5;
@@ -312,17 +312,17 @@
   height: 30px;
   position: absolute;
   left: 21px;
-  top: 366px;
+  top: 371px;
 }
 .reset-text {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 15px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
   left: 27px;
-  top: 372px;
+  top: 377px;
 }
 ._1 {
   background: #c5c5c5;
@@ -330,7 +330,7 @@
   height: 30px;
   position: absolute;
   left: 231px;
-  top: 325px;
+  top: 330px;
 }
 ._2 {
   background: #c5c5c5;
@@ -338,7 +338,7 @@
   height: 30px;
   position: absolute;
   left: 426px;
-  top: 325px;
+  top: 330px;
 }
 ._12 {
   background: #e3e3e3;
@@ -346,7 +346,7 @@
   height: 28px;
   position: absolute;
   left: 208px;
-  top: 285px;
+  top: 290px;
 }
 ._22 {
   background: #e3e3e3;
@@ -354,7 +354,7 @@
   height: 28px;
   position: absolute;
   left: 208px;
-  top: 326px;
+  top: 331px;
 }
 ._3 {
   background: #e3e3e3;
@@ -362,5 +362,5 @@
   height: 28px;
   position: absolute;
   left: 208px;
-  top: 367px;
+  top: 372px;
 }

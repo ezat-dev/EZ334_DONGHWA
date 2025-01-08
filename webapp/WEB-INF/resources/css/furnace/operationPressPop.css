@@ -47,19 +47,19 @@
 }
 .operation-press-box {
   background: #d9d9d9;
-  width: 427px;
-  height: 420px;
+  width: 518px;
+  height: 606px;
   position: absolute;
   left: 0px;
-  top: 5px;
+  top: 7px;
 }
 .operation-press-header {
   background: #282828;
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 427px;
-  height: 28px;
+  width: 518px;
+  height: 40px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -69,236 +69,254 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 427px;
-  height: 398px;
+  width: 518px;
+  height: 574px;
   position: absolute;
   left: 0px;
-  top: 27px;
+  top: 39px;
 }
 .close {
-  width: 17px;
-  height: 15px;
+  width: 21px;
+  height: 22px;
   position: absolute;
-  left: 404px;
-  top: 7px;
+  left: 490px;
+  top: 10px;
   object-fit: cover;
 }
 .operation-press {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 18px;
+  
+  font-size: 27px;
   font-weight: 700;
   position: absolute;
-  left: 5px;
-  top: 3px;
-  -webkit-text-stroke: 1px #000000;
+  left: 6px;
+  top: 4px;
+  width: 242px;
+  height: 32px;
+  
 }
 .hydraulic {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 57px;
+  left: 33px;
+  top: 82px;
 }
 ._1 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 40px;
   position: absolute;
-  left: 392px;
-  top: 59px;
+  left: 464px;
+  top: 85px;
 }
 .hydraulic2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 62px;
+  left: 40px;
+  top: 89px;
+  width: 98px;
+  height: 32px;
 }
 .press-move-up {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 101px;
+  left: 33px;
+  top: 146px;
 }
 ._2 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 40px;
   position: absolute;
-  left: 392px;
-  top: 103px;
+  left: 464px;
+  top: 149px;
 }
 .press-move-up2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 106px;
+  left: 40px;
+  top: 153px;
+  width: 157px;
+  height: 32px;
 }
 .force-f-1 {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 144px;
+  left: 33px;
+  top: 208px;
 }
 ._3 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 40px;
   position: absolute;
-  left: 392px;
-  top: 146px;
+  left: 464px;
+  top: 211px;
 }
 .pressing-with-force-f-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 149px;
+  left: 40px;
+  top: 215px;
+  width: 232px;
+  height: 32px;
 }
 .force-f-2 {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 187px;
+  left: 33px;
+  top: 270px;
 }
 ._4 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 40px;
   position: absolute;
-  left: 392px;
-  top: 189px;
+  left: 464px;
+  top: 273px;
 }
 .pressing-with-force-f-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 192px;
+  left: 40px;
+  top: 277px;
+  width: 235px;
+  height: 32px;
 }
 .position-dc {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 230px;
+  left: 33px;
+  top: 332px;
 }
 ._5 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 40px;
   position: absolute;
-  left: 392px;
-  top: 232px;
+  left: 464px;
+  top: 335px;
 }
 .position-distance-control {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 235px;
+  left: 40px;
+  top: 339px;
+  width: 279px;
+  height: 32px;
 }
 .zero-scale {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 274px;
+  left: 33px;
+  top: 395px;
 }
 ._6 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 40px;
   position: absolute;
-  left: 392px;
-  top: 276px;
+  left: 464px;
+  top: 398px;
 }
 .press-zero-scale {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 279px;
+  left: 40px;
+  top: 402px;
+  width: 174px;
+  height: 32px;
 }
 .set-abs-point {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 317px;
+  left: 33px;
+  top: 457px;
 }
 ._7 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 40px;
   position: absolute;
-  left: 392px;
-  top: 319px;
+  left: 464px;
+  top: 460px;
 }
 .set-absolutzero-point {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 322px;
+  left: 40px;
+  top: 464px;
+  width: 218px;
+  height: 32px;
 }
 .cylinder {
   background: #c5c5c5;
-  width: 373px;
-  height: 32px;
+  width: 452px;
+  height: 46px;
   position: absolute;
-  left: 27px;
-  top: 360px;
+  left: 33px;
+  top: 519px;
 }
 ._8 {
   background: #e3e3e3;
-  width: 7px;
-  height: 28px;
+  width: 20px;
+  height: 41px;
   position: absolute;
-  left: 392px;
-  top: 362px;
+  left: 464px;
+  top: 522px;
 }
 .hydraulic-cylinder-synch {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  left: 33px;
-  top: 365px;
+  left: 40px;
+  top: 526px;
+  width: 254px;
+  height: 32px;
 }

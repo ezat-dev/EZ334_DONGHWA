@@ -47,8 +47,8 @@
 }
 .tem-box {
   background: #d9d9d9;
-  width: 395px;
-  height: 500px;
+  width: 486px;
+  height: 547px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -58,8 +58,8 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 395px;
-  height: 42px;
+  width: 486px;
+  height: 46px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -69,308 +69,310 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 395px;
-  height: 460px;
+  width: 486px;
+  height: 503px;
   position: absolute;
   left: 0px;
-  top: 40px;
+  top: 44px;
 }
 .close {
-  width: 32px;
-  height: 23px;
+  width: 39px;
+  height: 25px;
   position: absolute;
-  left: 351px;
-  top: 10px;
+  left: 432px;
+  top: 11px;
   object-fit: cover;
 }
 .temperature {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 700;
   position: absolute;
-  left: 10px;
-  top: 4px;
-  width: 218px;
-  height: 33px;
+  left: 12px;
+  top: 3px;
+  width: 269px;
+  height: 36px;
   -webkit-text-stroke: 1px #000000;
 }
 .fur-pressure {
   background: #b0cafd;
-  width: 365px;
-  height: 28px;
+  width: 450px;
+  height: 30px;
   position: absolute;
-  left: 15px;
-  top: 72px;
-}
-.furnace-pressure {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  position: absolute;
-  left: 21px;
-  top: 76px;
-  width: 175px;
-  height: 20px;
+  left: 18px;
+  top: 79px;
 }
 .auto {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 328px;
-  top: 76px;
-  width: 48px;
-  height: 20px;
+  left: 404px;
+  top: 83px;
+  width: 59px;
+  height: 22px;
 }
 .fur-pressure-box-1 {
   background: #ffffff;
-  width: 169px;
-  height: 29px;
+  width: 208px;
+  height: 32px;
   position: absolute;
-  left: 15px;
-  top: 101px;
+  left: 18px;
+  top: 110px;
 }
 .pis-6-x-13-5 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 21px;
-  top: 106px;
-  width: 123px;
-  height: 19px;
+  left: 26px;
+  top: 116px;
+  width: 151px;
+  height: 21px;
 }
 .fur-pressure-val-1 {
   background: #ffffff;
-  width: 194px;
-  height: 29px;
+  width: 239px;
+  height: 32px;
   position: absolute;
-  left: 186px;
-  top: 101px;
+  left: 229px;
+  top: 110px;
 }
 .fur-pressure-box-2 {
   background: #ffffff;
-  width: 169px;
-  height: 29px;
+  width: 208px;
+  height: 32px;
   position: absolute;
-  left: 15px;
-  top: 131px;
+  left: 18px;
+  top: 144px;
 }
 .psp-6 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 21px;
-  top: 136px;
-  width: 60px;
-  height: 19px;
+  left: 26px;
+  top: 150px;
+  width: 74px;
+  height: 21px;
 }
 .fur-pressure-val-2 {
   background: #ffffff;
-  width: 194px;
-  height: 29px;
+  width: 239px;
+  height: 32px;
   position: absolute;
-  left: 186px;
-  top: 131px;
+  left: 229px;
+  top: 144px;
 }
 .rel {
   background: #b0cafd;
-  width: 365px;
-  height: 28px;
+  width: 450px;
+  height: 31px;
   position: absolute;
-  left: 15px;
-  top: 181px;
+  left: 18px;
+  top: 198px;
 }
 .rel-box-1 {
   background: #ffffff;
-  width: 169px;
-  height: 29px;
+  width: 208px;
+  height: 31px;
   position: absolute;
-  left: 15px;
-  top: 210px;
-}
-.furnace-pressure-rel {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  position: absolute;
-  left: 21px;
-  top: 185px;
-  width: 211px;
-  height: 19px;
+  left: 18px;
+  top: 230px;
 }
 .rel-val-1 {
   background: #ffffff;
-  width: 194px;
-  height: 29px;
+  width: 239px;
+  height: 31px;
   position: absolute;
-  left: 186px;
-  top: 210px;
+  left: 229px;
+  top: 230px;
 }
 .pis-13-5-1 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 21px;
-  top: 215px;
-  width: 94px;
-  height: 19px;
+  left: 26px;
+  top: 235px;
+  width: 115px;
+  height: 21px;
 }
 .high-vacuum {
   background: #b0cafd;
-  width: 365px;
-  height: 29px;
+  width: 450px;
+  height: 32px;
   position: absolute;
-  left: 15px;
-  top: 258px;
+  left: 18px;
+  top: 282px;
 }
 .high-vacuum-box-1 {
   background: #ffffff;
-  width: 169px;
-  height: 28px;
+  width: 208px;
+  height: 31px;
   position: absolute;
-  left: 15px;
-  top: 288px;
-}
-.high-vacuum2 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  position: absolute;
-  left: 21px;
-  top: 263px;
-  width: 134px;
-  height: 19px;
+  left: 18px;
+  top: 315px;
 }
 .high-vacuum-val-1 {
   background: #ffffff;
-  width: 194px;
-  height: 28px;
+  width: 239px;
+  height: 31px;
   position: absolute;
-  left: 186px;
-  top: 288px;
+  left: 229px;
+  top: 315px;
 }
 .pis-6-25 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 21px;
-  top: 293px;
-  width: 83px;
-  height: 19px;
+  left: 26px;
+  top: 321px;
+  width: 102px;
+  height: 20px;
 }
 .fine-vacuum {
   background: #b0cafd;
-  width: 365px;
-  height: 28px;
+  width: 450px;
+  height: 30px;
   position: absolute;
-  left: 15px;
-  top: 336px;
+  left: 18px;
+  top: 368px;
 }
 .fine-vacuum-box-1 {
   background: #ffffff;
-  width: 169px;
-  height: 28px;
+  width: 208px;
+  height: 31px;
   position: absolute;
-  left: 15px;
-  top: 366px;
-}
-.fine-vacuum2 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  position: absolute;
-  left: 21px;
-  top: 340px;
-  width: 127px;
-  height: 20px;
+  left: 18px;
+  top: 400px;
 }
 .fine-vacuum-val-1 {
   background: #ffffff;
-  width: 194px;
-  height: 28px;
+  width: 239px;
+  height: 31px;
   position: absolute;
-  left: 186px;
-  top: 366px;
+  left: 229px;
+  top: 400px;
 }
 .pis-6-27 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 21px;
-  top: 370px;
-  width: 83px;
-  height: 20px;
+  left: 26px;
+  top: 405px;
+  width: 102px;
+  height: 22px;
 }
 .fore-vacuum {
   background: #b0cafd;
-  width: 365px;
-  height: 28px;
+  width: 450px;
+  height: 31px;
   position: absolute;
-  left: 15px;
-  top: 415px;
+  left: 18px;
+  top: 454px;
 }
 .fore-vacuum-box-1 {
   background: #ffffff;
-  width: 169px;
-  height: 28px;
+  width: 208px;
+  height: 30px;
   position: absolute;
-  left: 15px;
-  top: 445px;
+  left: 18px;
+  top: 487px;
+}
+.furnace-pressure {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 81px;
+  width: 215px;
+  height: 22px;
+}
+.furnace-pressure-rel {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 200px;
+  width: 259px;
+  height: 21px;
+}
+.high-vacuum2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 286px;
+  width: 165px;
+  height: 21px;
+}
+.fine-vacuum2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 370px;
+  width: 156px;
+  height: 22px;
 }
 .fore-vacuum2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 21px;
-  top: 421px;
+  left: 26px;
+  top: 459px;
+  width: 150px;
+  height: 26px;
 }
 .fore-vacuum-val-1 {
   background: #ffffff;
-  width: 194px;
-  height: 28px;
+  width: 239px;
+  height: 30px;
   position: absolute;
-  left: 186px;
-  top: 445px;
+  left: 229px;
+  top: 487px;
 }
 .pis-6-24 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 21px;
-  top: 449px;
-  width: 84px;
-  height: 20px;
+  left: 26px;
+  top: 491px;
+  width: 103px;
+  height: 22px;
 }

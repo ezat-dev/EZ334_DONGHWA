@@ -47,7 +47,7 @@
 }
 .tem-box {
   background: #d9d9d9;
-  width: 528px;
+  width: 473px;
   height: 747px;
   position: absolute;
   left: 0px;
@@ -58,7 +58,7 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 528px;
+  width: 473px;
   height: 46px;
   position: absolute;
   left: 0px;
@@ -69,514 +69,514 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 528px;
+  width: 473px;
   height: 703px;
   position: absolute;
   left: 0px;
   top: 44px;
 }
 .close {
-  width: 44px;
+  width: 40px;
   height: 23px;
   position: absolute;
-  left: 469px;
+  left: 420px;
   top: 12px;
   object-fit: cover;
 }
 .temperature {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 18px;
+  
+  font-size: 27px;
   font-weight: 700;
   position: absolute;
-  left: 12px;
+  left: 11px;
   top: 5px;
-  width: 294px;
+  width: 263px;
   height: 36px;
-  -webkit-text-stroke: 1px #000000;
+
 }
 .cz-1 {
   background: #fa8f8f;
-  width: 488px;
+  width: 437px;
   height: 32px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 78px;
 }
 .heater-bottom-top-cz-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 23px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 83px;
-  width: 348px;
+  left: 26px;
+  top: 80px;
+  width: 312px;
   height: 22px;
 }
 .cz-1-box-1 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 32px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 111px;
 }
 .tic-4-1-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 116px;
-  width: 107px;
+  left: 26px;
+  top: 115px;
+  width: 96px;
   height: 22px;
 }
 .cz-1-val-1 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 32px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 111px;
 }
 .cz-1-box-2 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 144px;
 }
 .tic-4-1-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 149px;
-  width: 114px;
+  left: 26px;
+  top: 148px;
+  width: 102px;
   height: 22px;
 }
 .cz-1-val-2 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 31px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 144px;
 }
 .cz-3 {
   background: #fa8f8f;
-  width: 488px;
+  width: 437px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 177px;
 }
 .heater-doors-cz-3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 23px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 181px;
-  width: 263px;
+  left: 26px;
+  top: 178px;
+  width: 236px;
   height: 22px;
 }
 .cz-3-box-1 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 209px;
 }
 .tic-4-3-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 214px;
-  width: 114px;
+  left: 26px;
+  top: 213px;
+  width: 102px;
   height: 22px;
 }
 .cz-3-val-1 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 31px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 209px;
 }
 .cz-3-box-2 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 30px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 242px;
 }
 .tic-4-3-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 248px;
-  width: 120px;
+  left: 26px;
+  top: 247px;
+  width: 107px;
   height: 21px;
 }
 .cz-3-val-2 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 30px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 242px;
 }
 .cz-5 {
   background: #fa8f8f;
-  width: 488px;
+  width: 437px;
   height: 30px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 282px;
 }
 .heater-walls-cz-5 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 23px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 286px;
-  width: 251px;
+  left: 26px;
+  top: 283px;
+  width: 225px;
   height: 20px;
 }
 .cz-5-box-1 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 314px;
 }
 .tic-4-5-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 319px;
-  width: 114px;
+  left: 26px;
+  top: 318px;
+  width: 102px;
   height: 20px;
 }
 .cz-5-val-1 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 31px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 314px;
 }
 .cz-5-box-2 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 347px;
 }
 .tic-4-5-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 352px;
-  width: 120px;
+  left: 26px;
+  top: 351px;
+  width: 107px;
   height: 20px;
 }
 .cz-5-val-2 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 31px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 347px;
 }
 .load {
   background: #fa8f8f;
-  width: 488px;
+  width: 437px;
   height: 30px;
   position: absolute;
-  left: 20px;
-  top: 386px;
+  left: 18px;
+  top: 384px;
 }
 .load2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 23px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 390px;
-  width: 67px;
+  left: 26px;
+  top: 384px;
+  width: 60px;
   height: 23px;
 }
 .load-box-1 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 418px;
 }
 .ti-4-61 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 423px;
-  width: 88px;
+  left: 26px;
+  top: 422px;
+  width: 79px;
   height: 21px;
 }
 .load-val-1 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 31px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 418px;
 }
 .charge {
   background: #fa8f8f;
-  width: 488px;
+  width: 437px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 458px;
 }
 .charge-temperatures {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 23px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 463px;
-  width: 283px;
+  left: 26px;
+  top: 459px;
+  width: 253px;
   height: 20px;
 }
 .charge-box-1 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 30px;
   position: absolute;
-  left: 20px;
-  top: 491px;
+  left: 18px;
+  top: 492px;
 }
 .ti-4-26 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 496px;
-  width: 94px;
+  left: 26px;
+  top: 495px;
+  width: 84px;
   height: 20px;
 }
 .charge-val-1 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 30px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 491px;
 }
 .charge-box-2 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 30px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 524px;
 }
 .ti-4-27 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 527px;
-  width: 91px;
+  left: 26px;
+  top: 526px;
+  width: 82px;
   height: 22px;
 }
 .charge-val-2 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 30px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 524px;
 }
 .charge-box-3 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 32px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 555px;
 }
 .ti-4-28 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 560px;
-  width: 94px;
+  left: 26px;
+  top: 559px;
+  width: 84px;
   height: 22px;
 }
 .charge-val-3 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 32px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 555px;
 }
 .charge-box-4 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 32px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 588px;
 }
 .ti-4-29 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 593px;
-  width: 94px;
+  left: 26px;
+  top: 592px;
+  width: 84px;
   height: 22px;
 }
 .charge-val-4 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 32px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 588px;
 }
 .fastcooling {
   background: #fa8f8f;
-  width: 488px;
+  width: 437px;
   height: 31px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 627px;
 }
 .fastcooling2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 23px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 632px;
-  width: 152px;
+  left: 26px;
+  top: 628px;
+  width: 136px;
   height: 22px;
 }
 .fastcooling-box-1 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 33px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 659px;
 }
 .ti-12-7 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 665px;
-  width: 87px;
+  left: 26px;
+  top: 664px;
+  width: 78px;
   height: 21px;
 }
 .fastcooling-val-1 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 33px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 659px;
 }
 .fastcooling-box-2 {
   background: #ffffff;
-  width: 201px;
+  width: 180px;
   height: 32px;
   position: absolute;
-  left: 20px;
+  left: 18px;
   top: 693px;
 }
 .ti-12-8 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 11px;
+  
+  font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 29px;
-  top: 698px;
-  width: 88px;
+  left: 26px;
+  top: 697px;
+  width: 79px;
   height: 21px;
 }
 .fastcooling-val-2 {
   background: #ffffff;
-  width: 286px;
+  width: 256px;
   height: 32px;
   position: absolute;
-  left: 222px;
+  left: 199px;
   top: 693px;
 }

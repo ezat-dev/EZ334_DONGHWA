@@ -38,7 +38,7 @@
 .number {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  
   font-size: 18px;
   font-weight: 700;
   position: absolute;
@@ -58,7 +58,7 @@
 ._1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -78,7 +78,7 @@
 ._2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -98,7 +98,7 @@
 ._3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -118,7 +118,7 @@
 ._4 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -138,7 +138,7 @@
 ._5 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -158,7 +158,7 @@
 ._6 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -178,7 +178,7 @@
 ._7 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -198,7 +198,7 @@
 ._8 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -218,7 +218,7 @@
 ._9 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -238,7 +238,7 @@
 ._10 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -258,7 +258,7 @@
 ._11 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -278,7 +278,7 @@
 ._12 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -298,7 +298,7 @@
 ._13 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -318,7 +318,7 @@
 ._14 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -338,7 +338,7 @@
 ._15 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -358,7 +358,7 @@
 ._16 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -378,7 +378,7 @@
 ._17 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -398,7 +398,7 @@
 .name {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  
   font-size: 18px;
   font-weight: 700;
   position: absolute;
@@ -418,7 +418,7 @@
 .temperature-release-fastcooling {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -438,7 +438,7 @@
 .select-hydraulic {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -458,7 +458,7 @@
 .free-length-of-path-to-batch {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -478,7 +478,7 @@
 .speed-pressing-plunger {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -498,7 +498,7 @@
 .maximum-force-load {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -518,7 +518,7 @@
 .maximum-distance-load {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -538,7 +538,7 @@
 .relieve-distance-z {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -558,7 +558,7 @@
 .limit-of-distance-z {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -578,7 +578,7 @@
 .limit-unsymmetrical-load {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -598,7 +598,7 @@
 .batch-tc-1-typ-n-pos-4-26 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -618,7 +618,7 @@
 .batch-tc-2-typ-n-pos-4-27 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -638,7 +638,7 @@
 .batch-tc-3-typ-n-pos-4-28 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -658,7 +658,7 @@
 .spare {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -678,7 +678,7 @@
 .spare2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -698,7 +698,7 @@
 .spare3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -718,7 +718,7 @@
 .ams-operation {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -738,7 +738,7 @@
 .gradient-of-force {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -758,7 +758,7 @@
 .comment {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  
   font-size: 18px;
   font-weight: 700;
   position: absolute;
@@ -778,7 +778,7 @@
 ._20-1200 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -798,7 +798,7 @@
 ._0-l-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -818,7 +818,7 @@
 ._0-300 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -838,7 +838,7 @@
 ._0-01-7 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -858,7 +858,7 @@
 ._0-6300 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -878,7 +878,7 @@
 ._0-320 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -898,7 +898,7 @@
 ._15-50 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -918,7 +918,7 @@
 ._0-0-50-0 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -938,7 +938,7 @@
 ._0-280 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -958,7 +958,7 @@
 ._0-l-12 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -978,7 +978,7 @@
 ._0-l-13 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -998,7 +998,7 @@
 ._0-l-14 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1048,7 +1048,7 @@
 ._0-l-15 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1068,7 +1068,7 @@
 ._5-50 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1088,7 +1088,7 @@
 .value {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  
   font-size: 18px;
   font-weight: 700;
   position: absolute;
@@ -1414,7 +1414,7 @@
 .unit {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  
   font-size: 18px;
   font-weight: 700;
   position: absolute;
@@ -1434,7 +1434,7 @@
 .c {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1454,7 +1454,7 @@
 .mm {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1474,7 +1474,7 @@
 .mm-s {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1494,7 +1494,7 @@
 .k-n {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1514,7 +1514,7 @@
 .mm2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1534,7 +1534,7 @@
 .mm3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1554,7 +1554,7 @@
 .mm4 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1584,7 +1584,7 @@
 .k-n2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1674,7 +1674,7 @@
 .k-n-s {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1684,7 +1684,7 @@
 .edit-global-data {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+  
   font-size: 20px;
   font-weight: 700;
   position: absolute;
@@ -1706,7 +1706,7 @@
 .save2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1728,7 +1728,7 @@
 .back2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   position: absolute;
@@ -1762,7 +1762,7 @@
 .user-name {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 12px;
   font-weight: 400;
   position: absolute;
@@ -1772,7 +1772,7 @@
 .status {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 12px;
   font-weight: 400;
   position: absolute;
@@ -1782,7 +1782,7 @@
 .message {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 12px;
   font-weight: 400;
   position: absolute;
