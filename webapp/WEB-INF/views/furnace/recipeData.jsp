@@ -1308,6 +1308,11 @@ body {
   </div>
 <script>
 //전역변수
+
+
+
+
+/*
 window.onload = function() {
     var absoluteElements = document.querySelectorAll('*');
     
@@ -1319,7 +1324,7 @@ window.onload = function() {
         }
     });
 };
-
+*/
 
 
 //로드
