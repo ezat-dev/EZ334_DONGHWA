@@ -42,7 +42,7 @@
     <div class="limit-switches-box"></div>
     <div class="limit-switches-header"></div>
     <div class="limit-switches-main"></div>
-    <img class="close" src="close0.png" />
+
     <div class="no"></div>
     <div class="des"></div>
     <div class="limit-val"></div>

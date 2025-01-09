@@ -1,28 +1,33 @@
-.recipe-list,
-.recipe-list * {
+.group-4,
+.group-4 * {
   box-sizing: border-box;
 }
-.recipe-list {
-  height: 1080px;
+.group-4 {
+  height: 1249px;
   position: relative;
+}
+.group-3 {
+  width: 2552px;
+  height: 1249px;
+  position: static;
 }
 .global {
   background: #cccccc;
-  width: 2400px;
-  height: 1050px;
+  width: 2552px;
+  height: 1118.61px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 130.39px;
 }
 .frame-1 {
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 2380px;
-  height: 1110px;
+  width: 2552px;
+  height: 1249px;
   position: absolute;
-  left: 9px;
-  top: 11px;
+  left: 0px;
+  top: 0px;
   overflow: hidden;
 }
 .recipe-list-footer {
@@ -30,11 +35,11 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 2400px;
-  height: 89px;
+  width: 2552px;
+  height: 82.35px;
   position: absolute;
   left: 0px;
-  top: 1051px;
+  top: 1166.65px;
 }
 .new {
   background: #eeeeee;
@@ -42,21 +47,23 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 215px;
-  height: 31px;
+  width: 283.02px;
+  height: 50px;
   position: absolute;
-  left: 32px;
-  top: 1080px;
+  left: 192.22px;
+  top: 1185.73px;
 }
 .new2 {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   position: absolute;
-  left: 120px;
-  top: 1080px;
+  left: 192.22px;
+  top: 1194.92px;
+  width: 283.02px;
+  height: 38.78px;
 }
 .delete {
   background: #eeeeee;
@@ -64,21 +71,23 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 215px;
-  height: 31px;
+  width: 282.05px;
+  height: 50px;
   position: absolute;
-  left: 386px;
-  top: 1080px;
+  left: 658.77px;
+  top: 1185.73px;
 }
 .delete2 {
   color: #000000;
   text-align: center;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   position: absolute;
-  left: 465px;
-  top: 1080px;
+  left: 658.77px;
+  top: 1194.92px;
+  width: 282.05px;
+  height: 38.78px;
 }
 .copy-recipe {
   background: #eeeeee;
@@ -86,21 +95,23 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 215px;
-  height: 31px;
+  width: 283.98px;
+  height: 50px;
   position: absolute;
-  left: 740px;
-  top: 1080px;
+  left: 1124.35px;
+  top: 1185.73px;
 }
 .copy-recipe2 {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   position: absolute;
-  left: 793px;
-  top: 1080px;
+  left: 1194.86px;
+  top: 1194.92px;
+  width: 142.96px;
+  height: 38.78px;
 }
 .show-recipe {
   background: #eeeeee;
@@ -108,21 +119,23 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 215px;
-  height: 31px;
+  width: 283.02px;
+  height: 50px;
   position: absolute;
-  left: 1094px;
-  top: 1080px;
+  left: 1591.86px;
+  top: 1185.73px;
 }
 .show-recipe2 {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   position: absolute;
-  left: 1146px;
-  top: 1080px;
+  left: 1591.86px;
+  top: 1194.92px;
+  width: 283.02px;
+  height: 38.78px;
 }
 .read-in {
   background: #eeeeee;
@@ -130,41 +143,21 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 215px;
-  height: 31px;
+  width: 283.02px;
+  height: 50px;
   position: absolute;
-  left: 1448px;
-  top: 1080px;
+  left: 2058.41px;
+  top: 1185.73px;
 }
 .read-in2 {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   position: absolute;
-  left: 1524px;
-  top: 1080px;
-}
-.exit {
-  background: #eeeeee;
-  border-radius: 3px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 215px;
-  height: 31px;
-  position: absolute;
-  left: 1802px;
-  top: 1080px;
-}
-.exit2 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  position: absolute;
-  left: 1894px;
-  top: 1080px;
+  left: 2157.9px;
+  top: 1194.92px;
+  width: 84.04px;
+  height: 38.78px;
 }

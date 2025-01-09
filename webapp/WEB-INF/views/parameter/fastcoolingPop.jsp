@@ -42,7 +42,7 @@
     <div class="fastcooling-box"></div>
     <div class="fastcooling-header"></div>
     <div class="fastcooling-main"></div>
-    <img class="close" src="close0.png" />
+
     <div class="fastcooling">Fastcooling</div>
     <div class="act-val-box-1"></div>
     <div class="actual-value">Actual Value</div>

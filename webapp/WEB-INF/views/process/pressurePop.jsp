@@ -41,7 +41,7 @@
     <div class="tem-box"></div>
     <div class="tem-header"></div>
     <div class="tem-main"></div>
-    <img class="close" src="close0.png" />
+   
     <div class="temperature">Temperature</div>
     <div class="fur-pressure"></div>
     <div class="furnace-pressure">Furnace pressure</div>

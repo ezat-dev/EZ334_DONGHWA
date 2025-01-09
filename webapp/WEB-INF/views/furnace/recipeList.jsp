@@ -50,10 +50,11 @@
    
   <title>Document</title>
 </head>
-<body>
+<body style="background-color: #CCCCCC;">
   <div class="recipe-list">
     <div class="global"></div>
-	<div id="recipe_list" class="frame-1"></div>    
+	<div id="recipe_list" class="frame-1" style="margin-top: 137px;"></div>
+    
     <div class="recipe-list-footer"></div>
     <div class="new" style="cursor:pointer;" onclick="getRecipeNew();"></div>
     <div class="new2" style="cursor:pointer;" onclick="getRecipeNew();">New</div>

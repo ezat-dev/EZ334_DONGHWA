@@ -42,7 +42,7 @@
     <div class="press-box"></div>
     <div class="press-header"></div>
     <div class="press-main"></div>
-    <img class="close" src="close0.png" />
+
     <div class="press">Press</div>
     <div class="press-cap"></div>
     <div class="press-capacity">Press capacity</div>

@@ -41,7 +41,7 @@
     <div class="pre-switches-box"></div>
     <div class="pre-switches-header"></div>
     <div class="pre-switches-main"></div>
-    <img class="close" src="close0.png" />
+
     <div class="pressure-switches">Pressure switches</div>
     <div class="box-1"></div>
     <div class="_1"></div>

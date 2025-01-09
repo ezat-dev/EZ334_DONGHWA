@@ -42,7 +42,7 @@
     <div class="auto-pro-box"></div>
     <div class="auto-pro-header"></div>
     <div class="auto-pro-main"></div>
-    <img class="close" src="close0.png" />
+
     <div class="automatic-program">Automatic program</div>
     <div class="automatic"></div>
     <div class="programmer"></div>

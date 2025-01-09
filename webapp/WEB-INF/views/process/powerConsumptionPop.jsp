@@ -41,7 +41,7 @@
       <div class="power-con-box"></div>
       <div class="power-con-header"></div>
       <div class="power-con-main"></div>
-      <img class="close" src="close0.png" />
+      
       <div class="power-consumption">Power Consumption</div>
       <div class="voltage"></div>
       <div class="voltage2">Voltage</div>

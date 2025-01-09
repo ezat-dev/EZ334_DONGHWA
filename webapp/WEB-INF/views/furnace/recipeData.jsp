@@ -28,7 +28,7 @@ body {
 </style>
 
 
-<body>
+<body style="background-color: #CCCCCC;">
   <div class="group-1">
     <div class="recipe-main"></div>
     <div class="recipe-footer"></div>
@@ -1308,6 +1308,18 @@ body {
   </div>
 <script>
 //전역변수
+window.onload = function() {
+    var absoluteElements = document.querySelectorAll('*');
+    
+    absoluteElements.forEach(function(element) {
+        if (window.getComputedStyle(element).position === 'absolute' && !element.classList.contains('hamburger-icon')) {
+            var currentTop = window.getComputedStyle(element).top;
+            currentTop = parseInt(currentTop) || 0; // 'top' 값이 없으면 0으로 설정
+            element.style.top = (currentTop + 32) + 'px';
+        }
+    });
+};
+
 
 
 //로드

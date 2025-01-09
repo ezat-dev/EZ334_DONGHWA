@@ -42,7 +42,7 @@
     <div class="heater-box"></div>
     <div class="heater-header"></div>
     <div class="heater-main"></div>
-    <img class="close" src="close0.png" />
+ 
     <div class="heater">Heater</div>
     <div class="insul-res-1"></div>
     <div class="insulation-resistance">Insulation Resistance</div>

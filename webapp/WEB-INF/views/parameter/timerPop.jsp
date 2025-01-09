@@ -43,7 +43,7 @@
     <div class="timer-box"></div>
     <div class="timer-header"></div>
     <div class="timer-main"></div>
-    <img class="close" src="close0.png" />
+    
     <div class="timer-text">Timer</div>
     <div class="no"></div>
     <div class="description"></div>

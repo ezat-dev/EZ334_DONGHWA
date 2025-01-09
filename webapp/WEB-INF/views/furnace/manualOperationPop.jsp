@@ -16,7 +16,7 @@
   <div class="manual-operation-box"></div>
   <div class="manual-operation-header"></div>
   <div class="manual-operation-main"></div>
-  <img class="close" src="close0.png" />
+
   <div class="manual-operation">Manual Operation</div>
   <div class="auto"></div>
   <div class="plc-auto"></div>

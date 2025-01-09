@@ -24,6 +24,7 @@
       top: 0;
       left: 0;
       z-index: 10;
+      
     }
 
     .hamburger-icon {
@@ -124,7 +125,7 @@
         <li onclick="menuClick('/donghwa/');">Overview</li>
         <li onclick="popupClick('/donghwa/furnace/manualOperationPop', 305, 609.9, 730, 180);">Manual Operation</li> <!--가로 세로 오른쪽 시작 위쪽 시작 -->
 		<li onclick="popupClick('/donghwa/furnace/operationPressPop', 410.5, 482.5, 730, 210);">Operation Press</li><!--길면 180 짧으면 225이상 -->
-		<li onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 502, 379.8, 730, 225);">Automatic program</li>
+		<li onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 502, 379.8, 730, 235);">Automatic program</li>
 
         <li onclick="menuClick('/donghwa/furnace/recipe');">Recipe</li>
       </ul>
@@ -132,12 +133,12 @@
     <li>
       Process values
       <ul class="submenu">
-        <li onclick="popupClick('/donghwa/process/temperaturePop', 376, 591, 584, 160);">Temperature</li>
-		<li onclick="popupClick('/donghwa/process/pressurePop', 386, 430, 584, 180);">Pressure</li>
-		<li onclick="popupClick('/donghwa/process/pressureSwitchesPop', 391, 249, 584, 180);">Pressure switches</li>
-		<li onclick="popupClick('/donghwa/process/heaterPop', 370, 202, 584, 180);">Heater</li>
-		<li onclick="popupClick('/donghwa/process/pressPop', 936, 481, 581, 112);">Press</li>
-		<li onclick="popupClick('/donghwa/process/powerConsumptionPop', 902, 406, 584, 112);">Power Consumption</li>
+        <li onclick="popupClick('/donghwa/process/temperaturePop', 376, 591, 680, 165);">Temperature</li>
+		<li onclick="popupClick('/donghwa/process/pressurePop', 386, 430, 680, 180);">Pressure</li>
+		<li onclick="popupClick('/donghwa/process/pressureSwitchesPop', 391, 249, 680, 204);">Pressure switches</li>
+		<li onclick="popupClick('/donghwa/process/heaterPop', 370, 202, 680, 204);">Heater</li>
+		<li onclick="popupClick('/donghwa/process/pressPop', 936, 481, 550, 160);">Press</li>
+		<li onclick="popupClick('/donghwa/process/powerConsumptionPop', 902, 406, 550, 160);">Power Consumption</li>
 
       </ul>
     </li>
@@ -152,9 +153,9 @@
     <li>
       Parameter
       <ul class="submenu">
-        <li onclick="popupClick('/donghwa/parameter/limitSwitchesPop', 743, 273, 584, 180);">Limit switches</li>
-        <li onclick="popupClick('/donghwa/parameter/fastcoolingPop', 529, 340, 584, 180);">Fastcooling</li>
-        <li onclick="popupClick('/donghwa/parameter/timerPop', 727, 355, 584, 180);">Timer</li>
+        <li onclick="popupClick('/donghwa/parameter/limitSwitchesPop', 743, 272, 550, 200);">Limit switches</li>
+        <li onclick="popupClick('/donghwa/parameter/fastcoolingPop', 529, 333, 600, 180);">Fastcooling</li>
+        <li onclick="popupClick('/donghwa/parameter/timerPop', 727, 355, 600, 180);">Timer</li>
         <li onclick="popupClick('/', 505, 505, 584, 180);">Calibrate TC measuring syst</li>
       </ul>
     </li>

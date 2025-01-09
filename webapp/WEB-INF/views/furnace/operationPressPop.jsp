@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ㄹ<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -42,7 +42,7 @@
     <div class="operation-press-box"></div>
     <div class="operation-press-header"></div>
     <div class="operation-press-main"></div>
-    <img class="close" src="close0.png" />
+
     <div class="operation-press">Operation Press</div>
     <div class="hydraulic"></div>
     <div class="_1"></div>

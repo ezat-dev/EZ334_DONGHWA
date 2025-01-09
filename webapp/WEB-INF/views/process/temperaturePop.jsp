@@ -41,7 +41,7 @@
   <div class="tem-box"></div>
   <div class="tem-header"></div>
   <div class="tem-main"></div>
-  <img class="close" src="close0.png" />
+
   <div class="temperature">Temperature</div>
   <div class="cz-1"></div>
   <div class="heater-bottom-top-cz-1">Heater Bottom-/Top (CZ1)</div>
