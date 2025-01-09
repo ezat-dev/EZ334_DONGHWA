@@ -1329,10 +1329,23 @@ window.onload = function() {
 
 //로드
 $(function(){
+
 	//레시피 초기데이터 조회
 	getRecipeDataList();
 });
 
+	//체크박스 0 1
+	const checkboxes = document.querySelectorAll(".input-checkbox");
+	
+	checkboxes.forEach((checkbox) => {
+	    checkbox.addEventListener("change", () => {
+	        const value = checkbox.checked ? "1" : "0";
+	        checkbox.setAttribute("value", value); 
+	        console.log(`Checkbox ID: ${checkbox.id}, Value: ${value}`);
+	    });
+	});
+
+	
 //이벤트
 //레시피 값 PLC 전송
    $('.save-to-plc').click(function() {
@@ -1423,6 +1436,8 @@ $(function(){
 			   dataObj.press_capacity = $("#seg-"+i+"> .press-capacity-"+i+" > input ").val();			   
 			   dataObj.press_position = $("#seg-"+i+"> .press-position-"+i+" > input ").val();			   
 			   dataObj.press_distance = $("#seg-"+i+"> .press-distance-"+i+" > input ").val();
+
+			   console.log(dataObj);
 			   
 			   dataArr.push(dataObj);
 		   }else{
