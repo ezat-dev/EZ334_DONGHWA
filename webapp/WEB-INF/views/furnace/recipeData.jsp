@@ -1380,8 +1380,8 @@ $(function(){
 
        
        // AJAX 요청을 통해 데이터 전송
-//       sendPlc(data);
-       sendPlcString(dataString);
+       sendPlc(data);
+ //      sendPlcString(dataString);
    });
    
 //레시피 값 데이터베이스 전송
