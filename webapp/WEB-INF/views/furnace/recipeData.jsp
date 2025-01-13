@@ -1394,7 +1394,7 @@ $(function(){
        
        // AJAX 요청을 통해 데이터 전송
        sendPlc(data);
- //      sendPlcString(dataString);
+		sendPlcString(dataString);
    });
    
 //레시피 값 데이터베이스 전송
@@ -1504,6 +1504,9 @@ function validateNumberInput(event) {
 
 //레시피값 PLC 전송
 function sendPlc(data) {
+
+	console.log(data);
+	
     $.ajax({
         url: "/donghwa/furnace/recipe/plcWrite",
         type: "POST",
@@ -1519,46 +1522,55 @@ function sendPlc(data) {
     });
 }
 
-//레시피값 PLC 전송
 function sendPlcString(dataString) {
-	
-    $.ajax({
-        url: "/donghwa/furnace/recipe/plcWriteString",
-        type: "POST",
-        dataType: "json",
-        contentType: "application/json; charset=utf-8", // JSON 데이터를 전송할 경우 필요
-        data: JSON.stringify(dataString), // 데이터를 JSON 문자열로 변환하여 전송
-        success: function(response) {
-            console.log('서버 응답:', response);
-        },
-        error: function(xhr, status, error) {
-            console.error('AJAX 에러:', status, error);
-        }
-    });
+    if (confirm("PLC에 레시피 값을 전송하시겠습니까?")) {
+        console.log(dataString);
+
+//        return false;
+        $.ajax({
+            url: "/donghwa/furnace/recipe/plcWriteString",
+            type: "POST",
+            dataType: "json",
+            contentType: "application/json; charset=utf-8", // JSON 데이터를 전송할 경우 필요
+            data: JSON.stringify(dataString), // 데이터를 JSON 문자열로 변환하여 전송
+            success: function(response) {
+                console.log('서버 응답:', response);
+            },
+            error: function(xhr, status, error) {
+                console.error('AJAX 에러:', status, error);
+            }
+        });
+    } else {
+    	 return; 
+    }
 }
 
 
 
 //레시피값 데이터베이스 전송
 function sendDatabase(data) {
-    $.ajax({
-        url: "/donghwa/furnace/recipe/databaseWrite",
-        type: "POST",
-        dataType: "json",
-        contentType: "application/json; charset=utf-8", // JSON 데이터를 전송할 경우 필요
-        data: JSON.stringify(data), // 데이터를 JSON 문자열로 변환하여 전송
-        success: function(response) {
-            console.log('서버 응답:', response);
-            // 성공 시 알림 창 표시
-            alert('데이터베이스에 레시피 값 저장 완료');
-        },
-        error: function(xhr, status, error) {
-            console.error('AJAX 에러:', status, error);
-            // 실패 시 알림 창 표시
-            alert('데이터베이스 저장 중 오류가 발생했습니다.');
-        }
-    });
+    // 사용자에게 확인 창을 띄움
+    if (confirm("레시피 값을 데이터베이스에 저장하시겠습니까?")) {
+        $.ajax({
+            url: "/donghwa/furnace/recipe/databaseWrite",
+            type: "POST",
+            dataType: "json",
+            contentType: "application/json; charset=utf-8", 
+            data: JSON.stringify(data), // 데이터를 JSON 문자열로 변환하여 전송
+            success: function(response) {
+                console.log('서버 응답:', response);
+                alert('데이터베이스에 레시피 값 저장 완료');
+            },
+            error: function(xhr, status, error) {
+                console.error('AJAX 에러:', status, error);
+                alert('데이터베이스 저장 중 오류가 발생했습니다.');
+            }
+        });
+    } else {
+        return; 
+    }
 }
+
 
 
 //레시피 데이터 조회

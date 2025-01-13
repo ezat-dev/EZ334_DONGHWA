@@ -45,8 +45,13 @@ public class CommConfig implements SchedulingConfigurer, AsyncConfigurer {
 	}
 
 	@Bean
-	public CommProcessor logProcessor() {
+	public CommProcessor commProcessor() {
 		return new CommProcessor();
+	}
+	
+	@Bean
+	public OpcComprocessor opcComprocessor() {
+		return new OpcComprocessor();
 	}
 	@Override
 	public Executor getAsyncExecutor() {

@@ -236,7 +236,7 @@ public class FurnaceController {
 	@ResponseBody
 	public Map<String, String> recipePlcWriteString(@RequestBody List<NodeValuePair> nodeValuePairs)
 	        throws UaException, InterruptedException, ExecutionException {
-		
+		System.out.println("plcWriteString Start");
 	    Map<String, String> response = new HashMap<String, String>();
 	    try {
 	
@@ -255,7 +255,7 @@ public class FurnaceController {
                 
                 
                 int len = valueString.length();
-                	                
+                System.out.println("valueString : "+valueString);
                 for(int j=0; j<len; j++) {
                 	
                 	
@@ -293,7 +293,8 @@ public class FurnaceController {
 	            response.put("message", "Some values failed to write");
 	        }
 	    }catch(Exception e) {
-	    	e.printStackTrace();
+//	    	e.printStackTrace();
+	    	System.out.println(e.getMessage());
 	    }
 	
 	    return response;
