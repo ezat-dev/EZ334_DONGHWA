@@ -147,33 +147,35 @@ font-size:15px;
 </style>
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <div class="pen-settings">
-                <div class="pen-group-settings">
-                    <label for="pen-group">Pen Group:</label>
-                    <select id="pen-group">
-                       
-                    </select>
-                    <div class="btn-container">
-                        <button id="load-pen-group"><i class="fas fa-save"></i> LOAD PEN GROUP</button>
-                        <button id="delete-pen-group"><i class="fas fa-trash"></i> DELETE PEN GROUP</button>
-                    </div>
+<div class="container">
+    <div class="left">
+        <div class="pen-settings">
+            <div class="pen-group-settings">
+                <label for="pen-group">Pen Group:</label>
+                <select id="pen-group"></select>
+                <div class="btn-container">
+                    <button id="load-pen-group"><i class="fas fa-save"></i> LOAD PEN GROUP</button>
+                    <button id="delete-pen-group"><i class="fas fa-trash"></i> DELETE PEN GROUP</button>
                 </div>
-                <h2>Pen Groups Settings</h2>
-                <label for="pen-search">Search Pen:</label>
-                <input type="text" id="pen-search" placeholder="Search Pen...">
-                <label for="pen-list">Pen List:</label>
-                <select id="pen-list" multiple></select>
-                <label for="pen-color">Color:</label>
-                <input type="color" id="pen-color" value="#ff0000">
-                <button type="button" id="add-button">Add</button>
             </div>
-        </div>
-        <div class="right">
-            <div id="container"></div>
+            <h2>Pen Groups Settings</h2>
+            <label for="pen-search">Search Pen:</label>
+            <input type="text" id="pen-search" placeholder="Search Pen...">
+            <label for="pen-list">Pen List:</label>
+            <select id="pen-list" multiple></select>
+            <label for="pen-color">Color:</label>
+            <input type="color" id="pen-color" value="#ff0000">
+         
+            <label for="pen-name">Pen Name:</label>
+            <input type="text" id="pen-name" placeholder="Enter Pen Name...">
+            <button type="button" id="add-button">Add</button>
         </div>
     </div>
+    <div class="right">
+        <div id="container"></div>
+    </div>
+</div>
+
 
     <script>
 //전역변수
@@ -208,10 +210,49 @@ $("#pen-list").on("click", function(e){
 	
 });
 
-$("#add-button").on("click", function(){
-	var penInfo = $("#pen-list").val();
-	console.log(penInfo);
+$("#add-button").on("click", function() {
+    var penGroup = $("#pen-group").val(); // 선택한 Pen 그룹
+    var penColor = $("#pen-color").val(); // Pen 색상
+    var penName = $("#pen-name").val(); // 입력한 Pen 이름
+
+    // 필수 값 확인
+    if (!penGroup || !penName) {
+        alert("Pen 그룹과 이름을 모두 입력해주세요.");
+        return;
+    }
+
+    // 데이터 전송
+    console.log("보내는 값:", {
+        penGroup: penGroup,
+        penColor: penColor,
+        penName: penName
+    });
+
+    $.ajax({
+        url: "/donghwa/analysis/sp_insert_pendata", // 서버 엔드포인트
+        method: "POST",
+        contentType: "application/json",
+        data: JSON.stringify({
+            penGroup: penGroup,
+            penColor: penColor,
+            penName: penName
+        }),
+        success: function(response) {
+            if (response.success) {
+                alert("Pen 데이터가 성공적으로 추가되었습니다.");
+                // 추가 작업: 성공 시 필요한 UI 업데이트
+                getPenGroupList(); // Pen 목록 새로고침
+            } else {
+                alert("Pen 데이터를 추가하는 데 실패했습니다.");
+            }
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.error("Error:", textStatus, errorThrown);
+            alert("서버 요청 중 오류가 발생했습니다.");
+        }
+    });
 });
+
 
 //함수
 	function unix_timestamp(t){

@@ -680,7 +680,7 @@ body {
     <div class="press-position-19"><input type="checkbox" id="id518" name="DONGHWA.PLC.RECIPE.SEGMENT_19.PRESS_POSITION_19" class="input-checkbox" value="0"></div>
     <div class="press-distance-19"><input type="checkbox" id="id519" name="DONGHWA.PLC.RECIPE.SEGMENT_19.PRESS_DISTANCE_19" class="input-checkbox" value="0"></div>
 </div>
-<div id="seg20">
+<div id="seg-20">
     <div class="segment-20"><input type="text" class="input-segment" id="segment_20" value="20" disabled/></div>
     <div class="process-step-20"><input type="text" class="input-text" id="id520" name="DONGHWA.PLC.RECIPE.SEGMENT_20.PROCESS_STEP_20" oninput="validateNumberInput(event)"/></div>
     <div class="time-20"><input type="text" class="input-text" id="id521" name="DONGHWA.PLC.RECIPE.SEGMENT_20.TIME_20" oninput="validateNumberInput(event)"/></div>
@@ -1438,6 +1438,7 @@ $(function(){
 			   dataObj.press_distance = $("#seg-"+i+"> .press-distance-"+i+" > input ").val();
 
 			   console.log(dataObj);
+
 			   
 			   dataArr.push(dataObj);
 		   }else{

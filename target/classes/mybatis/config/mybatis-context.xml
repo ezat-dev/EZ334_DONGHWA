@@ -9,5 +9,6 @@
   <mappers> 
    <mapper resource="mybatis/mapper/recipe.xml"/>
    <mapper resource="mybatis/mapper/temper.xml"/>
+   <mapper resource="mybatis/mapper/login.xml"/>
   </mappers>
 </configuration>

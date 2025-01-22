@@ -125,7 +125,7 @@
         <li onclick="menuClick('/donghwa/');">Overview</li>
         <li onclick="popupClick('/donghwa/furnace/manualOperationPop', 305, 609.9, 730, 180);">Manual Operation</li> <!--가로 세로 오른쪽 시작 위쪽 시작 -->
 		<li onclick="popupClick('/donghwa/furnace/operationPressPop', 410.5, 482.5, 730, 210);">Operation Press</li><!--길면 180 짧으면 225이상 -->
-		<li onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 502, 379.8, 730, 235);">Automatic program</li>
+		<li onclick="popupClick('/donghwa/furnace/automaticProgramPop1', 502, 379.8, 730, 235);">Automatic program</li>
 
         <li onclick="menuClick('/donghwa/furnace/recipe');">Recipe</li>
       </ul>
