@@ -15,25 +15,24 @@
 /* HTML과 body의 높이를 100%로 설정 */
 html, body {
     height: 100%;
-    margin: 0; /* 기본 마진 제거 */
+    margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Flexbox 레이아웃 설정 */
 .container {
     display: flex;
-    height: 100%; /* 부모 요소의 높이를 100%로 설정 */
-    padding: 30px; /* 좌우 여백 추가 */
+    height: 100%;
+    padding: 30px;
 }
 
-/* 왼쪽 4칸 영역 */
 .left {
     flex: 3;
-    background-color: #f8f9fa; 
-    border-right: 1px solid #c0c7cf; 
+    background-color: #f8f9fa;
+    border-right: 1px solid #c0c7cf;
     box-sizing: border-box;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    margin-left: 10px;
 }
 
 .left h2 {
@@ -53,7 +52,6 @@ html, body {
     margin-bottom: 5px;
     font-weight: bold;
     color: #555;
-    
 }
 
 .pen-settings input[type="text"],
@@ -74,10 +72,9 @@ html, body {
 
 .pen-settings input[type="color"],
 .pen-settings button {
-    width: 590px; 
-    height: 40px; 
+    width: 590px;
+    height: 40px;
     margin-left: 5px;
-    
 }
 
 .pen-settings button {
@@ -92,61 +89,63 @@ html, body {
     background-color: #f0f0f0;
 }
 
-/* 오른쪽 6칸 영역 */
 .right {
     flex: 7;
-     background-color: #f8f9fa; /* 밝은 회색 배경색 */
+    background-color: #f8f9fa;
     padding: 10px;
     position: relative;
     display: flex;
-    align-items: center; /* 수직 가운데 정렬 */
+    align-items: center;
 }
 
-/* 차트 컨테이너를 오른쪽 정가운데에 배치 */
 #container {
-    width: 90%; /* 차트의 너비를 90%로 설정하여 줄였습니다 */
+    width: 90%;
     height: 50%;
-    margin: 0 auto; /* 차트를 중앙에 배치 */
+    margin: 0 auto;
 }
 
 .pen-group-settings {
     display: flex;
-    align-items: center; /* 수직 가운데 정렬 */
-    height: 80px; /* 높이 설정 */
-    gap: 10px; /* 요소 간의 간격 */
+    align-items: center;
+    height: 80px;
+    gap: 10px;
 }
 
 .pen-group-settings label {
-    margin: 0; /* 마진 제거 */
+    margin: 0;
     font-weight: bold;
-
 }
 
 .pen-group-settings select {
-    margin: 0; /* 마진 제거 */
+    margin: 0;
     height: 36px;
-     width: 150px;
+    width: 150px;
 }
 
 .btn-container {
     display: flex;
-    gap: 10px; /* 버튼 간의 간격 */
-      height: 40px; /* 버튼 높이 설정 */
+    gap: 10px;
+    height: 40px;
     width: 340px;
     margin-left: 5px;
-
 }
 
 .pen-group-settings button {
-        font-size:12px;
-         font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
 }
-#pen-list{
-font-size:15px;
+
+#pen-list, #pen-search {
+    width: 580px;
 }
+
+#pen-list {
+    font-size: 15px;
+}
+
 </style>
 </head>
-<body>
+<body style="background-color: #f8f9fa;">
 <div class="container">
     <div class="left">
         <div class="pen-settings">
@@ -166,8 +165,11 @@ font-size:15px;
             <label for="pen-color">Color:</label>
             <input type="color" id="pen-color" value="#ff0000">
          
-            <label for="pen-name">Pen Name:</label>
-            <input type="text" id="pen-name" placeholder="Enter Pen Name...">
+			     
+			<label for="pen-name">Pen Name:</label>
+			<input type="text" id="pen-name" placeholder="Enter Pen Name...">
+		
+
             <button type="button" id="add-button">Add</button>
         </div>
     </div>
@@ -204,11 +206,13 @@ $("#load-pen-group").on("click",function(){
 });
 
 
-$("#pen-list").on("click", function(e){
-	console.log(e);
-	
-	
+$("#pen-list").on("change", function(e) {
+    var penName = $(this).val(); // 선택된 옵션 값 가져오기
+    console.log("Pen Name:", penName);
+
+    $("#pen-name").val(penName); // 입력 필드에 값 설정
 });
+
 
 $("#add-button").on("click", function() {
     var penGroup = $("#pen-group").val(); // 선택한 Pen 그룹

@@ -1279,7 +1279,7 @@ body {
       <div class="display-actual-row"><input type="checkbox" class="check-display-actual-row"></div>
       <div class="display-actual-row2">display actual row</div>
       <div class="edit">Edit</div>
-      <div class="global-parameters" style="cursor:pointer;" onclick="location.href='/donghwa/furnace/recipe/globalParameter'"></div>
+      <div class="global-parameters" style="cursor:pointer;"></div>
       <div class="global-parameters2"style="cursor:pointer;" >Global Parameters</div>
       <div class="save">Save</div>
       <button class="save-to-db">Save to Database</button>
@@ -1618,6 +1618,11 @@ function getGraphicalProcess(){
 
 //다이얼로그
 
+$(document).ready(function () {
+    $(".global-parameters2").on("click", function () {
+        window.location.href = "/donghwa/furnace/recipe/globalParameter";
+    });
+});
 
 
 </script>  

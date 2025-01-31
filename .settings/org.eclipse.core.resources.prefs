@@ -3,5 +3,6 @@ encoding//src/main/java=UTF-8
 encoding//src/test/java=UTF-8
 encoding//webapp/WEB-INF/views/furnace/automaticProgramPop1.jsp=UTF-8
 encoding//webapp/WEB-INF/views/furnace/operationPressPop.jsp=UTF-8
+encoding//webapp/WEB-INF/views/furnace/overview.jsp=UTF-8
 encoding//webapp/WEB-INF/views/furnace/recipeData.jsp=UTF-8
 encoding//webapp/WEB-INF/views/include/login.jsp=UTF-8
