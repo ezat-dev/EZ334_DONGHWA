@@ -229,8 +229,10 @@
     }
 
     function menuClick(url) {
-    	popup.close();
-      location.href = url;
+        if (popup && !popup.closed) {
+            popup.close();
+        }
+        location.href = url;
     }
 
     function popupClick(url, popupWidth, popupHeight, customLeft, customTop) {

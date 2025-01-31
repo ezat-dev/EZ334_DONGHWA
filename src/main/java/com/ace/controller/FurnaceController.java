@@ -179,127 +179,141 @@ public class FurnaceController {
 		return rtnMap;
 	}
 	
-	//레시피값 PLC 쓰기
+	// 레시피값 PLC 쓰기
 	@RequestMapping(value = "/furnace/recipe/plcWrite", method = RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> recipePlcWrite(@RequestBody List<NodeValuePair> nodeValuePairs)
 	        throws UaException, InterruptedException, ExecutionException {
-		
+
+	    System.out.println("==== PLC Write Start ====");
 	    Map<String, String> response = new HashMap<String, String>();
+
 	    try {
-	
 	        UShort namespaceIndex = Unsigned.ushort(2);
 	        boolean allGood = true;
-	
 	        int chunkSize = 50;
+
 	        for (int i = 0; i < nodeValuePairs.size(); i += chunkSize) {
 	            int end = Math.min(nodeValuePairs.size(), i + chunkSize);
 	            List<NodeValuePair> chunk = nodeValuePairs.subList(i, end);
-	
-	            List<CompletableFuture<StatusCode>> futures = new ArrayList<CompletableFuture<StatusCode>>();
-	
+
+	            List<CompletableFuture<StatusCode>> futures = new ArrayList<>();
+
 	            for (NodeValuePair pair : chunk) {
 	                String nodeIdStr = pair.getNodeId();
 	                short valueShort = pair.getValue();
 
-	                	NodeId nodeId = new NodeId(namespaceIndex, nodeIdStr);
-		                DataValue dataValue = new DataValue(new Variant(valueShort));
-		                
-		                futures.add(MainController.client.writeValue(nodeId, dataValue));
-		                
+	                // 시스템 아웃 추가: 쓰려는 값 확인
+	        //        System.out.println("Writing to Node: " + nodeIdStr + ", Value: " + valueShort);
+
+	                NodeId nodeId = new NodeId(namespaceIndex, nodeIdStr);
+	                DataValue dataValue = new DataValue(new Variant(valueShort));
+	                futures.add(MainController.client.writeValue(nodeId, dataValue));
 	            }
-	
+
 	            for (CompletableFuture<StatusCode> future : futures) {
 	                StatusCode statusCode = future.get();
 	                if (!statusCode.isGood()) {
 	                    allGood = false;
+	        //            System.out.println("Write Failed: " + statusCode);
+	                } else {
+	       //             System.out.println("Write Success: " + statusCode);
 	                }
 	            }
 	        }
-	
+
 	        if (allGood) {
 	            response.put("status", "success");
-	            response.put("message", "All values written successfully");
+	            response.put("message", "plcWrite 성공 All values written successfully");
 	        } else {
 	            response.put("status", "failure");
-	            response.put("message", "Some values failed to write");
+	            response.put("message", "plcWrite 실패 Some values failed to write");
 	        }
-	    }catch(Exception e) {
-	    	e.printStackTrace();
+	    } catch (Exception e) {
+	        e.printStackTrace();
 	    }
-	
+
+	 //   System.out.println("==== PLC Write End ====");
 	    return response;
 	}
-	
-	//레시피 이름, 코멘트 쓰기
+
+	// 레시피 이름, 코멘트 쓰기
 	@RequestMapping(value = "/furnace/recipe/plcWriteString", method = RequestMethod.POST)
 	@ResponseBody
 	public Map<String, String> recipePlcWriteString(@RequestBody List<NodeValuePair> nodeValuePairs)
 	        throws UaException, InterruptedException, ExecutionException {
-		System.out.println("plcWriteString Start");
+
+	    System.out.println("==== plcWriteString Start ====");
 	    Map<String, String> response = new HashMap<String, String>();
+
 	    try {
-	
 	        UShort namespaceIndex = Unsigned.ushort(2);
 	        boolean allGood = true;
-	
-	        
-            List<CompletableFuture<StatusCode>> futures = new ArrayList<CompletableFuture<StatusCode>>();
 
-            for (NodeValuePair pair : nodeValuePairs) {
-                String nodeIdStr = pair.getNodeId();
-                String valueString = pair.getValueString();
-                
-                List<String> stringValueList = new ArrayList<String>();
-                String stringNow = "";
-                
-                
-                int len = valueString.length();
-                System.out.println("valueString : "+valueString);
-                for(int j=0; j<len; j++) {
-                	
-                	
-                	if(j % 2 == 0) {
-                		stringNow = valueString.substring(j, j+1);
-                	}else {
-                		stringNow += valueString.substring(j, j+1);
-                		stringValueList.add(stringNow);
-                		stringNow = "";
-                	}
-                }
-                
-                if("string_name".equals(nodeIdStr)) {
-                	for(int k = 0; k<stringValueList.size(); k++) {
-                		NodeId nodeId = new NodeId(namespaceIndex, "DONGHWA.PLC.RECIPE.NAME.NAME"+k);
-                		DataValue dataValue = new DataValue(new Variant(stringValueList.get(k)));
-                		
-                		futures.add(MainController.client.writeValue(nodeId, dataValue));
-                	}
-                }else if("string_comment".equals(nodeIdStr)) {
-                	for(int k = 0; k<stringValueList.size(); k++) {
-                		NodeId nodeId = new NodeId(namespaceIndex, "DONGHWA.PLC.RECIPE.COMMENT.COMMENT"+k);
-                		DataValue dataValue = new DataValue(new Variant(stringValueList.get(k)));
-                		
-                		futures.add(MainController.client.writeValue(nodeId, dataValue));
-                	}
-                }
-            }
-	        
+	        List<CompletableFuture<StatusCode>> futures = new ArrayList<>();
+
+	        for (NodeValuePair pair : nodeValuePairs) {
+	            String nodeIdStr = pair.getNodeId();
+	            String valueString = pair.getValueString();
+
+	            System.out.println("Node: " + nodeIdStr + ", Original String: " + valueString);
+
+	            List<String> stringValueList = new ArrayList<>();
+	            String stringNow = "";
+	            int len = valueString.length();
+
+	            for (int j = 0; j < len; j++) {
+	                if (j % 2 == 0) {
+	                    stringNow = valueString.substring(j, j + 1);
+	                } else {
+	                    stringNow += valueString.substring(j, j + 1);
+	                    stringValueList.add(stringNow);
+	                    stringNow = "";
+	                }
+	            }
+
+	            System.out.println("Parsed String List: " + stringValueList);
+
+	            if ("string_name".equals(nodeIdStr)) {
+	                for (int k = 0; k < stringValueList.size(); k++) {
+	                    NodeId nodeId = new NodeId(namespaceIndex, "DONGHWA.PLC.RECIPE.NAME.NAME" + k);
+	                    DataValue dataValue = new DataValue(new Variant(stringValueList.get(k)));
+	                    futures.add(MainController.client.writeValue(nodeId, dataValue));
+	                }
+	            } else if ("string_comment".equals(nodeIdStr)) {
+	                for (int k = 0; k < stringValueList.size(); k++) {
+	                    NodeId nodeId = new NodeId(namespaceIndex, "DONGHWA.PLC.RECIPE.COMMENT.COMMENT" + k);
+	                    DataValue dataValue = new DataValue(new Variant(stringValueList.get(k)));
+	                    futures.add(MainController.client.writeValue(nodeId, dataValue));
+	                }
+	            }
+	        }
+
+	        for (CompletableFuture<StatusCode> future : futures) {
+	            StatusCode statusCode = future.get();
+	            if (!statusCode.isGood()) {
+	                allGood = false;
+	        //        System.out.println("Write Failed: " + statusCode);
+	            } else {
+	     //           System.out.println("Write Success: " + statusCode);
+	            }
+	        }
+
 	        if (allGood) {
 	            response.put("status", "success");
-	            response.put("message", "All values written successfully");
+	            response.put("message", "plcWriteString 성공 All values written successfully");
 	        } else {
 	            response.put("status", "failure");
-	            response.put("message", "Some values failed to write");
+	            response.put("message", "plcWriteString 실패 Some values failed to write");
 	        }
-	    }catch(Exception e) {
-//	    	e.printStackTrace();
-	    	System.out.println(e.getMessage());
+	    } catch (Exception e) {
+	//        System.out.println(e.getMessage());
 	    }
-	
+
+	 //   System.out.println("==== plcWriteString End ====");
 	    return response;
 	}
-	
+
 	
 	//레시피값 DB 쓰기
 	@RequestMapping(value = "/furnace/recipe/databaseWrite", method = RequestMethod.POST)
@@ -785,5 +799,6 @@ public class FurnaceController {
 	public String operationPressPop(Model model) {
 	    return "/furnace/operationPressPop.jsp";
 	}
+	
 
 }

@@ -1346,56 +1346,60 @@ $(function(){
 	});
 
 	
-//이벤트
-//레시피 값 PLC 전송
-   $('.save-to-plc').click(function() {
-       const data = [];
-       const dataString = [];
+	// 이벤트
+	// 레시피 값 PLC 전송
+	 $(".save-to-plc").click(function () {
+        let data = [];
+        let dataString = [];
+        let dataNumber = [];
 
-       var recipeName = $("#recipeName").val();
-       var recipeComment = $("#recipeComment").val();
+        // .input-text 클래스 값을 수집
+	    $('.input-text').each(function() {
+	        const inputField = $(this);
+	        const value = inputField.val(); // 입력된 값
+	        const nodeId = inputField.attr('name'); // name 속성 값
 
-       //name, comment 먼저 추가
-       dataString.push({
-    	   nodeId :"string_name",
-    	   valueString : recipeName
-       });
-       
-       dataString.push({
-    	   nodeId :"string_comment",
-    	   valueString : recipeComment
-       });
+	        data.push({
+	            nodeId: nodeId,
+	            value: value
+	        });
+	    });
 
 
-       // 모든 입력 필드를 순회하며 데이터 배열에 추가
-       $('.input-text').each(function() {
-           const inputField = $(this);
-           const value = inputField.val(); // 입력된 값
-           const nodeId = inputField.attr('name'); // name 속성 값
+	    // 모든 체크박스를 순회하며 데이터 배열에 추가
+	    $('.input-checkbox').each(function() {
+	        const inputField = $(this);
+	        const value = inputField.is(':checked') ? 1 : 0; // 체크 상태 확인
+	        const nodeId = inputField.attr('name'); // name 속성 값
 
-           data.push({
-               nodeId: nodeId,
-               value: value
-           });
-       });
+	        data.push({
+	            nodeId: nodeId,
+	            value: value
+	        });
+	    });
 
-       // 모든 체크박스를 순회하며 데이터 배열에 추가
-       $('.input-checkbox').each(function() {
-           const inputField = $(this);
-           const value = inputField.is(':checked') ? 1 : 0; // 체크 상태 확인
-           const nodeId = inputField.attr('name'); // name 속성 값
+        // 레시피 이름과 코멘트 수집
+        dataString.push({ nodeId: "string_name", valueString: $("#recipeName").val() });
+        dataString.push({ nodeId: "string_comment", valueString: $("#recipeComment").val() });
 
-           data.push({
-               nodeId: nodeId,
-               value: value
-           });
-       });
+        dataNumber.push({ nodeId: "string_recipeNumber", valueString: $("#recipeNumberData").val() });
+        
+        // AJAX 요청: 세션에 데이터 저장
+        $.ajax({
+            url: "/donghwa/furnace/saveSessionData",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({ data, dataString, dataNumber }),
+            success: function (response) {
+                // 성공하면 페이지 이동
+                window.location.href = "/donghwa/furnace/saveToRecipe";
+            },
+            error: function (xhr, status, error) {
+                alert("세션 저장 중 오류 발생: " + error);
+            }
+        });
+    });
 
-       
-       // AJAX 요청을 통해 데이터 전송
-       sendPlc(data);
-		sendPlcString(dataString);
-   });
    
 //레시피 값 데이터베이스 전송
    $('.save-to-db').click(function() {

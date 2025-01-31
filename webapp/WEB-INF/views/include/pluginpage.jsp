@@ -15,6 +15,13 @@
 <!--  
 <script type="text/javascript" src="/donghwa/js/highchart/data.js"></script>
 -->
+
+
+<link rel="stylesheet" href="/donghwa/css/select2/select2.css">
+
+
+<script type="text/javascript" src="/donghwa/js/select2/select2.min.js"></script>
+
 <style>
 	
 
