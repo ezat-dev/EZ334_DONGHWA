@@ -10,7 +10,6 @@ import java.util.concurrent.ExecutionException;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.eclipse.milo.opcua.sdk.client.OpcUaClient;
 import org.eclipse.milo.opcua.stack.core.UaException;
 import org.eclipse.milo.opcua.stack.core.types.builtin.DataValue;
 import org.eclipse.milo.opcua.stack.core.types.builtin.NodeId;
@@ -29,7 +28,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ace.domain.Recipe;
 import com.ace.service.FurnaceService;
-import com.ace.util.NodeMap;
+import com.ace.util.OpcDataMap;
 
 @Controller
 public class FurnaceController {
@@ -799,6 +798,19 @@ public class FurnaceController {
 	public String operationPressPop(Model model) {
 	    return "/furnace/operationPressPop.jsp";
 	}
+	
+	//Manual Operation
+    @RequestMapping(value= "/furnace/manualOperation/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> manualOperationView() throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	returnMap = opcDataMap.getOpcDataListMap("DONGHWA.FURNACE.MANUAL_OPERATION");
+    	
+    	return returnMap;    	
+    }	
 	
 
 }

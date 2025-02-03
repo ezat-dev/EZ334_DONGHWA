@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/donghwa/css/process/pressureSwitchesPop.css">
-  
+  <jsp:include page="../include/pluginpage.jsp"/>
+  <jsp:include page="../include/commonPopup.jsp"/>
   
   <style>
    a,
@@ -56,6 +59,80 @@
     <div class="_4"></div>
     <div class="ps-13-202-ar">PS 13.202 Ar</div>
  
-  
+  <script>
+
+var overviewInterval;
+
+//로드
+$(function(){
+	overviewListView();
+	overviewInterval = setInterval("overviewListView()", 1000);
+});
+
+//OPC값 알람 조회
+function overviewListView(){
+	$.ajax({
+		url:"/donghwa/process/pressureSwitchesPop/view",
+		type:"post",
+		dataType:"json",
+		success:function(result){				
+			var data = result.multiValues;
+			
+        for(let key in data){
+        	for(let keys in data[key]){
+        		var d = data[key];
+
+					if(d[keys].action == "v"){
+						v(keys, d[keys].value);
+					}else if(d[keys].action == "c"){
+						c(keys, d[keys].value);
+					}else if(d[keys].action == "b"){
+						b(keys, d[keys].value);
+					}else if(d[keys].action == "value"){
+						value(keys, d[keys].value);
+					}
+
+        	}                    	
+        }
+		}
+	});
+}
+
+function v(keys, value){
+	
+	if(value == true){
+		$("."+keys).css("background-color","green");
+		$("."+keys).css("color","white");
+	}else{
+		$("."+keys).css("background-color","#E3E3E3");
+		$("."+keys).css("color","black");
+	}
+
+	$("."+keys).attr("onclick","digitalSet('DONGHWA.PROCESS_VALUES.PRESSURE_SWITCHES','"+keys+"')");
+	$("."+keys).css("cursor","pointer");
+}
+/*
+function c(keys, value){
+//	$("."+keys).text(value);
+	
+	if(value == true){
+		$("."+keys).css("background-color","red");
+		$("."+keys).css("color","white");
+	}else{
+		$("."+keys).css("background-color","green");
+		$("."+keys).css("color","black");
+	}
+	
+}
+*/
+
+function value(keys, value){
+	$("."+keys).text(value);
+	$("."+keys).css("text-align","center");
+	$("."+keys).css("font-size","12pt");
+
+}
+
+</script>  
 </body>
 </html>

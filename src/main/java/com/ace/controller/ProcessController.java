@@ -1,9 +1,17 @@
 package com.ace.controller;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ExecutionException;
+
+import org.eclipse.milo.opcua.stack.core.UaException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.ace.util.OpcDataMap;
 
 @Controller
 public class ProcessController {
@@ -32,6 +40,24 @@ public class ProcessController {
     public String pressureSwitchesPop(Model model) {
         return "/process/pressureSwitchesPop.jsp";
     }
+    
+    
+  //Manual Operation
+    @RequestMapping(value= "/process/pressureSwitchesPop/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> manualOperationView() throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	returnMap = opcDataMap.getOpcDataListMap("DONGHWA.PROCESS_VALUES.PRESSURE_SWITCHES");
+    	
+    	return returnMap;    	
+    }	
+    
+    
+    
+    
 
     @RequestMapping(value = "/process/temperaturePop", method = RequestMethod.GET)
     public String temperaturePop(Model model) {

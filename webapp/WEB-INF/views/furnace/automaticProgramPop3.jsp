@@ -34,6 +34,19 @@
        margin: 0;
        padding: 0;
    }
+   
+      .automatic-text, .programmer-text, .startconditions-text, .batch-data-text {
+    transition: all 0.3s ease;
+    cursor: pointer;
+	}
+	
+	.automatic-text:hover,
+	.programmer-text:hover,
+	.startconditions-text:hover,
+	.batch-data-text:hover {
+	    color: white;
+	    transform: scale(1.05);
+	}
    </style>
   <title>Document</title>
 </head>
@@ -47,13 +60,13 @@
   <div class="automatic-program">Automatic program</div>
   <img class="close2" src="close1.png" />
   <div class="automatic"></div>
-  <div class="automatic-text">Automatic</div>
+  <div class="automatic-text" onclick="popupClick('/donghwa/furnace/automaticProgramPop1', 502, 379.8, 730, 235);">Automatic</div>
   <div class="programmer"></div>
-  <div class="programmer-text">Programmer</div>
+  <div class="programmer-text" onclick="popupClick('/donghwa/furnace/automaticProgramPop2', 502, 379.8, 730, 235);">Programmer</div>
   <div class="start-conditions"></div>
-  <div class="startconditions-text">Startconditions</div>
+  <div class="startconditions-text" onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 502, 379.8, 730, 235);">Startconditions</div>
   <div class="batch-data"></div>
-  <div class="batch-data-text">Batch data</div>
+  <div class="batch-data-text" onclick="popupClick('/donghwa/furnace/automaticProgramPop4', 502, 379.8, 730, 235);">Batch data</div>
   <div class="fast-stop"></div>
   <div class="_1"></div>
   <div class="fur-closed"></div>
@@ -81,6 +94,92 @@
   <div class="hydraulic-in-position">Hydraulic in Position</div>
 
 
+    <script>
+  var popup;
   
+  function modalClick(location){
+      const modal = document.querySelector('.'+location);
+      modal.style.display="";
+  }
+  
+  
+    const hamburgerIcon = document.querySelector('.hamburger-icon');
+    const menu = document.getElementById('hamburgerMenu');
+
+    hamburgerIcon.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+
+    const menuItems = document.querySelectorAll('.menu > ul > li');
+
+    menuItems.forEach(item => {
+      item.addEventListener('click', (event) => {
+        menuItems.forEach(otherItem => {
+          if (otherItem !== item) {
+            const submenu = otherItem.querySelector('.submenu');
+            if (submenu) {
+              submenu.classList.remove('active');
+              submenu.style.maxHeight = null;
+            }
+          }
+        });
+
+        const submenu = item.querySelector('.submenu');
+        if (submenu) {
+          submenu.classList.toggle('active');
+          if (submenu.classList.contains('active')) {
+            submenu.style.maxHeight = submenu.scrollHeight + "px";
+          } else {
+            submenu.style.maxHeight = null;
+          }
+        }
+
+        event.stopPropagation();
+      });
+    });
+
+    const historyTrendsItem = document.getElementById('historytrends');
+    if (historyTrendsItem) {
+      historyTrendsItem.addEventListener('click', () => {
+        window.location.href = 'RecipeTrend';
+      });
+    }
+
+    function menuClick(url) {
+    	popup.close();
+      location.href = url;
+    }
+
+    function popupClick(url, popupWidth, popupHeight, customLeft, customTop) {
+        // 브라우저 창 크기 가져오기
+        var browserWidth = window.innerWidth; // 브라우저 가로 크기
+        var browserHeight = window.innerHeight; // 브라우저 세로 크기
+
+        // 팝업창 위치 계산
+//        var popupLeft = customLeft !== null ? customLeft : (browserWidth - popupWidth) / 2 + window.screenX;
+//       var popupTop = customTop !== null ? customTop : (browserHeight - popupHeight) / 2 + window.screenY;
+
+        // 팝업창 열기
+        popup = window.open(
+            url,
+            "popupWindow",
+            "width=" + popupWidth + 
+            ",height=" + popupHeight + 
+            ",left=" + customLeft + 
+            ",top=" + customTop + 
+            ",menubar=no,toolbar=no,scrollbars=no,status=no,location=no,directories=no,resizable=no"
+        );
+
+      
+        if (!popup || popup.closed || typeof popup.closed == "undefined") {
+            alert("팝업이 차단되었습니다. 팝업 차단 설정을 확인해주세요.");
+        }
+    }
+
+//0117 돌림
+
+
+
+  </script>
 </body>
 </html>

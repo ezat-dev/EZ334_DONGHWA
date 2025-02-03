@@ -42,7 +42,7 @@
     <div class="tem-header"></div>
     <div class="tem-main"></div>
    
-    <div class="temperature">Temperature</div>
+    <div class="temperature">Pressure</div>
     <div class="fur-pressure"></div>
     <div class="furnace-pressure">Furnace pressure</div>
     <div class="auto">Auto</div>

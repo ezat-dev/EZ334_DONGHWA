@@ -2,7 +2,9 @@ package com.ace.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import org.eclipse.milo.opcua.sdk.client.OpcUaClient;
@@ -11,6 +13,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.ace.util.OpcDataMap;
 
 @Controller
 public class MainController {
@@ -20,7 +26,7 @@ public class MainController {
 
     //OPC서버 연결시작
     public static void opcStart() throws UaException, InterruptedException, ExecutionException {
-		client = OpcUaClient.create("opc.tcp://192.168.1.191:5660");
+		client = OpcUaClient.create("opc.tcp://127.0.0.1:5660");
 			
 		client.connect().get();
     }
@@ -43,5 +49,44 @@ public class MainController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "/home.jsp";
-	}	
+	}
+	
+	
+	//Manual Operation
+    @RequestMapping(value= "/common/valueDigitalSet", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> valueDigitalSet(
+    		@RequestParam String sendTagDir,
+    		@RequestParam String sendTagName,
+    		@RequestParam boolean sendTagValue
+    		) throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	
+    	opcDataMap.setOpcData(sendTagDir+"."+sendTagName, sendTagValue);
+    	
+    	return returnMap;    	
+    }		
+    
+    //Manual Operation
+    @RequestMapping(value= "/common/valueAnalogSet", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> valueAnalogSet(
+    		@RequestParam String sendTagDir,
+    		@RequestParam String sendTagName,
+    		@RequestParam short sendTagValue
+    		) throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+    	
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	opcDataMap.setOpcData(sendTagDir+"."+sendTagName, sendTagValue);
+    	
+    	return returnMap;    	
+    }		
+	
+	
+	
 }

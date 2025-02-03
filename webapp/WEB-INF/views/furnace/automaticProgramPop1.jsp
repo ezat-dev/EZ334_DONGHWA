@@ -34,6 +34,21 @@
        margin: 0;
        padding: 0;
    }
+   
+   .automatic2, .programmer2, .startconditions2, .batch-data {
+    transition: all 0.3s ease; 
+    cursor: pointer; 
+	}
+	
+	.automatic2:hover,
+	.programmer2:hover,
+	.startconditions2:hover,
+	.batch-data:hover {
+	  
+	    color: white; 
+	    transform: scale(1.05); 
+	}
+   
    </style>
   <title>Document</title>
 </head>
@@ -49,8 +64,6 @@
     <div class="startconditions"></div>
     <div class="batchdata"></div>
     <div class="automatic2" onclick="popupClick('/donghwa/furnace/automaticProgramPop1', 502, 379.8, 730, 235);">Automatic</div>
-
-    
     <div class="programmer2" onclick="popupClick('/donghwa/furnace/automaticProgramPop2', 502, 379.8, 730, 235);">Programmer</div>
     <div class="startconditions2"onclick="popupClick('/donghwa/furnace/automaticProgramPop3', 502, 379.8, 730, 235);">Startconditions</div>
     <div class="batch-data" onclick="popupClick('/donghwa/furnace/automaticProgramPop4', 502, 379.8, 730, 235);">Batch data</div>
