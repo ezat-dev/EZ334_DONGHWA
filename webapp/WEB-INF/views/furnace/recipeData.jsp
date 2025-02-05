@@ -1021,6 +1021,7 @@ body {
     <div class="speed-plunger-31"><input type="text" class="input-text" id="id822" name="DONGHWA.PLC.RECIPE.SEGMENT_31.SPEED_PLUNGER_31" oninput="validateNumberInput(event)"/></div> <!-- Updated from id698 -->
     <div class="gradient-force-31"><input type="text" class="input-text" id="id823" name="DONGHWA.PLC.RECIPE.SEGMENT_31.GRADIENT_FORCE_31" oninput="validateNumberInput(event)"/></div>
     <div class="fastcooling-31"><input type="checkbox" id="id824" name="DONGHWA.PLC.RECIPE.SEGMENT_31.FASTCOOLING_31" class="input-checkbox" value="0" disabled></div>
+   <div class="gas-n-31"><input type="checkbox" id="id825" name="DONGHWA.PLC.RECIPE.SEGMENT_31.GAS_N_31" class="input-checkbox" value="0" disabled></div> <!-- Updated from id723 -->
     <div class="gas-a-31"><input type="checkbox" id="id826" name="DONGHWA.PLC.RECIPE.SEGMENT_31.GAS_A_31" class="input-checkbox" value="0" disabled></div>
     <div class="spare-31"><input type="checkbox" id="id827" name="DONGHWA.PLC.RECIPE.SEGMENT_31.SPARE_31" class="input-checkbox" value="0"></div>
     <div class="hydrulic-off-31"><input type="checkbox" id="id828" name="DONGHWA.PLC.RECIPE.SEGMENT_31.HYDRULIC_OFF_31" class="input-checkbox" value="0"></div> <!-- Updated from id704 -->
