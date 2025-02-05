@@ -1441,9 +1441,7 @@ $(function(){
 			   dataObj.press_position = $("#seg-"+i+"> .press-position-"+i+" > input ").val();			   
 			   dataObj.press_distance = $("#seg-"+i+"> .press-distance-"+i+" > input ").val();
 
-			   console.log(dataObj);
 
-			   
 			   dataArr.push(dataObj);
 		   }else{
 //			   console.log("값없음 : "+i);

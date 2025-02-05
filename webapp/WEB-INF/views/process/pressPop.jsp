@@ -38,6 +38,7 @@
 </head>
 <body>
  
+<div id="aaa asd" class="col-xs-6 text-center datepicker"></div>
 
     <div class="press-box"></div>
     <div class="press-header"></div>
@@ -46,7 +47,7 @@
     <div class="press">Press</div>
     <div class="press-cap"></div>
     <div class="press-capacity">Press capacity</div>
-    <div class="press-cap-box-1"></div>
+    <div class="press-cap-box-1 press-cap-box-1111111"></div>
     <div class="auto">Auto</div>
     <div class="wic-22-4-2-x">WIC 22.4.2.x</div>
     <div class="press-cap-val-1"></div>

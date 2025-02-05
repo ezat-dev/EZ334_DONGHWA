@@ -44,8 +44,8 @@ public class ActionMap {
 			//t-tong 또는 b-tong
 			result = "value";			
 		}else{
-			if(tagName.contains("io")){
-				result = "red"; 
+			if(tagName.contains("-lamp")){
+				result = "c"; 
 			}else{
 				result = "v"; // v는 .val 포함
 			}

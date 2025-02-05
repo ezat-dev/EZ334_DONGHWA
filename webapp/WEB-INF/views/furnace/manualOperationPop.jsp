@@ -27,7 +27,7 @@
   <div class="plc-manual"></div>
   <div class="manual2">Manual</div>
   <div class="pumping"></div>
-  <div class="plc-pumping"></div>
+  <div class="plc-pumping plc-pumping-lamp"></div>
   <div class="pumping-station">Pumping station</div>
   <div class="high-vacuum-pump"></div>
   <div class="plc-high-vacuum"></div>
@@ -113,31 +113,33 @@ function overviewListView(){
 
 function v(keys, value){
 	
+
+/*
+	if(keys.contains("plc-pumping") == true){
+		console.log("contains : "+keys);
+	}
+*/
+	$("."+keys).attr("onclick","digitalSet('DONGHWA.FURNACE.MANUAL_OPERATION','"+keys+"')");
+	$("."+keys).css("cursor","pointer");		
+}
+
+
+
+
+
+
+function c(keys, value){
 	if(value == true){
 		$("."+keys).css("background-color","green");
 		$("."+keys).css("color","white");
+		
 	}else{
 		$("."+keys).css("background-color","#E3E3E3");
 		$("."+keys).css("color","black");
 	}
+}
 
-	$("."+keys).attr("onclick","digitalSet('DONGHWA.FURNACE.MANUAL_OPERATION','"+keys+"')");
-	$("."+keys).css("cursor","pointer");
-}
-/*
-function c(keys, value){
-//	$("."+keys).text(value);
-	
-	if(value == true){
-		$("."+keys).css("background-color","red");
-		$("."+keys).css("color","white");
-	}else{
-		$("."+keys).css("background-color","green");
-		$("."+keys).css("color","black");
-	}
-	
-}
-*/
+
 
 function value(keys, value){
 	$("."+keys).text(value);
