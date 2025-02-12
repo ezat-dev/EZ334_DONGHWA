@@ -1,194 +1,326 @@
-.group-1,
-.group-1 * {
+.group-6,
+.group-6 * {
   box-sizing: border-box;
 }
-.group-1 {
-  height: 878px;
+.group-6 {
+  height: 522px;
   position: relative;
 }
-.wrapper {
-  width: 1918px;
-  height: 878px;
-  position: static;
-}s
-.header {
-  background: #123478;
-  width: 1918px;
-  height: 46.68px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.footer {
-  background: #123478;
-  width: 1918px;
-  height: 72.43px;
-  position: absolute;
-  left: 0px;
-  top: 805.57px;
-}
-.main {
-  background: #ffffff;
-  width: 1918px;
-  height: 758.89px;
-  position: absolute;
-  left: 0px;
-  top: 46.68px;
-}
-.hamburger-icon-svg-1 {
-  width: 33px;
-  height: 26.56px;
-  position: absolute;
-  left: 13px;
-  top: 36.21px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, -1);
-  object-fit: cover;
-}
-.heater-box {
-  background: #d9d9d9;
-  width: 466px;
-  height: 254px;
-  position: absolute;
-  left: 0px;
-  top: 8px;
-}
-.heater-header {
-  background: #282828;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 466px;
-  height: 46px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.heater-main {
+.timer-main {
   background: #e6e6e6;
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
-  width: 466px;
-  height: 217px;
+  width: 637px;
+  height: 470px;
   position: absolute;
   left: 0px;
-  top: 45px;
+  top: 52px;
+}
+.group-5 {
+  width: 637px;
+  height: 499px;
+  position: static;
+}
+.timer-header {
+  background: #282828;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 637px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 .close {
-  width: 39px;
-  height: 24px;
+  width: 19px;
+  height: 30px;
   position: absolute;
-  left: 414px;
-  top: 12px;
+  left: 603px;
+  top: 11px;
   object-fit: cover;
 }
-.heater {
+.timer-text {
   color: #ffffff;
   text-align: left;
-  
-  font-size: 30px;
+
+  font-size: 27px;
   font-weight: 700;
   position: absolute;
+  left: 17px;
+  top: 10px;
+  width: 102px;
+  height: 42px;
+  -webkit-text-stroke: 1px #000000;
+}
+.description {
+  background: #ffffff;
+  width: 258px;
+  height: 54px;
+  position: absolute;
   left: 11px;
-  top: 5px;
-  width: 137px;
+  top: 70px;
+}
+.set-point {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 281px;
+  top: 70px;
+}
+.actual-value {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 455px;
+  top: 70px;
+}
+.box-1 {
+  background: #ffffff;
+  width: 258px;
+  height: 53px;
+  position: absolute;
+  left: 11px;
+  top: 133px;
+}
+.box-1-point {
+  background: #ffffff;
+  width: 167px;
+  height: 53px;
+  position: absolute;
+  left: 281px;
+  top: 133px;
+}
+.box-1-val {
+  background: #ffffff;
+  width: 167px;
+  height: 53px;
+  position: absolute;
+  left: 455px;
+  top: 133px;
+}
+.box-2 {
+  background: #ffffff;
+  width: 258px;
+  height: 54px;
+  position: absolute;
+  left: 11px;
+  top: 195px;
+}
+.box-2-point {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 281px;
+  top: 195px;
+}
+.box-2-val {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 455px;
+  top: 195px;
+}
+.box-3 {
+  background: #ffffff;
+  width: 258px;
+  height: 54px;
+  position: absolute;
+  left: 11px;
+  top: 257px;
+}
+.box-3-point {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 281px;
+  top: 257px;
+}
+.box-3-val {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 455px;
+  top: 257px;
+}
+.box-6 {
+  background: #ffffff;
+  width: 258px;
+  height: 54px;
+  position: absolute;
+  left: 11px;
+  top: 319px;
+}
+.box-6-point {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 281px;
+  top: 319px;
+}
+.box-6-val {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 455px;
+  top: 319px;
+}
+.box-8 {
+  background: #ffffff;
+  width: 258px;
+  height: 54px;
+  position: absolute;
+  left: 11px;
+  top: 381px;
+}
+.box-8-point {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 281px;
+  top: 381px;
+}
+.box-8-val {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 455px;
+  top: 381px;
+}
+._1-1 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 34px;
+  top: 142px;
+  width: 209px;
+}
+._1-2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 27px;
+  top: 204px;
+  width: 224px;
+}
+._2-1 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 23px;
+  top: 269px;
+  width: 231px;
+}
+._2-2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 329px;
+  width: 246px;
+}
+._3-1 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 19px;
+  top: 391px;
+  width: 239px;
+}
+.box-82 {
+  background: #ffffff;
+  width: 258px;
+  height: 54px;
+  position: absolute;
+  left: 11px;
+  top: 445px;
+}
+.box-8-point2 {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 281px;
+  top: 445px;
+}
+.box-8-val2 {
+  background: #ffffff;
+  width: 167px;
+  height: 54px;
+  position: absolute;
+  left: 455px;
+  top: 445px;
+}
+._3-2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  left: 12px;
+  top: 455px;
+  width: 254px;
+}
+.heater {
+  color: #000000;
+  text-align: center;
+
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 14px;
+  top: 81px;
+  width: 252px;
   height: 36px;
-  
 }
-.insul-res-1 {
-  background: #fa8f8f;
-  width: 430px;
-  height: 31px;
-  position: absolute;
-  left: 18px;
-  top: 80px;
-}
-.insulation-resistance {
+.volltage {
   color: #000000;
-  text-align: left;
-  
-  font-size: 20px;
-  font-weight: 400;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
   position: absolute;
-  left: 24px;
-  top: 85px;
-  width: 250px;
-  height: 21px;
+  left: 281px;
+  top: 82px;
+  width: 166px;
+  height: 36px;
 }
-.insul-res-box-1 {
-  background: #ffffff;
-  width: 177px;
-  height: 31px;
-  position: absolute;
-  left: 18px;
-  top: 113px;
-}
-.r {
+.current {
   color: #000000;
-  text-align: left;
-  
-  font-size: 11px;
-  font-weight: 400;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
   position: absolute;
-  left: 24px;
-  top: 118px;
-  width: 19px;
-  height: 21px;
-}
-.insul-res-val-1 {
-  background: #ffffff;
-  width: 251px;
-  height: 31px;
-  position: absolute;
-  left: 197px;
-  top: 113px;
-}
-.insul-res-2 {
-  background: #fa8f8f;
-  width: 430px;
-  height: 32px;
-  position: absolute;
-  left: 18px;
-  top: 169px;
-}
-.insulation-resistance2 {
-  color: #000000;
-  text-align: left;
-  
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 24px;
-  top: 174px;
-  width: 250px;
-  height: 22px;
-}
-.insul-res-box-2 {
-  background: #ffffff;
-  width: 177px;
-  height: 32px;
-  position: absolute;
-  left: 18px;
-  top: 202px;
-}
-.r2 {
-  color: #000000;
-  text-align: left;
-  
-  font-size: 11px;
-  font-weight: 400;
-  position: absolute;
-  left: 24px;
-  top: 207px;
-  width: 19px;
-  height: 22px;
-}
-.insul-res-val-2 {
-  background: #ffffff;
-  width: 251px;
-  height: 32px;
-  position: absolute;
-  left: 197px;
-  top: 202px;
+  left: 460px;
+  top: 81px;
+  width: 153px;
+  height: 36px;
 }

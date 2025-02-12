@@ -19,20 +19,42 @@
     .header {
       background: #123478;
       width: 100%; 
-      height: 60px;
+      height: 70px;
       position: fixed;
       top: 0;
       left: 0;
       z-index: 10;
-      
+      text-align: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header .time {
+      font-size: 21px;
+      font-weight: bold;
+      position: absolute;
+      right:30px;
+      bottom:5px;
+    }
+
+
+    .header .date {
+      font-size: 21px;
+      position: absolute;
+      right:30px;
+      bottom:35px;
+      font-weight: bold;
     }
 
     .hamburger-icon {
-      width: 33px;
-      height: 27.19px;
+      width: 34px;
+      height: 28.19px;
       position: absolute;
       left: 13px;
-      top: 12px;
+      top: 17px;
       cursor: pointer; 
       z-index: 3;
       display: flex;
@@ -45,21 +67,22 @@
       height: 4px;
       background-color: white;
       border-radius: 2px;
+      margin-top: 1px;
     }
 
-	.menu {
-	  width: 251px;
-	  height: calc(100% - 30px);  /* 화면 크기에서 200px를 제외 */
-	  background: #123478;
-	  position: fixed;
-	  left: -350px;
-	  top: 40px;  /* 메뉴가 200px 아래로 내리기 */
-	  transition: left 0.3s ease;
-	  padding: 20px;
-	  color: white;
-	  z-index: 1;
-	}
-  
+    .menu {
+      width: 251px;
+      height: calc(100% - 30px);  
+      background: #123478;
+      position: fixed;
+      left: -350px;
+      top: 40px;  
+      transition: left 0.3s ease;
+      padding: 20px;
+      color: white;
+      z-index: 1;
+    }
+
     .menu.active {
       left: 0;
     }
@@ -70,46 +93,42 @@
       transition: max-height 0.3s ease;
       padding-left: 20px;
     }
-  
+
     .submenu.active {
       max-height: 100px;
     }
 
     .menu > ul {
-
       list-style-type: none;
       padding: 0;
       margin: 0;
-      
     }
 
-	.menu > ul > li {
-	  margin-top: 22px;
-	  cursor: pointer;
-	  padding: 5px 0;
-	  font-size: 22px;  
-	}
-	
-	.submenu li {
-	  padding: 5px 0;
-	  white-space: nowrap;
-	  font-size: 20px; 
-	}
+    .menu > ul > li {
+      margin-top: 22px;
+      cursor: pointer;
+      padding: 5px 0;
+      font-size: 22px;  
+    }
 
+    .submenu li {
+      padding: 5px 0;
+      white-space: nowrap;
+      font-size: 20px; 
+    }
 
-    
-
-    /* 추가된 스타일 */
     .main-content {
-      background-color: #123478; /* 헤더와 동일한 색 */
-      height: calc(100% - 60px); /* 헤더를 제외한 나머지 공간 채우기 */
+      background-color: #123478;
+      height: calc(100% - 60px); 
     }
 
-</style>
+  </style>
 </head>
 
 <body>
-  <div class="header">
+   <div class="header">
+    <div class="time" id="time"></div>
+    <div class="date" id="date"></div>
     <div class="hamburger-icon">
       <div></div>
       <div></div>
@@ -133,10 +152,10 @@
     <li>
       Process values
       <ul class="submenu">
-        <li onclick="popupClick('/donghwa/process/temperaturePop', 376, 591, 680, 165);">Temperature</li>
+        <li onclick="popupClick('/donghwa/process/temperaturePop', 779, 498, 680, 165);">Temperature</li>
 		<li onclick="popupClick('/donghwa/process/pressurePop', 386, 430, 680, 180);">Pressure</li>
 		<li onclick="popupClick('/donghwa/process/pressureSwitchesPop', 391, 249, 680, 204);">Pressure switches</li>
-		<li onclick="popupClick('/donghwa/process/heaterPop', 370, 202, 680, 204);">Heater</li>
+		<li onclick="popupClick('/donghwa/process/heaterPop', 507, 410, 680, 204);">Heater</li>
 		<li onclick="popupClick('/donghwa/process/pressPop', 936, 481, 550, 160);">Press</li>
 		<li onclick="popupClick('/donghwa/process/powerConsumptionPop', 902, 406, 550, 160);">Power Consumption</li>
 
@@ -260,9 +279,25 @@
             alert("팝업이 차단되었습니다. 팝업 차단 설정을 확인해주세요.");
         }
     }
+  
+    function updateTime() {
+      var now = new Date();
+      var hours = String(now.getHours()).padStart(2, '0');
+      var minutes = String(now.getMinutes()).padStart(2, '0');
+      var seconds = String(now.getSeconds()).padStart(2, '0');
+      var timeString = hours + ':' + minutes + ':' + seconds;
 
-//0117 돌림
+      var year = now.getFullYear();
+      var month = String(now.getMonth() + 1).padStart(2, '0');
+      var day = String(now.getDate()).padStart(2, '0');
+      var dateString = year + '-' + month + '-' + day;
 
+      document.getElementById('time').textContent = timeString;
+      document.getElementById('date').textContent = dateString;
+    }
+
+    setInterval(updateTime, 1000);
+    updateTime();  // 페이지 로드 시 즉시 시간과 날짜 업데이트
 
 
   </script>

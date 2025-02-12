@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,6 +48,46 @@
 	    color: white;
 	    transform: scale(1.05);
 	}
+	
+	
+	.button-container {
+	  position: absolute;
+	  left: 21px;
+	  top: 66px;
+	  display: flex; /* 버튼을 가로로 정렬 */
+	  gap: 10px; /* 버튼 간격 */
+	}
+	
+	.button {
+	  width: 84px;
+	  height: 84px;
+	  border-radius: 20px;
+	  background-color: #5A6D8A; /* 연한 남색 */
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  cursor: pointer;
+	  transition: background-color 0.3s ease, transform 0.2s ease;
+	}
+	
+	.button img {
+	  width: 50px;
+	  height: 50px;
+	  object-fit: contain;
+	}
+	
+	.button:hover {
+	  background-color: #4C5C77; /* 호버 시 색상 변경 */
+	  transform: scale(1.05);
+	}
+	
+	.button:active {
+	  background-color: #3A4A66;
+	  transform: scale(0.95);
+	}
+
+	
+
    </style>
   <title>Document</title>
 </head>
@@ -66,6 +107,21 @@
     <div class="batch-data"></div>
     <div class="batch-data-text" onclick="popupClick('/donghwa/furnace/automaticProgramPop4', 502, 379.8, 730, 235);">Batch data</div>
     <div class="jump"></div>
+    
+    <div class="button-container">
+	   <div class="button" onclick="startProgram()">
+		    <img src="/donghwa/css/furnace/img/start3.png" alt="Start">
+		</div>
+		<div class="button" onclick="pauseProgram()">
+		    <img src="/donghwa/css/furnace/img/pause3.png" alt="Pause">
+		</div>
+		<div class="button" onclick="stopProgram()">
+		    <img src="/donghwa/css/furnace/img/stop3.png" alt="Stop">
+		</div>
+
+ 	 </div>
+    
+    
     <div class="jump2">Jump</div>
     <div class="jump-val"></div>
     <div class="setpoint"></div>
@@ -163,8 +219,32 @@
         }
     }
 
-//0117 돌림
+    function startProgram() {
+        const userConfirmed = confirm("프로그램을 시작하시겠습니까?");
+        if (userConfirmed) {
+          alert("프로그램 시작");
+        } else {
+          alert("프로그램 시작 취소");
+        }
+      }
 
+      function pauseProgram() {
+        const userConfirmed = confirm("프로그램을 일시정지하시겠습니까?");
+        if (userConfirmed) {
+          alert("프로그램 일시정지");
+        } else {
+          alert("프로그램 일시정지 취소");
+        }
+      }
+
+      function stopProgram() {
+        const userConfirmed = confirm("프로그램을 종료하시겠습니까?");
+        if (userConfirmed) {
+          alert("프로그램 종료");
+        } else {
+          alert("프로그램 종료 취소");
+        }
+      }
 
 
   </script>

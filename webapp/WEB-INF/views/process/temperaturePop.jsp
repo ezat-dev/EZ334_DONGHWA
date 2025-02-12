@@ -42,7 +42,7 @@
   <div class="tem-header"></div>
   <div class="tem-main"></div>
 
-  <div class="temperature">Temperature</div>
+ <div class="temperature">Temperature</div>
   <div class="cz-1"></div>
   <div class="heater-bottom-top-cz-1">Heater Bottom-/Top (CZ1)</div>
   <div class="cz-1-box-1"></div>
@@ -73,12 +73,16 @@
   <div class="ti-4-61">TI 4.61</div>
   <div class="load-val-1"></div>
   <div class="charge"></div>
-  <div class="charge-temperatures">Charge temperatures</div>
   <div class="charge-box-1"></div>
-  <div class="ti-4-26">TI 4.26</div>
   <div class="charge-val-1"></div>
   <div class="charge-box-2"></div>
+  <div class="charge-box-22"></div>
+  
+  <div class="t-c-11-c-t-c-25-c">T/C - 11C~T/C - 25C</div>
+  
   <div class="ti-4-27">TI 4.27</div>
+  <div class="charge-box-23"></div>
+  <div class="ti-4-272">TI 4.27</div>
   <div class="charge-val-2"></div>
   <div class="charge-box-3"></div>
   <div class="ti-4-28">TI 4.28</div>
@@ -86,14 +90,39 @@
   <div class="charge-box-4"></div>
   <div class="ti-4-29">TI 4.29</div>
   <div class="charge-val-4"></div>
-  <div class="fastcooling"></div>
-  <div class="fastcooling2">Fastcooling</div>
-  <div class="fastcooling-box-1"></div>
-  <div class="ti-12-7">TI 12.7</div>
-  <div class="fastcooling-val-1"></div>
-  <div class="fastcooling-box-2"></div>
-  <div class="ti-12-8">TI 12.8</div>
-  <div class="fastcooling-val-2"></div>
+  <div class="charge-box-42"></div>
+  <div class="ti-4-292">TI 4.29</div>
+  <div class="charge-val-42"></div>
+  <div class="charge-box-12"></div>
+  <div class="ti-4-26">TI 4.26</div>
+  <div class="charge-val-12"></div>
+  <div class="charge-box-24"></div>
+  <div class="ti-4-273">TI 4.27</div>
+  <div class="charge-val-22"></div>
+  <div class="charge-box-32"></div>
+  <div class="ti-4-282">TI 4.28</div>
+  <div class="charge-val-32"></div>
+  <div class="charge-box-43"></div>
+  <div class="ti-4-293">TI 4.29</div>
+  <div class="charge-val-43"></div>
+  <div class="charge-box-44"></div>
+  <div class="ti-4-294">TI 4.29</div>
+  <div class="charge-val-44"></div>
+  <div class="charge-box-13"></div>
+  <div class="ti-4-262">TI 4.26</div>
+  <div class="charge-val-13"></div>
+  <div class="charge-box-25"></div>
+  <div class="ti-4-274">TI 4.27</div>
+  <div class="charge-val-23"></div>
+  <div class="charge-box-33"></div>
+  <div class="ti-4-283">TI 4.28</div>
+  <div class="charge-val-33"></div>
+  <div class="charge-box-45"></div>
+  <div class="ti-4-295">TI 4.29</div>
+  <div class="charge-val-45"></div>
+  <div class="charge-box-46"></div>
+  <div class="ti-4-99">TI 4.99</div>
+  <div class="charge-val-46"></div>
 
 
   

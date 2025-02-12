@@ -96,7 +96,7 @@
 .press {
   color: #ffffff;
   text-align: left;
-  font-family: "Inter-Bold", sans-serif;
+
   font-size: 30px;
   font-weight: 700;
   position: absolute;
@@ -104,7 +104,7 @@
   top: 4px;
   width: 93px;
   height: 37px;
-  -webkit-text-stroke: 1px #000000;
+
 }
 .press-cap {
   background: #23e471;
@@ -117,7 +117,7 @@
 .press-capacity {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -137,7 +137,7 @@
 .auto {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -149,7 +149,7 @@
 .wic-22-4-2-x {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -177,7 +177,7 @@
 .wsp-22-4-2-x {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -205,7 +205,7 @@
 .force-sensor2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -225,7 +225,7 @@
 .wic-22-4-2-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -253,7 +253,7 @@
 .wic-22-4-2-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -281,7 +281,7 @@
 .wic-22-4-2-3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -309,7 +309,7 @@
 .wic-22-4-2-4 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -337,7 +337,7 @@
 .wic-22-4-2-5 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -365,7 +365,7 @@
 .wic-22-4-2-6 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -393,7 +393,7 @@
 .wic-22-4-2-7 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -421,7 +421,7 @@
 .wic-22-4-2-8 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -457,7 +457,7 @@
 .tara2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -493,7 +493,7 @@
 .tara-ok2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -513,7 +513,7 @@
 .auto2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -525,7 +525,7 @@
 .position {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -545,7 +545,7 @@
 .gic-22-2-60-10 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -573,7 +573,7 @@
 .gsp-22-2-60-10 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -601,7 +601,7 @@
 .position3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -621,7 +621,7 @@
 .gic-22-1-60-20 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -649,7 +649,7 @@
 .ref-point2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -669,7 +669,7 @@
 .start {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -697,7 +697,7 @@
 .actual {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -733,7 +733,7 @@
 .extrusion-die-in-upper-position {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -761,7 +761,7 @@
 .reference-point-latched {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -789,7 +789,7 @@
 .batch-reached {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -817,7 +817,7 @@
 .alternating-force-active {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -845,7 +845,7 @@
 .hydraulic-oil-system-pressure {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -865,7 +865,7 @@
 .pi-22-1-51-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -893,7 +893,7 @@
 .hydraulic-pressure-cylinder-a-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -913,7 +913,7 @@
 .pi-22-1-51-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -941,7 +941,7 @@
 .hydraulic-pressure-cylinder-a-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -961,7 +961,7 @@
 .pi-22-1-51-3 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -989,7 +989,7 @@
 .hydraulic-pressure-cylinder-b-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1009,7 +1009,7 @@
 .pi-22-1-51-4 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1037,7 +1037,7 @@
 .hydraulic-pressure-cylinder-b-2 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1057,7 +1057,7 @@
 .pi-22-1-51-5 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1085,7 +1085,7 @@
 .hydraulic-oil-temperature {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1105,7 +1105,7 @@
 .tis-22-1-5-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1133,7 +1133,7 @@
 .hydraulic-oil-fill-level {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -1153,7 +1153,7 @@
 .wis-22-1-5-1 {
   color: #000000;
   text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  
   font-size: 20px;
   font-weight: 400;
   position: absolute;

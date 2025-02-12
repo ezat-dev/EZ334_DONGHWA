@@ -62,6 +62,9 @@ public class MainController {
     		) throws UaException, InterruptedException, ExecutionException {
     	Map<String, Object> returnMap = new HashMap<String, Object>();
 
+    	//사용자 권한체크
+    	
+    	
     	OpcDataMap opcDataMap = new OpcDataMap();
     	
     	

@@ -14,5 +14,9 @@ public class OverviewController {
         return "/furnace/overview.jsp";
        
     }
-
+    @RequestMapping(value = "/include/test", method = RequestMethod.GET)
+    public String test(Model model) {
+        return "/include/test.jsp";
+       
+    }
 }

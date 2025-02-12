@@ -9,4 +9,6 @@ encoding//webapp/WEB-INF/views/furnace/operationPressPop.jsp=UTF-8
 encoding//webapp/WEB-INF/views/furnace/overview.jsp=UTF-8
 encoding//webapp/WEB-INF/views/furnace/recipeData.jsp=UTF-8
 encoding//webapp/WEB-INF/views/include/login.jsp=UTF-8
+encoding//webapp/WEB-INF/views/include/mainFooter.jsp=UTF-8
+encoding//webapp/WEB-INF/views/include/mainHeader.jsp=UTF-8
 encoding//webapp/WEB-INF/views/process/pressureSwitchesPop.jsp=UTF-8

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%@ include file="../include/mainHeader.jsp" %>
+  <%@ include file="../include/mainFooter.jsp" %>
   <jsp:include page="../include/pluginpage.jsp"/>
   <link rel="stylesheet" href="/donghwa/css/furnace/overview.css">
   <%@ include file="../include/commonPopup.jsp" %>
@@ -35,14 +36,14 @@
     }
 
     .table-container {
-        position: relative;
-        top: 300px;
+        position: absolute;
+        top: 210px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 30px;
-        width: 34%;
-        marign-left:100px;
+        width: 32%;
+        left:220px;
     }
 
     .table {
@@ -132,33 +133,33 @@
     <div class="table table1">
       <div class="table-header">Furance temperature     Auto</div>
       <div class="temper_1">TIC 4.x</div>
-      <div class="table-cell">79°C</div>
+      <div class="table-cell overTb1">79°C</div>
       <div class="temper_2">TSP 4</div>
-      <div class="table-cell">20°C</div>
+      <div class="table-cell overTb2">20°C</div>
     </div>
 
     <div class="table table2">
       <div class="table-header">Position</div>
-      <div class="Position_1">GIC 22.260.10</div>
+      <div class="Position_1 overTb3">GIC 22.260.10</div>
       <div class="table-cell">1.16 mm</div>
       <div class="Position_2">GSP 22.260.10</div>
-      <div class="table-cell">0.00 mm</div>
+      <div class="table-cell overTb4">0.00 mm</div>
     </div>
 
     <div class="table table3">
       <div class="table-header">Furnace Pressure</div>
       <div class="Pressure_1">PIS 6.x / 13.5</div>
-      <div class="table-cell">1000 mbar</div>
+      <div class="table-cell overTb5">1000 mbar</div>
       <div class="Pressure_2">PSP 6</div>
-      <div class="table-cell">00e++00 mabar</div>
+      <div class="table-cell overTb6">00e++00 mabar</div>
     </div>
 
     <div class="table table4">
       <div class="table-header">Press capacity</div>
       <div class="capacity_1">WIC 22.4.2 X</div>
-      <div class="table-cell">-5 kN</div>
+      <div class="table-cell overTb7">-5 kN</div>
       <div class="capacity_2">WSC 22.4.2 X</div>
-      <div class="table-cell">0 kN</div>
+      <div class="table-cell overTb8">0 kN</div>
     </div>
   </div>
 
