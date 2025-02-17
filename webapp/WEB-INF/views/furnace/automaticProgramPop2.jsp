@@ -109,13 +109,13 @@
     <div class="jump"></div>
     
     <div class="button-container">
-	   <div class="button" onclick="startProgram()">
+	   <div class="button start_bt" onclick="startProgram()">
 		    <img src="/donghwa/css/furnace/img/start3.png" alt="Start">
 		</div>
-		<div class="button" onclick="pauseProgram()">
+		<div class="button pause_bt" onclick="pauseProgram()">
 		    <img src="/donghwa/css/furnace/img/pause3.png" alt="Pause">
 		</div>
-		<div class="button" onclick="stopProgram()">
+		<div class="button stop_bt" onclick="stopProgram()">
 		    <img src="/donghwa/css/furnace/img/stop3.png" alt="Stop">
 		</div>
 
@@ -138,6 +138,80 @@
     <div class="heating-vacuum2">Heating Vacuum</div>
 
     <script>
+
+    var overviewInterval;
+
+    //로드
+    $(function(){
+    	overviewListView();
+    	overviewInterval = setInterval("overviewListView()", 500);
+    });
+
+  //OPC값 알람 조회
+    function overviewListView(){
+    	$.ajax({
+    		url:"/donghwa/furnace/automaticProgramPop2/view",
+    		type:"post",
+    		dataType:"json",
+    		success:function(result){				
+    			var data = result.multiValues;
+    			
+            for(let key in data){
+            	for(let keys in data[key]){
+            		var d = data[key];
+
+    					if(d[keys].action == "v"){
+    						v(keys, d[keys].value);
+    					}else if(d[keys].action == "c"){
+    						c(keys, d[keys].value);
+    					}else if(d[keys].action == "b"){
+    						b(keys, d[keys].value);
+    					}else if(d[keys].action == "value"){
+    						value(keys, d[keys].value);
+    					}
+
+            	}                    	
+            }
+    		}
+    	});
+    }
+
+    function v(keys, value){
+//    	console.log(keys);
+//    	console.log(value);
+    	if(value == true){
+    		$("."+keys).css("background-color","green");
+    		$("."+keys).css("color","white");
+    	}else{
+    		$("."+keys).css("background-color","#E3E3E3");
+    		$("."+keys).css("color","black");
+    	}
+
+    	$("."+keys).attr("onclick","digitalSet('DONGHWA.FURNACE.AUTOMATIC_PROGRAM.PROGRAMMER','"+keys+"')");
+    	$("."+keys).css("cursor","pointer");
+    }
+    /*
+    function c(keys, value){
+//    	$("."+keys).text(value);
+    	
+    	if(value == true){
+    		$("."+keys).css("background-color","red");
+    		$("."+keys).css("color","white");
+    	}else{
+    		$("."+keys).css("background-color","green");
+    		$("."+keys).css("color","black");
+    	}
+    	
+    }
+    */
+
+    function value(keys, value){
+    	$("."+keys).text(value);
+    	$("."+keys).css("text-align","center");
+    	$("."+keys).css("font-size","20pt");
+    	
+    	
+    }
   var popup;
   
   function modalClick(location){
@@ -146,8 +220,7 @@
   }
   
   
-    const hamburgerIcon = document.querySelector('.hamburger-icon');
-    const menu = document.getElementById('hamburgerMenu');
+
 
     hamburgerIcon.addEventListener('click', () => {
       menu.classList.toggle('active');
@@ -155,6 +228,7 @@
 
     const menuItems = document.querySelectorAll('.menu > ul > li');
 
+   
     menuItems.forEach(item => {
       item.addEventListener('click', (event) => {
         menuItems.forEach(otherItem => {
@@ -246,6 +320,10 @@
         }
       }
 
+
+    
+  //0117 돌림
+        
 
   </script>
 </body>

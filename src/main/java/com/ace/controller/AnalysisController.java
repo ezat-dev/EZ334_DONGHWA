@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
 
+import org.eclipse.milo.opcua.stack.core.UaException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,6 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ace.domain.Temper;
 import com.ace.service.AnalysisService;
+import com.ace.util.OpcDataMap;
 
 @Controller
 public class AnalysisController {
@@ -236,5 +239,19 @@ public class AnalysisController {
 		
 		return result;
 	}
+	
+    //heaterPop
+    @RequestMapping(value= "/furnace/operationPressPop/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> heaterPopView() throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+    	
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	returnMap = opcDataMap.getOpcDataListMap("DONGHWA.FURNACE.OPERATION_PRESS");
+    	
+    	return returnMap;    	
+    }
+    
 	
 }

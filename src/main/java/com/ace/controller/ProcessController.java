@@ -42,10 +42,10 @@ public class ProcessController {
     }
     
     
-  //Manual Operation
+  //pressureSwitchesPop
     @RequestMapping(value= "/process/pressureSwitchesPop/view", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> manualOperationView() throws UaException, InterruptedException, ExecutionException {
+    public Map<String, Object> pressureSwitchesPopView() throws UaException, InterruptedException, ExecutionException {
     	Map<String, Object> returnMap = new HashMap<String, Object>();
 
     	OpcDataMap opcDataMap = new OpcDataMap();
@@ -53,7 +53,20 @@ public class ProcessController {
     	returnMap = opcDataMap.getOpcDataListMap("DONGHWA.PROCESS_VALUES.PRESSURE_SWITCHES");
     	
     	return returnMap;    	
-    }	
+    }
+    
+    //heaterPop
+    @RequestMapping(value= "/process/heaterPop/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> heaterPopView() throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+    	
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	returnMap = opcDataMap.getOpcDataListMap("DONGHWA.PROCESS_VALUES.HEATER");
+    	
+    	return returnMap;    	
+    }
     
     
     
