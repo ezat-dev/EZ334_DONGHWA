@@ -168,12 +168,12 @@
         <p><strong>Prg. remaining time:</strong> <span class="prgRemainingTime">NULL</span></p>
     </div>
     <div class="buttons">
-        <div class="button"><img src="/donghwa/css/furnace/img/pause3.png" alt="Stop"></div>
-        <div class="button"><img src="/donghwa/css/furnace/img/fire3.png" alt="Warning"></div>
-        <div class="button"><img src="/donghwa/css/furnace/img/man3.png" alt="Alarm"></div>
-        <div class="button"><img src="/donghwa/css/furnace/img/death3.png" alt="Info"></div>
-        <div class="button"><img src="/donghwa/css/furnace/img/sound3.png" alt="no_sound"></div>
-        <div class="button"><img src="/donghwa/css/furnace/img/siren3.png" alt="alarm"></div>
+        <div class="button bt_pause"><img src="/donghwa/css/furnace/img/pause3.png" alt="Stop"></div>
+        <div class="button bt_fire"><img src="/donghwa/css/furnace/img/fire3.png" alt="Warning"></div>
+        <div class="button bt_man"><img src="/donghwa/css/furnace/img/man3.png" alt="Alarm"></div>
+        <div class="button bt_death"><img src="/donghwa/css/furnace/img/death3.png" alt="Info"></div>
+        <div class="button bt_sound"><img src="/donghwa/css/furnace/img/sound3.png" alt="no_sound"></div>
+        <div class="button bt_siren"><img src="/donghwa/css/furnace/img/siren3.png" alt="alarm"></div>
     </div>
 
     <table class="tabulator">
@@ -215,6 +215,25 @@
             }
         });
     }
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const pauseButton = document.querySelector('.bt_pause');
+
+        if (pauseButton) {
+            pauseButton.addEventListener('click', function () {
+                window.open(
+                    "/donghwa/furnace/automaticProgramPop2",  
+                    "popupWindow",  
+                    "width=502,height=379.8,left=730,top=235,menubar=no,toolbar=no,scrollbars=no,status=no,location=no,directories=no,resizable=no"
+                );
+            });
+        } else {
+            console.error("bt_pause 요소를 찾을 수 없습니다.");
+        }
+    });
+
+        
 </script>
 
 </body>

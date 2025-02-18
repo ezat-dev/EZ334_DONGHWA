@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./vars.css">
 <link rel="stylesheet" href="/donghwa/css/furnace/automaticProgramPop2.css">
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   
   <style>
    a,
@@ -183,7 +183,7 @@
     		$("."+keys).css("background-color","green");
     		$("."+keys).css("color","white");
     	}else{
-    		$("."+keys).css("background-color","#E3E3E3");
+    		$("."+keys).css("background-color","#A9A9A9");
     		$("."+keys).css("color","black");
     	}
 
@@ -220,7 +220,8 @@
   }
   
   
-
+    const hamburgerIcon = document.querySelector('.hamburger-icon');
+    const menu = document.getElementById('hamburgerMenu');
 
     hamburgerIcon.addEventListener('click', () => {
       menu.classList.toggle('active');
@@ -228,7 +229,6 @@
 
     const menuItems = document.querySelectorAll('.menu > ul > li');
 
-   
     menuItems.forEach(item => {
       item.addEventListener('click', (event) => {
         menuItems.forEach(otherItem => {

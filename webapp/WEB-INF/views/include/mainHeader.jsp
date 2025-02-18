@@ -32,7 +32,7 @@
       align-items: center;
     }
 
-    .header .time {
+    .header .time_hd {
       font-size: 21px;
       font-weight: bold;
       position: absolute;
@@ -127,7 +127,7 @@
 
 <body>
    <div class="header">
-    <div class="time" id="time"></div>
+    <div class="time_hd" id="time_hd"></div>
     <div class="date" id="date"></div>
     <div class="hamburger-icon">
       <div></div>
@@ -174,7 +174,7 @@
       <ul class="submenu">
         <li onclick="popupClick('/donghwa/parameter/limitSwitchesPop', 743, 272, 550, 200);">Limit switches</li>
         <li onclick="popupClick('/donghwa/parameter/fastcoolingPop', 529, 333, 600, 180);">Fastcooling</li>
-        <li onclick="popupClick('/donghwa/parameter/timerPop', 727, 355, 600, 180);">Timer</li>
+        <li onclick="popupClick('/donghwa/parameter/time_hdrPop', 727, 355, 600, 180);">time_hdr</li>
         <li onclick="popupClick('/', 505, 505, 584, 180);">Calibrate TC measuring syst</li>
       </ul>
     </li>
@@ -280,24 +280,24 @@
         }
     }
   
-    function updateTime() {
+    function updatetime_hd() {
       var now = new Date();
       var hours = String(now.getHours()).padStart(2, '0');
       var minutes = String(now.getMinutes()).padStart(2, '0');
       var seconds = String(now.getSeconds()).padStart(2, '0');
-      var timeString = hours + ':' + minutes + ':' + seconds;
+      var time_hdString = hours + ':' + minutes + ':' + seconds;
 
       var year = now.getFullYear();
       var month = String(now.getMonth() + 1).padStart(2, '0');
       var day = String(now.getDate()).padStart(2, '0');
       var dateString = year + '-' + month + '-' + day;
 
-      document.getElementById('time').textContent = timeString;
+      document.getElementById('time_hd').textContent = time_hdString;
       document.getElementById('date').textContent = dateString;
     }
 
-    setInterval(updateTime, 1000);
-    updateTime();  // 페이지 로드 시 즉시 시간과 날짜 업데이트
+    setInterval(updatetime_hd, 1000);
+    updatetime_hd();  // 페이지 로드 시 즉시 시간과 날짜 업데이트
 
 
   </script>

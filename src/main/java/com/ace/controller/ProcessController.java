@@ -76,4 +76,18 @@ public class ProcessController {
     public String temperaturePop(Model model) {
         return "/process/temperaturePop.jsp";
     }
+    
+    //TemperaturePOP
+    @RequestMapping(value= "/process/temperaturePop/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> automaticProgramPop2() throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	returnMap = opcDataMap.getOpcDataListMap("DONGHWA.PROCESS_VALUES.TEMPERATURE");
+    	
+    	return returnMap;    	
+    }	
+	
 }

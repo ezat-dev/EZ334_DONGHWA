@@ -837,6 +837,21 @@ public class FurnaceController {
     	
     	return returnMap;    	
     }	
+    
+    //오버뷰
+    @RequestMapping(value= "/furnace/overview/view", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> overview() throws UaException, InterruptedException, ExecutionException {
+    	Map<String, Object> returnMap = new HashMap<String, Object>();
+
+    	OpcDataMap opcDataMap = new OpcDataMap();
+    	
+    	returnMap = opcDataMap.getOpcDataListMap("DONGHWA.OVERVIEW");
+    	
+    	return returnMap;    	
+    }	
+	
+
 	
 
 }

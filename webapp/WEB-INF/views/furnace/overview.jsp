@@ -37,13 +37,13 @@
 
     .table-container {
         position: absolute;
-        top: 210px;
+        top: 190px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 30px;
+        gap: 27px;
         width: 32%;
-        left:220px;
+        left: 511px; 
     }
 
     .table {
@@ -88,24 +88,84 @@
         left: 50%;
 	}
 
-	
-	.table1 .table-cell,
-	.table2 .table-cell,
-	.table3 .table-cell,
-	.table4 .table-cell,
-	.table1 .temper_1, .table1 .temper_2,
-	.table2 .Position_1, .table2 .Position_2,
-	.table3 .Pressure_1, .table3 .Pressure_2,
-	.table4 .capacity_1, .table4 .capacity_2 {
-	    background-color: white;
-	    border-top: 1px solid #ccc;
-	    padding: 10px;
-	    text-align: center;
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
-	}
 
+	
+.table1 .table-cell,
+    .table2 .table-cell,
+    .table3 .table-cell,
+    .table4 .table-cell,
+  
+    .table1 .temper_1, .table1 .temper_2,
+    .table2 .Position_1, .table2 .Position_2,
+    .table3 .Pressure_1, .table3 .Pressure_2,
+    .table4 .capacity_1, .table4 .capacity_2 {
+        background-color: white;
+        border-top: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        text-align: center;
+    }
+
+	.table7 .table-header {
+        background-color: #7aaedc; /* 새로운 색상 추가 */
+    }
+
+    .table8 .table-header {
+        background-color: #7aaedc; /* 새로운 색상 추가 */
+    }
+    
+    
+	  .table7, .table8 {
+	    background-color: white; 
+	    height: 80px;
+	}
+	
+	.table7 .table-cell, .table8 .table-cell {
+	    display: flex;
+	    justify-content: center; 
+	    align-items: center;
+	    font-size: 18px; 
+	    text-align: center;
+	}
+	
+	.table-container2 {
+	    display: grid;
+	    grid-template-columns: repeat(1, 1fr);
+	    grid-template-rows: repeat(1, 1fr);
+	    gap: 3px;
+	    width: 9%;
+	    left: 1228px;
+	    position: absolute;
+	    top: 755px;
+	}
+	
+
+
+	.g-box {
+	    width: 80px;
+	    height: 180px;
+	    background-color: #E2E2E2;
+	    left: 1100px;
+	    top: 863px;
+	    position: absolute;
+	    z-index: 9999;
+	}
+	.g-box2 {
+	    width: 80px;
+	    height: 130px;
+	    background-color:#E2E2E2;
+	    left: 1430px;
+	    top: 595px;
+	    position: absolute;
+	    z-index: 9999;
+	}
+	.tx{
+	font-size: 18px; 
+	}
 
   </style>
 
@@ -113,22 +173,8 @@
 </head>
 <body>
 
-  <div class="rectangle-104"></div>
-  <div class="rectangle-105"></div>
-  <div class="ellipse-4"></div>
-  <div class="ellipse-5"></div>
-  <div class="rectangle-106"></div>
-  <div class="rectangle-107"></div>
-  <div class="rectangle-108"></div>
-  <div class="rectangle-109"></div>
-  <div class="rectangle-110"></div>
-  <div class="rectangle-111"></div>
-  <div class="rectangle-112"></div>
-  <div class="rectangle-113"></div>
-  <img class="_3" src="/donghwa/css/furnace/img/_30.png" />
-  <img class="_4" src="/donghwa/css/furnace/img/_40.png" />
-  <img class="_4" src="/donghwa/css/furnace/img/_40.png" onclick="openPopup()" style="cursor: pointer;" />
 
+  
   <div class="table-container">
     <div class="table table1">
       <div class="table-header">Furance temperature     Auto</div>
@@ -140,8 +186,8 @@
 
     <div class="table table2">
       <div class="table-header">Position</div>
-      <div class="Position_1 overTb3">GIC 22.260.10</div>
-      <div class="table-cell">1.16 mm</div>
+      <div class="Position_1">GIC 22.260.10</div>
+      <div class="table-cell overTb3">1.16 mm</div>
       <div class="Position_2">GSP 22.260.10</div>
       <div class="table-cell overTb4">0.00 mm</div>
     </div>
@@ -162,6 +208,237 @@
       <div class="table-cell overTb8">0 kN</div>
     </div>
   </div>
+  
 
+
+
+
+   <div class="table-container2">
+    
+     <div class="table table7">
+      <div class="table-header">High-vacuum</div>
+      <div class="capacity_1">PIS 6.24</div>
+      <div class="Temperature">-- kN</div>
+    </div>
+    
+    
+    <div class="table table8">
+      <div class="table-header">Fore-vacuum</div>
+      <div class="capacity_2">PIS 6.25</div>
+      <div class="Fore-vacuum">--</div>
+    </div>
+ </div>
+
+   <div class="g-box"></div>
+   <div class="g-box2"></div>
+
+ 
+    <div class="base-1"></div>
+    <div class="press-rec-1"></div>
+    <div class="press-rec-2"></div>
+    <div class="obj-1"></div>
+    <div class="obj-2"></div>
+    <div class="obj-3"></div>
+    <div class="obj-4"></div>
+    <div class="obj-line-1"></div>
+    <div class="obj-line-2"></div>
+    <div class="obj-line-3"></div>
+    <div class="obj-line-4"></div>
+    <div class="component-1">
+      <div class="pillar-rec-1"></div>
+      <img class="pillar-1" src="/donghwa/css/furnace/img/pillar-10.png" />
+    </div>
+    <div class="component-2">
+      <div class="pillar-rec-2"></div>
+      <img class="pillar-2" src="/donghwa/css/furnace/img/pillar-20.png" />
+    </div>
+    <img class="component-3 mchLclose" src="/donghwa/css/furnace/img/component-30.svg" />
+    <img class="component-4 mchLopen" src="/donghwa/css/furnace/img/component-40.svg" />
+    <div class="value-1 tx">12.2</div>
+    <div class="value-2 tx">12.2</div>
+    <div class="value-3 tx">6.1</div>
+    <div class="value-4 tx">6.2</div>
+    <div class="value-5 tx">6.14</div>
+    <div class="value-6 tx">6.4</div>
+    <div class="value-7 tx">6.10</div>
+    <div class="value-8 tx">6.12</div>
+    <div class="value-9 tx">13.4</div>
+    <div class="value-10 tx">13.704</div>
+    <div class="value-11 tx">13.102</div>
+    <div class="value-12 tx">Air</div>
+    <div class="value-13 tx">Air</div>
+    <img class="component-5 mchRclose" src="/donghwa/css/furnace/img/component-50.svg" />
+    <img class="component-6 mchRopen" src="/donghwa/css/furnace/img/component-60.svg" />
+  
+    <img class="vector-1 mchLopen" src="/donghwa/css/furnace/img/vector-10.svg" />
+    <img class="vector-2 mchLclose" src="/donghwa/css/furnace/img/vector-20.svg" style="background-color: green;" />
+    <img class="vector-3 mchLopen" src="/donghwa/css/furnace/img/vector-30.svg" />
+    <img class="vector-4 mchLclose" src="/donghwa/css/furnace/img/vector-40.svg" style="background-color: green;" />
+   
+    <img class="vector-5 mchRopen" src="/donghwa/css/furnace/img/vector-10.svg" />
+    <img class="vector-6 mchRclose" src="/donghwa/css/furnace/img/vector-20.svg"style="background-color: green;" />
+    <img class="vector-7 mchRopen" src="/donghwa/css/furnace/img/vector-30.svg" />
+    <img class="vector-8 mchRclose" src="/donghwa/css/furnace/img/vector-40.svg"style="background-color: green;" />
+    
+    <div class="pipe-1"></div>
+    <div class="pipe-2"></div>
+    <div class="pipe-3"></div>
+    <div class="pipe-4"></div>
+    <div class="pipe-5"></div>
+    <div class="pipe-6"></div>
+    <div class="pipe-7"></div>
+    <div class="pipe-8"></div>
+    <div class="pipe-9"></div>
+    <div class="pipe-10"></div>
+    <div class="pipe-11"></div>
+    <div class="pipe-12"></div>
+    <div class="pipe-13"></div>
+    <div class="pipe-14"></div>
+    <div class="pipe-15"></div>
+    <img class="component-7 " src="/donghwa/css/furnace/img/component-70.svg" />
+    <img class="component-8 component-8-img" src="/donghwa/css/furnace/img/component-80.svg" />
+    <img class="component-9" src="/donghwa/css/furnace/img/component-90.svg" />
+    <img class="component-10 component-10-img" src="/donghwa/css/furnace/img/component-100.svg" />
+    <img class="component-11" src="/donghwa/css/furnace/img/component-110.svg" />
+    <img class="component-12 component-12-img" src="/donghwa/css/furnace/img/component-120.svg" />
+    <img class="component-13" src="/donghwa/css/furnace/img/component-130.svg" />
+    <img class="component-14 component-14-img" src="/donghwa/css/furnace/img/component-140.svg" />
+    <img class="component-15" src="/donghwa/css/furnace/img/component-150.svg" />
+    <img class="component-16 component-16-img" src="/donghwa/css/furnace/img/component-160.svg" />
+    <div class="ball-off-1"></div>
+    <div class="ball-on-1 ball-on-1-img"></div>
+    <div class="ball-off-2"></div>
+    <div class="ball-on-2 ball-on-2-img"></div>
+    <div class="ball-off-3"></div>
+    <div class="ball-on-3 ball-on-3-img"></div>
+    <!-- <div class="ball-line-1"></div>
+    <div class="ball-line-2"></div>
+    <div class="ball-line-3"></div>
+    <div class="ball-line-4"></div>
+    <div class="ball-line-5"></div>
+    <div class="ball-line-6"></div>
+    <div class="ball-line-7"></div>
+    <div class="ball-line-8"></div>
+    <div class="ball-line-9"></div>
+    <div class="ball-line-10"></div>
+    <div class="ball-line-11"></div>
+    <div class="ball-line-12"></div>
+    <div class="ball-line-13"></div>
+    <div class="ball-line-14"></div>
+    <div class="ball-line-15"></div>
+    <div class="ball-line-16"></div> -->
+    <img class="arrow-1" src="/donghwa/css/furnace/img/arrow-10.svg" />
+    <img class="arrow-2" src="/donghwa/css/furnace/img/arrow-20.svg" />
+    <img class="arrow-3" src="/donghwa/css/furnace/img/arrow-30.svg" />
+    <div class="box-off-1"></div>
+    <div class="box-on-1"></div>
+  
+    <img class="arrow-1" src="/donghwa/css/furnace/img/arrow-10.svg" />
+
+  <script>
+
+var overviewInterval;
+
+//로드
+$(function(){
+	overviewListView();
+	overviewInterval = setInterval("overviewListView()", 500);
+});
+
+//OPC값 알람 조회
+function overviewListView(){
+	$.ajax({
+		url:"/donghwa/furnace/overview/view",
+		type:"post",
+		dataType:"json",
+		success:function(result){				
+			var data = result.multiValues;
+			
+        for(let key in data){
+        	for(let keys in data[key]){
+        		var d = data[key];
+
+	        		 if (d[keys].action == "v") {
+	                     v(keys, d[keys].value);
+					}else if(d[keys].action == "Ropen"){
+						Ropen(keys, d[keys].value);
+					}else if(d[keys].action == "Lopen"){
+						Lopen(keys, d[keys].value);
+					}else if(d[keys].action == "Rclose"){
+						Rclose(keys, d[keys].value);
+					}else if(d[keys].action == "Lclose"){
+						Lclose(keys, d[keys].value);
+					}else if(d[keys].action == "img"){
+						img(keys, d[keys].value);	
+					}else if(d[keys].action == "value"){
+						value(keys, d[keys].value);
+					}
+
+        	}                    	
+        }
+		}
+	});
+}
+
+
+function img(keys, value) {
+    if (value === true) {
+        $("." + keys).fadeIn(200); 
+    } else {
+        $("." + keys).fadeOut(200); 
+    }
+}
+function Ropen(keys, value) {
+    if (value === true) {
+        $("." + keys).fadeIn(200); 
+    } else {
+        $("." + keys).fadeOut(200); 
+    }
+}
+
+function Lopen(keys, value) {
+    if (value === true) {
+        $("." + keys).fadeIn(200); 
+    } else {
+        $("." + keys).fadeOut(200); 
+    }
+}
+
+function Rclose(keys, value) {
+    if (value === true) {
+        $("." + keys).fadeIn(200); 
+    } else {
+        $("." + keys).fadeOut(200); 
+    }
+}
+
+function Lclose(keys, value) {
+    if (value === true) {
+        $("." + keys).fadeIn(200); 
+    } else {
+        $("." + keys).fadeOut(200);
+    }
+}
+
+
+function v(keys, value){
+	if(value == true){
+		$("."+keys).css("color","black");
+
+	}else{
+
+	}	
+}
+
+
+function value(keys, value){
+	$("."+keys).text(value);
+	$("."+keys).css("text-align","center");
+	$("."+keys).css("font-size","18pt");
+	
+	
+}
+
+</script>  
 </body>
 </html>

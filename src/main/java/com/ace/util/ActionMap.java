@@ -44,10 +44,22 @@ public class ActionMap {
 			//t-tong 또는 b-tong
 			result = "value";			
 		}else{
-			if(tagName.contains("-lamp")){
-				result = "c"; 
-			}else{
-				result = "v"; // v는 .val 포함
+			if(tagName.contains("Ropen")){
+				result = "Ropen";
+			}else if(tagName.contains("Lopen")) {
+				result = "Lopen";
+			}else if(tagName.contains("Rclose")) {
+				result = "Rclose";	
+			}else if(tagName.contains("Lclose")) {
+				result = "Lclose";	
+			}else if(tagName.contains("-img")) {
+				result = "img";	
+			}else if(tagName.contains("asd-")) {
+				result = "asd";
+			}else if(tagName.contains("plc-")) {
+				result = "plc"; // v는 .val 포함
+			}else {
+				result = "v";
 			}
 		}		
 		return result;
