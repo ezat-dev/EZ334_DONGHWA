@@ -1,376 +1,312 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-   pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>History Trend</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>History Trend</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <%@ include file="../include/mainHeader.jsp" %>
+    <jsp:include page="../include/pluginpage.jsp"/>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
-<link rel="shortcut icon" href="resources/image/KPF.jpg" type="image/x-icon" />
-<!-- 하이차트 라이브러리 포함 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/highcharts-more.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
- <script src="https://code.highcharts.com/modules/accessibility.js"></script>
- <%@ include file="../include/mainHeader.jsp" %>
-  <title>Recipe</title>
-<jsp:include page="../include/pluginpage.jsp"/>
-<style>
-/* HTML과 body의 높이를 100%로 설정 */
-html, body {
-    height: 100%;
-    margin: 0; /* 기본 마진 제거 */
-    font-family: Arial, sans-serif;
-}
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
 
-/* Flexbox 레이아웃 설정 */
-.container {
-    display: flex;
-    height: 100%; /* 부모 요소의 높이를 100%로 설정 */
-    padding: 30px; /* 좌우 여백 추가 */
-}
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 33px;
+            margin-right:350px;
+        }
 
-/* 왼쪽 4칸 영역 */
-.left {
-    flex: 3;
-    background-color: #f8f9fa; 
-    border-right: 1px solid #c0c7cf; 
-    box-sizing: border-box;
-    display: flex;
-    align-items: center; 
-}
+  		 .date-picker {
+            margin-right: 10px;
+            font-size: 17pt;
+            padding: 10px;
+            border-radius: 4px;
+            width: 250px;
+            background-color: #fff;
+            border: 3px solid #ccc;
+            font-weight: bold;
+            height:28px;
+        }
 
-.left h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 18px;
-}
+        #load-pen-group, #stop-button, #cursor1, #cursor2 {
+            margin-left: 10px;
+            padding: 10px 20px;
+            font-size: 14pt;
+            cursor: pointer;
+            border: none;
+            background-color: #b0b0b0;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            height:52px;
+        }
 
-.pen-settings {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+        #load-pen-group:hover, #stop-button:hover, #cursor1:hover, #cursor2:hover {
+            background-color: #8e8e8e;
+        }
 
-.pen-settings label {
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
-    
-}
-
-.pen-settings input[type="text"],
-.pen-settings select,
-.pen-settings input[type="color"],
-.pen-settings button {
-    margin-bottom: 15px;
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.pen-settings select {
-    height: 380px;
-}
-
-.pen-settings input[type="color"],
-.pen-settings button {
-    width: 590px; 
-    height: 40px; 
-    margin-left: 5px;
-    
-}
-
-.pen-settings button {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+        #container {
+            width: 70%;
+            height: 700px;
+        }
+        
+        #pen-group-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 14pt;
     cursor: pointer;
+    border: none;
+    background-color: #b0b0b0;
+    color: white;
+    border-radius: 5px;
     transition: background-color 0.3s;
+    height: 52px;
 }
 
-.pen-settings button:hover {
-    background-color: #f0f0f0;
+#pen-group-button:hover {
+    background-color: #8e8e8e;
 }
-
-/* 오른쪽 6칸 영역 */
-.right {
-    flex: 7;
-     background-color: #f8f9fa; /* 밝은 회색 배경색 */
-    padding: 10px;
-    position: relative;
-    display: flex;
-    align-items: center; /* 수직 가운데 정렬 */
-}
-
-/* 차트 컨테이너를 오른쪽 정가운데에 배치 */
-#container {
-    width: 90%; /* 차트의 너비를 90%로 설정하여 줄였습니다 */
-    height: 50%;
-    margin: 0 auto; /* 차트를 중앙에 배치 */
-}
-
-.pen-group-settings {
-    display: flex;
-    align-items: center; /* 수직 가운데 정렬 */
-    height: 80px; /* 높이 설정 */
-    gap: 10px; /* 요소 간의 간격 */
-}
-
-.pen-group-settings label {
-    margin: 0; /* 마진 제거 */
-    font-weight: bold;
-
-}
-
-.pen-group-settings select {
-    margin: 0; /* 마진 제거 */
-    height: 36px;
-     width: 150px;
-}
-
-.btn-container {
-    display: flex;
-    gap: 10px; /* 버튼 간의 간격 */
-      height: 40px; /* 버튼 높이 설정 */
-    width: 340px;
-    margin-left: 5px;
-
-}
-
-.pen-group-settings button {
-        font-size:12px;
-         font-weight: bold;
-}
-#pen-list{
-font-size:15px;
-}
-</style>
+        
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <div class="pen-settings">
-                <div class="pen-group-settings">
-                    <label for="pen-group">Pen Group:</label>
-                    <select id="pen-group">
-                       
-                    </select>
-                    <div class="btn-container">
-                        <button id="load-pen-group"><i class="fas fa-save"></i> LOAD PEN GROUP</button>
-                        <button id="delete-pen-group"><i class="fas fa-trash"></i> DELETE PEN GROUP</button>
-                    </div>
-                </div>
-                <h2>Pen Groups Settings</h2>
-                <label for="pen-search">Search Pen:</label>
-                <input type="text" id="pen-search" placeholder="Search Pen...">
-                <label for="pen-list">Pen List:</label>
-                <select id="pen-list" multiple></select>
-                <label for="pen-color">Color:</label>
-                <input type="color" id="pen-color" value="#ff0000">
-                <button type="button" id="add-button">Add</button>
-                <button type="button" id="all-button">ALL</button>
-            </div>
-        </div>
-        <div class="right">
-            <div id="container"></div>
-        </div>
+<div class="container2">
+    <div class="button-container">
+        <input type="date" id="startDate" class="date-picker">
+        <input type="date" id="endDate" class="date-picker">
+        <button id="load-pen-group"><i class="fas fa-save"></i> LOAD PEN GROUP</button>
+        <button id="stop-button"><i class="fas fa-stop"></i> STOP</button>
+        <button id="cursor1"><i class="fas fa-caret-left"></i> Cursor1</button>
+        <button id="cursor2"><i class="fas fa-caret-right"></i> Cursor2</button>
+        <button id="pen-group-button"><i class="fas fa-users"></i> 펜 그룹</button>
+        
     </div>
+    <div id="container"></div>
+</div>
 
-    <script>
-//로드
+
+<script>
+var seriesArray = [];
+
+function formatDate(date) {
+    var d = new Date(date);
+    var year = d.getFullYear();
+    var month = ('0' + (d.getMonth() + 1)).slice(-2);
+    var day = ('0' + d.getDate()).slice(-2);
+    return year + '-' + month + '-' + day;
+}
+
 $(document).ready(function() {
-    // 페이지 로드 시 펜 그룹 목록 초기화
-//    loadPenGroups();
+    var today = new Date();
+    var startDate = new Date(today);
+    startDate.setDate(today.getDate() - 7);
+    var endDate = new Date(today);
+    endDate.setDate(today.getDate() + 1);
 
+    $("#startDate").val(formatDate(startDate));
+    $("#endDate").val(formatDate(endDate));
 
-//    loadPenList(); // 페이지 로드 시 펜 목록 초기화
+    var selectedGroup = 'ex4';
 
+    console.log("Initial data load:");
+    console.log("sdateTime:", formatDate(startDate) + "T00:00:00");
+    console.log("edateTime:", formatDate(endDate) + "T12:59:59");
+    console.log("pen_group_name:", selectedGroup);
+
+    getPenGroupChartData();
+
+    $("#pen-group-button").click(function() {
+        window.location.href = "/donghwa/analysis/historyTrendPenGroup";
+    });
 });
 
+function getPenGroupChartData() {
+    var sdate = $("#startDate").val() + "T00:00:00";
+    var edate = $("#endDate").val() + "T12:59:59";
+    var selectedGroup = 'ex4';
 
+    $.ajax({
+        url: "/donghwa/analysis/historyTrendPenGroupChart",
+        type: "post",
+        dataType: "json",
+        data: {
+            "sdateTime": sdate,
+            "edateTime": edate,
+            "pen_group_name": selectedGroup
+        },
+        success: function(result) {
+            var data = result.data;
+            var groupConcatSplit = data.groupConcat.split(",");
+            var dataKeys = Object.keys(data);
+            var dataValues = Object.values(data);
 
-//이벤트
-$('#pen-group').on('change', function() {
-    var selectedGroup = $(this).val();
-    if (selectedGroup) {
-        $.ajax({
-            url: '/donghwa/analysis/historyTrend/filteredDataByGroup',
-            method: 'GET',
-            data: { groupName: selectedGroup },
-            dataType: 'json',
-            success: function(data) {
-                console.log('Fetched Data by Group:', data);
-            },
-            error: function(jqXHR, textStatus, errorThrown) {
-                console.error('Error fetching data:', textStatus, errorThrown);
+            var idx = 0;
+            for (var i = 0; i < dataKeys.length; i++) {
+                for (var j = 0; j < groupConcatSplit.length; j++) {
+                    if (dataKeys[i] == groupConcatSplit[j]) {
+                        seriesArray[idx] = dataValues[i];
+                        idx++;
+                    }
+                }
             }
-        });
-    }
-});
 
-$('#all-button').on('click', function() {
-    $.ajax({
-        url: '/donghwa/analysis/historyTrend/all',
-        method: 'GET',
-        dataType: 'json',
-        success: function(data) {
-            console.log('Fetched Data:', data);
+            if (seriesArray.length > 0) {
+                getPenGroupChart();
+            } else {
+                console.log("No data for chart");
+            }
 
-            // 데이터 변환
-            var formattedData = data.map(item => {
-                var utcDate = new Date(item.tdateISO);
-                var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
+            var chart = $("#container").highcharts();
+            if (typeof chart != "undefined") {
+                chart.redraw();
+            }
+        }
+    });
+}
 
-                return {
-                    x: kstDate.getTime(), // X축에 사용할 밀리초 단위의 값
-                    y: parseFloat(item.c1) // Y축에 사용할 값
-                };
-            });
-
-            Highcharts.chart('container', {
-                chart: {
-                    type: 'line',
-                    backgroundColor: '#ffffff'
+function getPenGroupChart() {
+    const chart = Highcharts.chart('container', {
+        chart: {
+            type: "spline",
+            panning: true,
+            panKey: "shift",
+            zoomType: "x",
+            styleMode: true
+        },
+        time: {
+            timezone: "Asia/Seoul",
+            useUTC: false
+        },
+        yAxis: [{
+            crosshair: {
+                width: 3,
+                color: '#5D5D5D',
+                zIndex: 5
+            },
+            title: {
+                text: 'Temper(℃)'
+            },
+            labels: {
+                style: {
+                    fontSize: "14pt"
+                }
+            }
+        }],
+        xAxis: {
+            crosshair: {
+                width: 3,
+                color: '#5D5D5D',
+                zIndex: 5
+            },
+            labels: {
+                formatter: function() {
+                    return unix_timestamp(this.value);
                 },
-                title: {
-                    text: 'Historical Trend'
+                style: {
+                    fontSize: "11pt"
+                }
+            },
+            allowDecimals: false
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+        plotOptions: {
+            series: {
+                selected: true,
+                marker: {
+                    radius: 1
+                }
+            }
+        },
+        tooltip: {
+            split: true,
+            shared: true,
+            style: {
+                fontSize: "14pt"
+            }
+        },
+        series: seriesArray,
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 1200
                 },
-                xAxis: {
-                    type: 'datetime',
-                    title: {
-                        text: 'Date'
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        },
+        exporting: {
+            menuItemDefinitions: {
+                label: {
+                    onclick: function() {
+                        this.renderer.label(
+                            'You just clicked a custom menu item',
+                            100,
+                            100
+                        )
+                            .attr({
+                                fill: '#a4edba',
+                                r: 5,
+                                padding: 10,
+                                zIndex: 10
+                            })
+                            .css({
+                                fontSize: '1.5em'
+                            })
+                            .add();
                     },
-                    labels: {
-                        format: '{value:%m-%d %H:%M:%S}'
-                    }
-                },
-                yAxis: {
-                    title: {
-                        text: 'Values'
-                    }
-                },
-                series: [{
-                    name: 'c1',
-                    data: formattedData
-                }, {
-                    name: 'c2',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c2)];
-                    })
-                }, {
-                    name: 'c3',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c3)];
-                    })
-                }, {
-                    name: 'c4',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c4)];
-                    })
-                }, {
-                    name: 'c5',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c5)];
-                    })
-                }, {
-                    name: 'c6',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c6)];
-                    })
-                }, {
-                    name: 'c7',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c7)];
-                    })
-                }, {
-                    name: 'c8',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c8)];
-                    })
-                }, {
-                    name: 'c9',
-                    data: data.map(item => {
-                        var utcDate = new Date(item.tdateISO);
-                        var kstDate = new Date(utcDate.getTime() + (9 * 60 * 60 * 1000)); // UTC+9
-                        return [kstDate.getTime(), parseFloat(item.c9)];
-                    })
-                }]
-            });
+                    text: 'Show label'
+                }
+            },
+            buttons: {
+                contextButton: {
+                    menuItems: ['downloadPNG', 'downloadPDF', 'downloadXLS', 'separator']
+                }
+            }
         },
-        error: function(xhr, status, error) {
-            console.error('Error fetching data:', error);
-        }
-    });
-});
-
-    
-//함수
-// 펜 그룹 목록 로드
-function loadPenGroups() {
-    $.ajax({
-        url: '/donghwa/analysis/historyTrend/groupNames', // 실제 API 엔드포인트로 수정
-        method: 'GET',
-        dataType: 'json',
-        success: function(data) {
-            console.log('Fetched Pen Groups:', data);
-            var penGroupSelect = $('#pen-group');
-            penGroupSelect.empty(); // 현재 목록을 비웁니다.
-
-            // 데이터가 문자열 배열이라면
-            data.forEach(function(groupName) {
-                penGroupSelect.append(new Option(groupName, groupName));
-            });
-        },
-        error: function(xhr, status, error) {
-            console.error('Error fetching pen groups:', error);
+        legend: {
+            itemStyle: {
+                fontSize: "11pt"
+            }
         }
     });
 }
 
-
-// 펜 목록 로드 함수 (기존 코드와 동일)
-function loadPenList() {
-    $.ajax({
-        url: '/donghwa/analysis/historyTrend/penNames',
-        method: 'GET',
-        dataType: 'json',
-        success: function(data) {
-            console.log('Fetched Pen List:', data);
-            var penList = $('#pen-list');
-            penList.empty(); // 현재 목록을 비웁니다.
-
-            // 데이터가 문자열 배열이라면
-            data.forEach(function(penName) {
-                penList.append(new Option(penName, penName));
-            });
-        },
-        error: function(xhr, status, error) {
-            console.error('Error fetching pen list:', error);
-        }
-    });
+function unix_timestamp(t) {
+    var date = new Date(t * 1000);
+    var year = date.getFullYear();
+    var month = "0" + (date.getMonth() + 1);
+    var day = "0" + date.getDate();
+    var hour = "0" + date.getHours();
+    var minute = "0" + date.getMinutes();
+    var second = "0" + date.getSeconds();
+    return month.substr(-2) + "-" + day.substr(-2) + " " + hour.substr(-2) + ":" + minute.substr(-2);
 }
-    
-    </script>
+</script>
 </body>
 </html>

@@ -51,7 +51,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
         width: 100%;
-        height: 100%;
+  
         border: 1px solid #ccc;
         border-radius: 8px;
     }
@@ -110,38 +110,48 @@
         text-align: center;
     }
 
-	.table7 .table-header {
-        background-color: #7aaedc; /* 새로운 색상 추가 */
+  .table-container2 {
+        display: grid;
+        grid-template-columns: 1fr; /* 1개의 열로 설정하여 수직 배치 */
+        gap: 10px;
+     	width: 200px;
+        height: 190px;
+        
+        position: absolute;
+        top: 674px;
+        left: 1267px;
+    }
+
+
+
+    .table-header {
+        background-color: #7aaedc; /* 헤더 색상 */
+        padding: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .table .capacity_1, .table .capacity_2, .table .Temperature, .table .Fore-vacuum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .table7 .table-header {
+        background-color: #7aaedc; 
+     
     }
 
     .table8 .table-header {
-        background-color: #7aaedc; /* 새로운 색상 추가 */
+        background-color: #7aaedc; 
     }
     
-    
-	  .table7, .table8 {
-	    background-color: white; 
-	    height: 80px;
-	}
 	
-	.table7 .table-cell, .table8 .table-cell {
-	    display: flex;
-	    justify-content: center; 
-	    align-items: center;
-	    font-size: 18px; 
-	    text-align: center;
-	}
-	
-	.table-container2 {
-	    display: grid;
-	    grid-template-columns: repeat(1, 1fr);
-	    grid-template-rows: repeat(1, 1fr);
-	    gap: 3px;
-	    width: 9%;
-	    left: 1228px;
-	    position: absolute;
-	    top: 755px;
-	}
 	
 
 
@@ -156,7 +166,7 @@
 	}
 	.g-box2 {
 	    width: 80px;
-	    height: 130px;
+	    height: 78px;
 	    background-color:#E2E2E2;
 	    left: 1430px;
 	    top: 595px;
@@ -217,7 +227,7 @@
     
      <div class="table table7">
       <div class="table-header">High-vacuum</div>
-      <div class="capacity_1">PIS 6.24</div>
+      <div class="capacity_1" >PIS 6.24</div>
       <div class="Temperature">-- kN</div>
     </div>
     

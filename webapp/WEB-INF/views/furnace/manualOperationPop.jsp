@@ -26,48 +26,77 @@
   <div class="manual"></div>
   <div class="plc-manual"></div>
   <div class="manual2">Manual</div>
+  
   <div class="pumping asd-pumping"></div>
   <div class="plc-pumping asd-pumping"></div>
   <div class="pumping-station asd-pumping">Pumping station</div>
+  
+  
   <div class="high-vacuum-pump asd-high-vacuum"></div>
   <div class="plc-high-vacuum asd-high-vacuum"></div>
   <div class="high-vacuum-pump2 asd-high-vacuum">High vacuum pump</div>
+  
+  
   <div class="evacuate-fine asd-evacuate-fin"></div>
   <div class="plc-evacuate-fine asd-evacuate-fin"></div>
   <div class="evacuate-fine-vaccum asd-evacuate-fin">Evacuate Fine Vaccum</div>
+  
+  
   <div class="evacuate-high asd-evacuate-high"></div>
   <div class="plc-evacuate-high asd-evacuate-high"></div>
   <div class="evacuate-high-vaccum asd-evacuate-high">Evacuate High Vaccum</div>
+  
+  
   <div class="fur-pre-control asd-fur-control"></div>
   <div class="plc-fur-control asd-fur-control"></div>
   <div class="furnace-pressure-control asd-fur-control">Furnace Pressure Control</div>
+  
+  
   <div class="fur-hit asd-fur-hit"></div>
   <div class="plc-fur-hit asd-fur-hit"></div>
   <div class="furnace-heating asd-fur-hit">Furnace heating</div>
+  
+  
   <div class="n-2 asd-n-2"></div>
   <div class="plc-n-2 asd-n-2"></div>
   <div class="n-2-inlet asd-n-2">N2-Inlet</div>
+  
+  
   <div class="ar asd-ar"></div>
   <div class="plc-ar asd-ar"></div>
   <div class="ar-inlet asd-ar">Ar Inlet</div>
-  <div class="venting asd-venting"></div>
+  
+  
+  <div class="venting asd-venting asd-venting"></div>
   <div class="plc-venting asd-venting"></div>
   <div class="venting2 asd-venting">Venting</div>
+  
+  
   <div class="venting-n-2 asd-venting-n-2"></div>
   <div class="plc-venting-n-2 asd-venting-n-2"></div>
   <div class="venting-n-22">Venting N2</div>
+  
+  
   <div class="venting-ar asd-venting-ar"></div>
   <div class="plc-venting-ar asd-venting-ar"></div>
   <div class="venting-ar2 asd-venting-ar">Venting Ar</div>
+  
+  
   <div class="fastcooling asd-fastcooling"></div>
   <div class="plc-fastcooling asd-fastcooling"></div>
   <div class="fastcooling2 asd-fastcooling">Fastcooling</div>
+  
+  
   <div class="manual-leaktest asd-leak"></div>
   <div class="plc-leak asd-leak"></div>
   <div class="manual-leaktest2 asd-leak">Manual leaktest</div>
+  
+  
   <div class="open-lid asd-open-lid"></div>
   <div class="plc-open-lid asd-open-lid"></div>
   <div class="open-lid-clamps asd-open-lid">Open Lid Clamps</div>
+  
+  
   <div class="close-lid asd-close-lid"></div>
   <div class="plc-close-lid asd-close-lid"></div>
   <div class="close-lid-clamps asd-close-lid">Close Lid Clamps</div>
@@ -141,21 +170,29 @@ function value(keys, value){
 
 }
 
-function asd(keys, value){
-	if(value == true){
-		$("."+keys).css("background-color","red");		
-		$("."+keys).attr("disabled",true);
-		$("."+keys).removeAttr("onclick");
-		$("."+keys).css("cursor","");
-	}
+function asd(keys, value) {
+    if (value == true) {
+    	 $("." + keys).css("color", "#D3D3D3"); 
+        $("." + keys).attr("disabled", true);
+        $("." + keys).removeAttr("onclick");
+        $("." + keys).css("cursor", "");
+    } else {
+        
+        $("." + keys).removeAttr("disabled",false); 
+        $("."+keys).attr("onclick","digitalSet('DONGHWA.FURNACE.MANUAL_OPERATION','"+keys+"')");
+        $("." + keys).css("cursor", "pointer");
+    }
 }
 
-function plc(keys, value){
-	if(value == false){
-		$("."+keys).css("background-color","Green");		
-	
-	}
+
+function plc(keys, value) {
+    if (value == true) {
+        $("." + keys).css("background-color", "green"); 
+    } else {
+        $("." + keys).css("background-color", ""); 
+    }
 }
+
 
 </script>  
 </body>

@@ -31,7 +31,7 @@ public class AnalysisController {
 	//히스토리트렌드(테스트용)
 	@RequestMapping(value = "/analysis/historyTrend", method = RequestMethod.GET)
 	public String historyTrend(Model model) {
-		return "/analysis/historyTrendPenGroup.jsp";
+		return "/analysis/historyTrend.jsp";
 	}
 	
 	//히스토리트렌드 펜그룹 설정
@@ -73,6 +73,9 @@ public class AnalysisController {
 		return rtnMap;
 	}
 	
+	
+	
+	
 	//차트데이터 조회
 	@RequestMapping(value = "/analysis/historyTrendPenGroupChart", method = RequestMethod.POST)
 	@ResponseBody
@@ -102,6 +105,7 @@ public class AnalysisController {
 		List<Object> c7List = new ArrayList<Object>();
 		List<Object> c8List = new ArrayList<Object>();
 		List<Object> c9List = new ArrayList<Object>();
+		List<Object> c10List = new ArrayList<Object>();
 		
 		for(int i=0; i<penList.size(); i++) {
 			tdateList.add(Integer.parseInt(penList.get(i).getTdate()));
@@ -143,6 +147,11 @@ public class AnalysisController {
 			c9.add(Integer.parseInt(penList.get(i).getC9()));
 			
 			
+			List<Object> c10 = new ArrayList<Object>();
+			c10.add(Integer.parseInt(penList.get(i).getTdate()));
+			c10.add(Integer.parseInt(penList.get(i).getC9()));
+			
+			
 			c1List.add(c1);
 			c2List.add(c2);
 			c3List.add(c3);
@@ -152,6 +161,7 @@ public class AnalysisController {
 			c7List.add(c7);
 			c8List.add(c8);
 			c9List.add(c9);
+			c9List.add(c10);
 		}
 		
 		Map<String, Object> c1Map = new HashMap<String, Object>();
@@ -163,6 +173,7 @@ public class AnalysisController {
 		Map<String, Object> c7Map = new HashMap<String, Object>();
 		Map<String, Object> c8Map = new HashMap<String, Object>();
 		Map<String, Object> c9Map = new HashMap<String, Object>();
+		Map<String, Object> c10Map = new HashMap<String, Object>();
 		
 		c1Map.put("name","c1");
 		c1Map.put("color","#FF0000");
@@ -200,6 +211,10 @@ public class AnalysisController {
 		c9Map.put("color","#2F9D27");
 		c9Map.put("data",c9List);
 		
+		c10Map.put("name","c9");
+		c10Map.put("color","#2F9D27");
+		c10Map.put("data",c10List);
+		
 		rtnMap.put("tdate", tdateList);
 		rtnMap.put("c1", c1Map);
 		rtnMap.put("c2", c2Map);
@@ -210,6 +225,7 @@ public class AnalysisController {
 		rtnMap.put("c7", c7Map);
 		rtnMap.put("c8", c8Map);
 		rtnMap.put("c9", c9Map);
+		rtnMap.put("c10", c9Map);
 		rtnMap.put("groupConcat", penGroupNameConcat);
 		
 		Map<String, Object> resultMap = new HashMap<String, Object>();

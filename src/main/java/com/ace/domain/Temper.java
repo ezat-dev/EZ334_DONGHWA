@@ -13,6 +13,7 @@ public class Temper {
 	private String c7;
 	private String c8;
 	private String c9;
+	private String c10;
 	
 	
 	private String sdateTime;
@@ -34,6 +35,18 @@ public class Temper {
 	public String getTdate() {
 		return tdate;
 	}
+	
+	
+	public String getC10() {
+		return c10;
+	}
+
+
+	public void setC10(String c10) {
+		this.c10 = c10;
+	}
+
+
 	public void setTdate(String tdate) {
 		this.tdate = tdate;
 	}

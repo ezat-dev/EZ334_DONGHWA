@@ -477,27 +477,9 @@ function getPenGroupChart(){
         },
         tooltip:{
         	split:true,
-/*
-			formatter:function(){
-				var tool;
 
-				tool = '<span style=color:'+this.points[0].color+'><b>time :</b></span> <b>' + this.points[0].y + '</b></br>'+
-	            '<span style=color:'+this.points[1].color+'><b>temper :</b></span> <b>' + this.points[1].y + '</b></br>'+
-	            '<span style=color:'+this.points[2].color+'><b>temperToleCont :</b></span> <b>' + this.points[2].y + '</b></br>'+
-	            '<span style=color:'+this.points[3].color+'><b>temperToleHold :</span> <b>' + this.points[3].y + '</b></br>'+
-	            '<span style=color:'+this.points[4].color+'><b>holdbackTimeoutHeating :</span> <b>' + this.points[4].y + '</b></br>'+
-	            '<span style=color:'+this.points[5].color+'><b>pressureSetValue :</span> <b>' + this.points[5].y + '</b></br>'+
-	            '<span style=color:'+this.points[6].color+'><b>pressingCapacityF1 :</span> <b>' + this.points[6].y + '</b></br>'+
-	            '<span style=color:'+this.points[7].color+'><b>pressingCapacityF2 :</span> <b>' + this.points[7].y + '</b></br>'+
-	            '<span style=color:'+this.points[8].color+'><b>foreceTolerance :</span> <b>' + this.points[8].y + '</b></br>'+
-                'Segment : <b>' + unix_timestamp_tooltip(this.x) + '</b>';
-				
-	            return tool;
-                                    
-			},
-*/
 	        shared: true,
-//	        crosshairs:true,
+
     		style:{
     			fontSize:"14pt"
     		}
