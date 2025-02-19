@@ -68,6 +68,12 @@ public class AnalysisController {
 	     alarm.setEdate(edate);
 	    return analysisService.alarmlist(alarm); 
 	}
+	
+	@RequestMapping(value = "/analysis/alarmHistory/alarmlistOverivew", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Alarm> alarmlist() {
+	    return analysisService.alarmlistOverview(); 
+	}
 
 
 	//펜그룹의 태그목록 조회

@@ -17,4 +17,6 @@ public interface AnalysisService {
 	String historyTrendPenGroupChartGroupName(Temper temper);
 	
 	List<Alarm> alarmlist(Alarm alarm);
+	
+	List<Alarm> alarmlistOverview();
 }

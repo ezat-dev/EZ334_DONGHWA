@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <%@ include file="../include/mainHeader.jsp" %>
     <jsp:include page="../include/pluginpage.jsp"/>
+        <%@ include file="../include/mainFooter.jsp" %>
     <style>
         html, body {
             height: 100%;

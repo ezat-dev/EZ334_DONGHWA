@@ -17,7 +17,7 @@
             display: flex;
             background-color: #123478;
             color: white;
-           
+          
             padding-left: 200px;
             align-items: center;
             font-size: 18px;
@@ -31,12 +31,12 @@
         }
 
         .footer .section {
-            padding: 10px;
+           
             flex: 1;
         }
 
         .footer p {
-             padding: 4px;
+          
         }
 
         .footer .buttons {
@@ -63,7 +63,7 @@
             height: 40px;
         }
 
-        .tabulator {
+        .tabulator2 {
             width: 100%;
             max-width: 500px;
             height: 100px;
@@ -77,26 +77,26 @@
             margin-left: 70px;
         }
 
-        .tabulator td, .tabulator th {
+        .tabulator2 td, .tabulator2 th {
             text-align: center;
             border: 1px solid #ccc;
             padding: 10px;
         }
 
-        .tabulator th {
+        .tabulator2 th {
             background-color: #808080 !important;
         }
 
-        .tabulator td {
+        .tabulator2 td {
             background-color: #666666 !important;
             text-align: left;
         }
 
-        .tabulator td.eventText {
+        .tabulator2 td.eventText {
             width: 80%;
         }
 
-        .tabulator td.status {
+        .tabulator2 td.status {
             width: 20%;
         }
 
@@ -110,13 +110,12 @@
 
         .section {
             margin-left: 50px;
-  
-           
+            height: 100px;
+            margin-bottom: 25px;
         }
 
         .section status {
             margin-left: 70px;
-             margin-top: 10px;
         }
         
     .button-container {
@@ -177,7 +176,7 @@
         <div class="button bt_sound"><img src="/donghwa/css/furnace/img/sound3.png" alt="no_sound"></div>
         <div class="button bt_siren"><img src="/donghwa/css/furnace/img/siren3.png" alt="alarm"></div>
     </div>
-	<div id="tabulator-table2" class="tabulator"></div> 
+	<div id="tabulator2-table2" class="tabulator2"></div> 
  
 
     <div class="section status">
@@ -188,21 +187,7 @@
 </div>
 
 <script>
-    function fetchAlarmData() {
-        $.ajax({
-            url: "/donghwa/analysis/alarmHistory/alarmlistOverivew", 
-            method: "POST",
-            dataType: "json",
-            success: function(data) {
-                table.setData(data);  
-                document.querySelector(".countDATA").textContent = "조회된 데이터 수 : " + data.length;
-                console.log("서버에서 받아온 데이터:", data);
-            },
-            error: function() {
-                console.error("데이터를 가져오는 데 실패했습니다.");
-            }
-        });
-    }
+
 
     document.addEventListener("DOMContentLoaded", function () {
         const pauseButton = document.querySelector('.bt_pause');
@@ -219,30 +204,10 @@
             console.error("bt_pause 요소를 찾을 수 없습니다.");
         }
 
-        // 페이지 로드 시 한 번 실행
-        fetchAlarmData();
-
-        // 10초마다 데이터 갱신
-        setInterval(fetchAlarmData, 10000);
+    
     });
 
-    var tableData2 = []; 
-
-    var table = new Tabulator("#tabulator-table2", {
-        height: 100,
-        data: tableData2, 
-        layout: "fitColumns",
-        selectable: true,    
-        tooltips: true,
-        selectableRangeMode: "click",
-        reactiveData: true,
-        headerHozAlign: "center",
-        columns: [
-            { title: "ALARMDESC", field: "alarmDesc", width: 270, hozAlign: "center" },
-            { title: "START TIME", field: "time", width: 200, hozAlign: "center" }
-        ],
-        placeholder: "검색 결과가 없습니다."
-    });
+   
 </script>
 
 

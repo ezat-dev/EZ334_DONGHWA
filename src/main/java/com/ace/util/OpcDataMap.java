@@ -162,6 +162,31 @@ public class OpcDataMap {
 		}
 	}
 	
+	public void setOpcDataNoneZero(String opcGroup, boolean opcData) throws InterruptedException, ExecutionException{
+		Map<String, Object> rtnMap = new HashMap<String, Object>();
+		
+		
+		UShort namespaceIndex = Unsigned.ushort(2);
+		
+		
+		NodeId nodeId = new NodeId(namespaceIndex, opcGroup);
+		
+		DataValue dataValue = new DataValue(new Variant(opcData));
+		
+		CompletableFuture<StatusCode> writeFuture = MainController.client.writeValue(nodeId, dataValue);
+		
+		StatusCode statusCode = writeFuture.get();
+		
+		// 값이 성공적으로 쓰여졌는지 확인
+		if (statusCode.isGood()) {
+//            System.out.println("Value written successfully");
+			rtnMap.put("status", "OK");
+		} else {
+//            System.out.println("Failed to write value: " + statusCode);
+			rtnMap.put("status", "NG");
+		}
+	}
+	
 	public void setOpcData(String opcGroup, boolean opcData) throws InterruptedException, ExecutionException{
 		Map<String, Object> rtnMap = new HashMap<String, Object>();
 		

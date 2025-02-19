@@ -17,4 +17,6 @@ public interface AnalysisDao {
 
 	
 	List<Alarm> alarmlist(Alarm alarm); 
+	
+	List<Alarm> alarmlistOverview();
 }

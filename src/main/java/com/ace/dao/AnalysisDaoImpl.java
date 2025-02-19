@@ -47,5 +47,10 @@ public class AnalysisDaoImpl implements AnalysisDao{
     public List<Alarm> alarmlist(Alarm alarm) {
     	return sessionSQLite.selectList("alarm.alarmlist",alarm);
     }
+    
+    @Override
+    public List<Alarm> alarmlistOverview() {
+    	return sessionSQLite.selectList("alarm.alarmlistOverview");
+    }
 
 }

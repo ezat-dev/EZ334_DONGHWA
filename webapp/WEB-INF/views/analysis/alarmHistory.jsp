@@ -8,7 +8,7 @@
     <title>작업실적</title>
     <%@ include file="../include/mainHeader.jsp" %>
     <jsp:include page="../include/pluginpage.jsp"/>
-
+    <%@ include file="../include/tbFooter.jsp" %>
     <style>
 
         hr {
@@ -162,48 +162,58 @@
 </div>
 
 <script>
-    // Tabulator 테이블 설정
+    $(document).ready(function () {
+        var today = new Date();
+        var yesterday = new Date();
+        yesterday.setDate(today.getDate() - 1);
+
+        var formatDate = function (date) {
+            var year = date.getFullYear();
+            var month = ("0" + (date.getMonth() + 1)).slice(-2);
+            var day = ("0" + date.getDate()).slice(-2);
+            return year + "-" + month + "-" + day;
+        };
+
+        $("#sdate").val(formatDate(yesterday));
+        $("#edate").val(formatDate(today));
+
+        $("#searchbtn").click();
+    });
+
     var tableData = []; 
 
     var table = new Tabulator("#tabulator-table", {
         height: 650,
         data: tableData, 
         layout:"fitColumns",
-        selectable:true,    //로우 선택설정
+        selectable:true,
         tooltips:true,
         selectableRangeMode:"click",
         reactiveData:true,
         headerHozAlign:"center",
         columns: [
-            { title: "TAGENAME", field: "tagName", width: 240, hozAlign:"center"},
-         
-            { title: "ALARMDESC", field: "alarmDesc", width: 240, hozAlign:"center"},
-            { title: "alarmstate", field: "alarmstate", width: 240, hozAlign:"center"},
-            { title: "START TIME", field: "time", width: 240, hozAlign:"center"},
-            { title: "lead_alarmstate", field: "lead_alarmstate", width: 240, hozAlign:"center"},
-            { title: "END TIME", field: "lead_alarmtime", width: 240, hozAlign:"center"},
+            { title: "TAGENAME", field: "tagName", width: 340, hozAlign:"center"},
+            { title: "ALARMDESC", field: "alarmDesc", width: 730, hozAlign:"center"},
+            { title: "START TIME", field: "time", width: 360, hozAlign:"center"},
+            { title: "END TIME", field: "lead_alarmtime", width: 360, hozAlign:"center"},
         ],
         placeholder: "검색 결과가 없습니다.", 
     });
 
-
     document.getElementById("searchbtn").addEventListener("click", function() {
-
         var sdate = $("#sdate").val(); 
         var edate = $("#edate").val(); 
 
-        // 콘솔에 출력
         console.log("선택한 날짜:", sdate);
         console.log("선택한 끝:", edate);
 
-        // Ajax 요청
         $.ajax({
             url: "/donghwa/analysis/alarmHistory/alarmlist", 
             method: "POST",
             dataType: "json",
             data: {
-                'sdate': $("#sdate").val(),
-                'edate': $("#edate").val()
+                'sdate': sdate,
+                'edate': edate
             },
             success: function(data) {
                 table.setData(data); 
@@ -215,9 +225,7 @@
             }
         });
     });
-   
 </script>
-
 
 
 
