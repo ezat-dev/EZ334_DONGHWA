@@ -28,6 +28,13 @@
 		<property name="username" value="root" /> 
 		<property name="password" value="1234"/>
 	</bean>
+	
+		<!-- 알람DB(SQLite) -->
+	<bean id="dataSourceSQLite" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"> 
+		<property name="driverClassName" value="org.sqlite.JDBC" /> 
+		<property name="url" value="jdbc:sqlite:D:\DONGHWA\Data\Alarm\DONGHWA_AlarmData.db" />
+	</bean>
+	
 
 	<tx:annotation-driven/>
 

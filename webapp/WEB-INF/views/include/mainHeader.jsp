@@ -165,8 +165,8 @@
       Analysis
       <ul class="submenu">
         <li onclick="menuClick('/donghwa/analysis/historyTrend');">Historytrends</li>
-        <li>Batchreport</li>
-        <li>Alarmhistory</li>
+        <li onclick="menuClick('/donghwa/analysis/batchReport');">Batchreport</li>
+        <li onclick="menuClick('/donghwa/analysis/alarmHistory');">Alarmhistory</li>
       </ul>
     </li>
     <li>

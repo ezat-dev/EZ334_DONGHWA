@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="alarm">
+
+
+    <select id="getAlarmAll" resultType="alarm">
+   		SELECT * 
+        FROM ALARMDATA
+        WHERE TIME BETWEEN #{sdate} AND #{edate}
+        ORDER BY TIME ASC
+    </select>
+
+   
+    <select id="getAlarmTwo" resultType="alarm">
+        SELECT * 
+        FROM ALARMDATA
+        ORDER BY TIME DESC
+        LIMIT 2
+    </select>
+
+</mapper>

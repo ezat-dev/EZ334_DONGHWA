@@ -6,13 +6,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>History Trend</title>
 
-<!-- 하이차트 라이브러리 포함 -->
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
- <%@ include file="../include/mainHeader.jsp" %>
-  <title>Recipe</title>
+
+ 
+<%@ include file="../include/mainHeader.jsp" %>
 <jsp:include page="../include/pluginpage.jsp"/>
 <style>
-/* HTML과 body의 높이를 100%로 설정 */
+
 html, body {
     height: 100%;
     margin: 0;

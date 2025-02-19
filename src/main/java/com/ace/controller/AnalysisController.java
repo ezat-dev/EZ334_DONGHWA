@@ -39,6 +39,19 @@ public class AnalysisController {
 	public String historyTrendPenGroup(Model model) {
 		return "/analysis/historyTrendPenGroup.jsp";
 	}
+	
+	//배치리포트
+	@RequestMapping(value = "/analysis/batchReport", method = RequestMethod.GET)
+	public String batchReport(Model model) {
+		return "/analysis/batchReport.jsp";
+	}
+	
+	//알람히스토리
+	@RequestMapping(value = "/analysis/alarmHistory", method = RequestMethod.GET)
+	public String alarmHistory(Model model) {
+		return "/analysis/alarmHistory.jsp";
+	}
+
 
 	//펜그룹의 태그목록 조회
 	@RequestMapping(value = "/analysis/historyTrendPenGroupSelect", method = RequestMethod.POST)
