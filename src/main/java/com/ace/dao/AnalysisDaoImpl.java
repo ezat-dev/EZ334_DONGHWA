@@ -2,17 +2,26 @@ package com.ace.dao;
 
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import com.ace.domain.Alarm;
 import com.ace.domain.Temper;
 
 @Repository
 public class AnalysisDaoImpl implements AnalysisDao{
 
-	@Autowired
+	
+	@Resource(name="sessionSQLite")
+	private SqlSession sessionSQLite;
+	
+
+	@Resource(name="session")
 	private SqlSession sqlSession;
+	
 	
 	@Override
 	public List<Temper> historyTrendPenGroupList(Temper temper) {
@@ -33,5 +42,10 @@ public class AnalysisDaoImpl implements AnalysisDao{
 	public String historyTrendPenGroupChartGroupName(Temper temper) {
 		return sqlSession.selectOne("temper.historyTrendPenGroupChartGroupName",temper);
 	}
+	
+    @Override
+    public List<Alarm> alarmlist(Alarm alarm) {
+    	return sessionSQLite.selectList("alarm.alarmlist",alarm);
+    }
 
 }

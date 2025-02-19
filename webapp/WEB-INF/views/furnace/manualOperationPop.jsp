@@ -32,14 +32,14 @@
   <div class="pumping-station asd-pumping">Pumping station</div>
   
   
-  <div class="high-vacuum-pump asd-high-vacuum"></div>
-  <div class="plc-high-vacuum asd-high-vacuum"></div>
-  <div class="high-vacuum-pump2 asd-high-vacuum">High vacuum pump</div>
+  <div class="high-vacuum-pump asd-high-vacuum-pump"></div>
+  <div class="plc-high-vacuum-pump asd-high-vacuum-pump"></div>
+  <div class="high-vacuum-pump2 asd-high-vacuum-pump">High vacuum pump</div>
   
   
-  <div class="evacuate-fine asd-evacuate-fin"></div>
-  <div class="plc-evacuate-fine asd-evacuate-fin"></div>
-  <div class="evacuate-fine-vaccum asd-evacuate-fin">Evacuate Fine Vaccum</div>
+  <div class="evacuate-fine asd-evacuate-fine"></div>
+  <div class="plc-evacuate-fine asd-evacuate-fine"></div>
+  <div class="evacuate-fine-vaccum asd-evacuate-fine">Evacuate Fine Vaccum</div>
   
   
   <div class="evacuate-high asd-evacuate-high"></div>
@@ -47,9 +47,9 @@
   <div class="evacuate-high-vaccum asd-evacuate-high">Evacuate High Vaccum</div>
   
   
-  <div class="fur-pre-control asd-fur-control"></div>
-  <div class="plc-fur-control asd-fur-control"></div>
-  <div class="furnace-pressure-control asd-fur-control">Furnace Pressure Control</div>
+  <div class="fur-pre-control asd-fur-pre-control"></div>
+  <div class="plc-fur-pre-control asd-fur-pre-control"></div>
+  <div class="furnace-pressure-control asd-fur-pre-control">Furnace Pressure Control</div>
   
   
   <div class="fur-hit asd-fur-hit"></div>
@@ -87,9 +87,9 @@
   <div class="fastcooling2 asd-fastcooling">Fastcooling</div>
   
   
-  <div class="manual-leaktest asd-leak"></div>
-  <div class="plc-leak asd-leak"></div>
-  <div class="manual-leaktest2 asd-leak">Manual leaktest</div>
+  <div class="manual-leaktest asd-manual-leaktest"></div>
+  <div class="plc-manual-leaktest asd-manual-leaktest"></div>
+  <div class="manual-leaktest2 asd-manual-leaktest">Manual leaktest</div>
   
   
   <div class="open-lid asd-open-lid"></div>
@@ -172,15 +172,31 @@ function value(keys, value){
 
 function asd(keys, value) {
     if (value == true) {
-    	 $("." + keys).css("color", "#D3D3D3"); 
+
+		var valuesArray = keys.split("-");
+		var rtnValue = "";
+		var i=0;
+		for(i<0;i<valuesArray.length; i++){
+			if(i!=0){
+				if(valuesArray.length > 2 && i < valuesArray.length-1){
+					rtnValue += valuesArray[i]+"-";
+				}else{
+					rtnValue += valuesArray[i];
+				}
+			}
+		}
+//		rtnValue = rtnValue.substring(0,rtnValue.length-1);
+
+		console.log(rtnValue);
+        
+        $("." + keys).removeAttr("disabled",false); 
+        $("."+keys).attr("onclick","digitalSet('DONGHWA.FURNACE.MANUAL_OPERATION','"+rtnValue+"')");
+        $("." + keys).css("cursor", "pointer");
+    } else {
+        $("." + keys).css("color", "#D3D3D3"); 
         $("." + keys).attr("disabled", true);
         $("." + keys).removeAttr("onclick");
         $("." + keys).css("cursor", "");
-    } else {
-        
-        $("." + keys).removeAttr("disabled",false); 
-        $("."+keys).attr("onclick","digitalSet('DONGHWA.FURNACE.MANUAL_OPERATION','"+keys+"')");
-        $("." + keys).css("cursor", "pointer");
     }
 }
 

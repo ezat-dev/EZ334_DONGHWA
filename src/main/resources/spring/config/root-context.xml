@@ -51,5 +51,20 @@
 	       <property name="dataSource" ref="dataSource"/>
 	   </bean>
 
+
+	<!-- SQLite -->
+	 <bean id="sqlSessionFactorySQLite" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceSQLite" />
+		<property name="configLocation" value="classpath:mybatis/config/mybatis-context-sqlite.xml"></property>
+	 </bean>
+	 <bean id="sessionSQLite" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSessionFactorySQLite" />
+	 </bean>
+		 
+	<bean id="transactionManagerSQLite" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>	
+
+
 	<context:component-scan base-package="com.ace.dao com.ace.service"/>
 </beans>

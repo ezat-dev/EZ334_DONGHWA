@@ -10,11 +10,13 @@ import org.eclipse.milo.opcua.stack.core.UaException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.ace.domain.Alarm;
 import com.ace.domain.Temper;
 import com.ace.service.AnalysisService;
 import com.ace.util.OpcDataMap;
@@ -50,6 +52,21 @@ public class AnalysisController {
 	@RequestMapping(value = "/analysis/alarmHistory", method = RequestMethod.GET)
 	public String alarmHistory(Model model) {
 		return "/analysis/alarmHistory.jsp";
+	}
+	
+	
+	
+	
+	@RequestMapping(value = "/analysis/alarmHistory/alarmlist", method = RequestMethod.POST)
+	@ResponseBody
+	public List<Alarm> alarmlist(@RequestParam String sdate,
+								@RequestParam String edate) {
+	
+		
+		 Alarm alarm = new Alarm();
+	     alarm.setSdate(sdate);
+	     alarm.setEdate(edate);
+	    return analysisService.alarmlist(alarm); 
 	}
 
 

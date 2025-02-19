@@ -106,7 +106,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 21px;
         text-align: center;
     }
 
@@ -137,7 +137,7 @@
         justify-content: center;
         align-items: center;
         padding: 10px;
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
         background-color: white;
     }
@@ -205,7 +205,7 @@
     <div class="table table3">
       <div class="table-header">Furnace Pressure</div>
       <div class="Pressure_1">PIS 6.x / 13.5</div>
-      <div class="table-cell overTb5">1000 mbar</div>
+      <div class="table-cell high-vaccum-return">1000 mbar</div>
       <div class="Pressure_2">PSP 6</div>
       <div class="table-cell overTb6">00e++00 mabar</div>
     </div>
@@ -228,7 +228,7 @@
      <div class="table table7">
       <div class="table-header">High-vacuum</div>
       <div class="capacity_1" >PIS 6.24</div>
-      <div class="Temperature">-- kN</div>
+      <div class="high-vaccum-return">-- kN</div>
     </div>
     
     
@@ -445,7 +445,7 @@ function value(keys, value){
 	$("."+keys).text(value);
 	$("."+keys).css("text-align","center");
 	$("."+keys).css("font-size","18pt");
-	
+	$("." + keys).css("background-color", "white"); 
 	
 }
 

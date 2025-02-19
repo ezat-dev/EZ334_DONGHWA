@@ -2,6 +2,7 @@ package com.ace.dao;
 
 import java.util.List;
 
+import com.ace.domain.Alarm;
 import com.ace.domain.Temper;
 
 public interface AnalysisDao {
@@ -14,4 +15,6 @@ public interface AnalysisDao {
 
 	String historyTrendPenGroupChartGroupName(Temper temper);
 
+	
+	List<Alarm> alarmlist(Alarm alarm); 
 }

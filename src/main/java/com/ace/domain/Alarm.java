@@ -13,9 +13,29 @@ public class Alarm {
 	    private String time;
 	    private String sdate;
 	    private String edate;
+	    private String lead_alarmstate;
+	    private String alarmstate;
+	    private String lead_alarmtime;
 	    
 	    
-	    
+		public String getAlarmstate() {
+			return alarmstate;
+		}
+		public void setAlarmstate(String alarmstate) {
+			this.alarmstate = alarmstate;
+		}
+		public String getLead_alarmtime() {
+			return lead_alarmtime;
+		}
+		public void setLead_alarmtime(String lead_alarmtime) {
+			this.lead_alarmtime = lead_alarmtime;
+		}
+		public String getLead_alarmstate() {
+			return lead_alarmstate;
+		}
+		public void setLead_alarmstate(String lead_alarmstate) {
+			this.lead_alarmstate = lead_alarmstate;
+		}
 		public String getTagName() {
 			return tagName;
 		}

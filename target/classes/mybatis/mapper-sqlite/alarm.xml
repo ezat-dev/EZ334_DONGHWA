@@ -3,11 +3,31 @@
 <mapper namespace="alarm">
 
 
-    <select id="getAlarmAll" resultType="alarm">
-   		SELECT * 
-        FROM ALARMDATA
-        WHERE TIME BETWEEN #{sdate} AND #{edate}
-        ORDER BY TIME ASC
+    <select id="alarmlist" resultType="alarm">        
+	   SELECT *
+	    FROM (
+	        SELECT 
+	            *,
+	            LEAD(alarmstate) OVER (PARTITION BY tagname ORDER BY time) AS lead_alarmstate,
+	            LEAD(time) OVER (PARTITION BY tagname ORDER BY time) AS lead_alarmtime,
+	            CASE
+	                WHEN SUBSTR(alarmgroup, 1, 4) = 'CCF1' THEN '1호기'
+	                WHEN SUBSTR(alarmgroup, 1, 4) = 'CCF2' THEN '2호기'
+	                WHEN SUBSTR(alarmgroup, 1, 4) = 'CCF3' THEN '3호기'
+	                WHEN SUBSTR(alarmgroup, 1, 4) = 'CCF4' THEN '4호기'
+	                WHEN SUBSTR(alarmgroup, 1, 4) = 'CCF5' THEN '5호기'
+	                ELSE 'DONGHWA'
+	            END AS alarmGroupLabel
+	        FROM ALARMDATA
+	        WHERE 1=1
+	
+	        AND time BETWEEN #{sdate} AND #{edate}
+	        ORDER BY time
+	    ) AS aa
+	    WHERE 1=1
+	    AND alarmstate = 'Warning'
+	    AND lead_alarmstate = 'Clear'
+	    ORDER BY time
     </select>
 
    

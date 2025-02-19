@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ace.dao.AnalysisDao;
+import com.ace.domain.Alarm;
 import com.ace.domain.Temper;
 
 @Service
@@ -35,6 +36,9 @@ public class AnalysisServiceImpl implements AnalysisService{
 		return analysisDao.historyTrendPenGroupChartGroupName(temper);
 	}
 
-
+    @Override
+    public List<Alarm> alarmlist(Alarm alarm) {
+        return analysisDao.alarmlist(alarm);
+    }
 
 }
